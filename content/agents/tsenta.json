@@ -1,0 +1,58 @@
+{
+  "id": "tsenta",
+  "name": "Tsenta",
+  "slug": "tsenta",
+  "description": "Job application agent with a hosted MCP server: assistants find roles, tailor resumes, submit applications and track them from your Tsenta account. Backed by Y Combinator.",
+  "providerName": "Tsenta",
+  "providerUrl": "https://tsenta.com",
+  "agentUrl": "https://docs.tsenta.com/product/mcp-connector",
+  "categories": [
+    "autonomous-agents",
+    "productivity"
+  ],
+  "tags": [
+    "remote-mcp",
+    "job-applications",
+    "job-search",
+    "resume-tailoring",
+    "y-combinator",
+    "application-tracker"
+  ],
+  "skills": [
+    {
+      "id": "find-roles",
+      "name": "Find Job Roles",
+      "description": "Find open roles that fit the user's Tsenta profile and check which application systems they use."
+    },
+    {
+      "id": "submit-applications",
+      "name": "Submit Job Applications",
+      "description": "Submit an application to a real employer with a chosen resume, using the account's application allowance."
+    },
+    {
+      "id": "track-applications",
+      "name": "Track Applications",
+      "description": "Review application status, the tracker and the inbox for the user's submitted applications."
+    },
+    {
+      "id": "find-hiring-contacts",
+      "name": "Find Hiring Contacts",
+      "description": "Find the best contact at a company, return a verified work email, and save an outreach draft."
+    }
+  ],
+  "authType": "oauth2",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "mcpEndpoint": "https://api.autojobs.me/api/v1/mcp",
+  "quickstartUrl": "https://tsenta.com/mcp",
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "mcp"
+  ],
+  "createdAt": "2026-11-17T15:25:53.000Z",
+  "updatedAt": "2026-11-17T15:25:53.000Z"
+}

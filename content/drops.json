@@ -1,4 +1,7 @@
 {
+  "2026-11-17": {
+    "intro": "Coverage of a16z's agent-economy map: 53 additions for agents that pay, shop, text, use phones and act on users' accounts, led by AgentCard, Crossmint, Lithic and Skyfire for payments, Zinc for checkout, Nylas, Mobilerun and Auth0 Token Vault."
+  },
   "2026-11-13": {
     "intro": "Microsoft's Quicksand and Visio MCP, GitHub Next's Ace, an AWS emulator and Twilio's MCP lead 56 additions, 14 of them Official, with Cloudinary, Alchemy, Squarespace and Crusoe new to the catalog, plus VoiceStudio, a local voice studio with an MCP server."
   },

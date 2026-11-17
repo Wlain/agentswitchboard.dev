@@ -1,0 +1,49 @@
+{
+  "id": "dazzle",
+  "name": "Dazzle",
+  "slug": "dazzle",
+  "description": "Photo-memory MCP server that turns a user's synced camera roll into personal context, so agents can answer questions about their trips, people, style and habits with photos.",
+  "providerName": "Dazzle AI",
+  "providerUrl": "https://dazzle.ai",
+  "agentUrl": "https://dazzle.ai/dazzle-for-developers",
+  "categories": [
+    "memory-state",
+    "content-media"
+  ],
+  "tags": [
+    "remote-mcp",
+    "photo-memory",
+    "camera-roll",
+    "personal-context",
+    "personalization",
+    "openclaw-skill",
+    "ios-app"
+  ],
+  "skills": [
+    {
+      "id": "ask-about-your-life",
+      "name": "Ask About Your Life",
+      "description": "Ask any question about the user's own life and get an answer drawn from their photos, plus the matching photos."
+    },
+    {
+      "id": "find-matching-photos",
+      "name": "Find Matching Photos",
+      "description": "Return recent photos that match a description or category, for tasks like food tracking or journaling."
+    }
+  ],
+  "authType": "oauth2",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "mcpEndpoint": "https://api.dazzle.ai/mcp",
+  "quickstartUrl": "https://github.com/Dazzle-AI/dazzle-mcp",
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "mcp"
+  ],
+  "createdAt": "2026-11-17T15:25:53.000Z",
+  "updatedAt": "2026-11-17T15:25:53.000Z"
+}

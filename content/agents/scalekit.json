@@ -1,0 +1,66 @@
+{
+  "id": "scalekit",
+  "name": "Scalekit",
+  "slug": "scalekit",
+  "description": "Auth for AI agents: AgentKit runs each user's OAuth flow, vaults tokens and calls tools across 1,000+ connectors, and MCP Auth adds OAuth 2.1 to MCP servers you host.",
+  "providerName": "Scalekit",
+  "providerUrl": "https://www.scalekit.com",
+  "agentUrl": "https://docs.scalekit.com/agentkit/overview/",
+  "categories": [
+    "security",
+    "infrastructure"
+  ],
+  "tags": [
+    "oauth",
+    "token-vault",
+    "managed-auth",
+    "mcp-auth",
+    "integrations",
+    "tool-calling",
+    "remote-mcp",
+    "oauth-2-1"
+  ],
+  "skills": [
+    {
+      "id": "vault-oauth-tokens",
+      "name": "Vault Users' OAuth Tokens",
+      "description": "Runs each user's OAuth flow and stores their tokens in a vault, so agents keep access to the apps the user connected."
+    },
+    {
+      "id": "call-tools-as-a-user",
+      "name": "Call Tools as a User",
+      "description": "Executes tool calls in apps like Gmail, Slack or Salesforce as the connected user, across more than 1,000 connectors."
+    },
+    {
+      "id": "serve-virtual-mcp-servers",
+      "name": "Serve Tools via Virtual MCP",
+      "description": "Bundles the tools an agent may use into a Virtual MCP server that MCP clients connect to as that user."
+    },
+    {
+      "id": "add-oauth-to-mcp-servers",
+      "name": "Add OAuth to MCP Servers",
+      "description": "Adds an OAuth 2.1 authorization server to an MCP server you build and host, so MCP clients can sign users in."
+    }
+  ],
+  "authType": "oauth2",
+  "supportsStreaming": false,
+  "supportsPushNotifications": true,
+  "mcpEndpoint": "https://mcp.scalekit.com",
+  "install": {
+    "type": "npm",
+    "command": "npm install -g @scalekit-inc/cli"
+  },
+  "quickstartUrl": "https://docs.scalekit.com/agentkit/quickstart/",
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "mcp",
+    "api",
+    "cli"
+  ],
+  "createdAt": "2026-11-17T15:25:53.000Z",
+  "updatedAt": "2026-11-17T15:25:53.000Z"
+}

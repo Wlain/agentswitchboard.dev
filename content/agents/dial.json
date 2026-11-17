@@ -1,0 +1,73 @@
+{
+  "id": "dial",
+  "name": "Dial",
+  "slug": "dial",
+  "description": "Gives AI agents real phone numbers to send SMS, iMessage and WhatsApp, place and answer AI voice calls, and receive one-time codes, via CLI, SDKs, REST API or hosted MCP.",
+  "providerName": "Dial (by Genway)",
+  "providerUrl": "https://getdial.ai",
+  "agentUrl": "https://docs.getdial.ai/integrations/tools/mcp",
+  "categories": [
+    "voice-messaging",
+    "communication"
+  ],
+  "tags": [
+    "phone-number",
+    "sms",
+    "imessage",
+    "whatsapp",
+    "voice-calls",
+    "otp",
+    "remote-mcp",
+    "a16z-speedrun"
+  ],
+  "skills": [
+    {
+      "id": "provision-phone-number",
+      "name": "Provision a Phone Number",
+      "description": "List and purchase phone numbers on your Dial account, including iMessage numbers that can also carry WhatsApp."
+    },
+    {
+      "id": "send-sms",
+      "name": "Send SMS",
+      "description": "Send SMS, iMessage, WhatsApp and group messages from a Dial number using the CLI, an SDK, MCP or the REST API."
+    },
+    {
+      "id": "place-ai-voice-calls",
+      "name": "Place AI Voice Calls",
+      "description": "Place outbound AI voice calls with a system prompt, language and voice, or let an AI voice answer inbound calls."
+    },
+    {
+      "id": "receive-sms-codes",
+      "name": "Receive SMS Codes",
+      "description": "Receive inbound SMS such as one-time codes and completed-call transcripts from the account event stream or webhooks."
+    },
+    {
+      "id": "check-imessage-support",
+      "name": "Check iMessage Support",
+      "description": "Look up whether any phone number in the world can receive iMessage or WhatsApp before deciding how to reach it."
+    }
+  ],
+  "authType": "apiKey",
+  "supportsStreaming": true,
+  "supportsPushNotifications": true,
+  "mcpEndpoint": "https://getdial.ai/mcp",
+  "mcpCommand": "npx @getdial/cli mcp",
+  "install": {
+    "type": "npm",
+    "command": "npm install -g @getdial/cli"
+  },
+  "quickstartUrl": "https://docs.getdial.ai/documentation/get-started/quickstart",
+  "apiBaseUrl": "https://api.getdial.ai",
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "mcp",
+    "api",
+    "cli"
+  ],
+  "createdAt": "2026-11-17T15:25:53.000Z",
+  "updatedAt": "2026-11-17T15:25:53.000Z"
+}

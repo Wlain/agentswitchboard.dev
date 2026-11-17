@@ -1,0 +1,52 @@
+{
+  "id": "hiringcafe",
+  "name": "HiringCafe Job Search",
+  "slug": "hiringcafe",
+  "description": "Job search MCP server over millions of postings from employers' own career sites, with filters for seniority, pay, company size, funding stage and more. No sign-in needed.",
+  "providerName": "HiringCafe",
+  "providerUrl": "https://hiringcafe.com",
+  "agentUrl": "https://hiringcafe.com/documentation/hiringcafe-claude-connector",
+  "categories": [
+    "research",
+    "productivity"
+  ],
+  "tags": [
+    "remote-mcp",
+    "job-search",
+    "job-postings",
+    "no-auth",
+    "career",
+    "claude-connector"
+  ],
+  "skills": [
+    {
+      "id": "search-jobs",
+      "name": "Search Job Postings",
+      "description": "Search live job postings by keyword, location, seniority, salary, company headcount, funding stage and investors."
+    },
+    {
+      "id": "get-job-details",
+      "name": "Get Job Details",
+      "description": "Get the full posting for one job, with description, requirements, compensation and the application link."
+    },
+    {
+      "id": "read-saved-searches-resume",
+      "name": "Read Saved Searches",
+      "description": "With a connected HiringCafe account, read the user's saved searches and parsed resume summary to match jobs."
+    }
+  ],
+  "authType": "none",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "mcpEndpoint": "https://hiringcafe.com/api/mcp",
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "mcp"
+  ],
+  "createdAt": "2026-11-17T15:25:53.000Z",
+  "updatedAt": "2026-11-17T15:25:53.000Z"
+}

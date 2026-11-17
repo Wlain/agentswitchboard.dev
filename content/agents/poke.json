@@ -1,0 +1,59 @@
+{
+  "id": "poke",
+  "name": "Poke",
+  "slug": "poke",
+  "description": "Text-message assistant with an inbound API and npm CLI/SDK, so scripts, CI jobs and other agents can hand Poke tasks across email, calendar and connected apps.",
+  "providerName": "The Interaction Company of California",
+  "providerUrl": "https://poke.com",
+  "agentUrl": "https://poke.com/docs/api",
+  "categories": [
+    "autonomous-agents",
+    "productivity",
+    "communication"
+  ],
+  "tags": [
+    "personal-assistant",
+    "imessage",
+    "inbound-api",
+    "webhook-triggers",
+    "npm-sdk",
+    "email-calendar",
+    "mcp-client"
+  ],
+  "skills": [
+    {
+      "id": "send-message-to-agent",
+      "name": "Send Poke a Task",
+      "description": "POST any JSON message to your Poke assistant, which acts on it with email, calendar, reminders and connected integrations."
+    },
+    {
+      "id": "create-webhook-trigger",
+      "name": "Create Webhook Triggers",
+      "description": "Create a condition-and-action webhook trigger with the SDK, then fire it with event data from any service."
+    },
+    {
+      "id": "add-mcp-server",
+      "name": "Add MCP Servers",
+      "description": "Connect remote MCP servers to Poke from the CLI, or tunnel a local MCP server so Poke can call its tools."
+    }
+  ],
+  "authType": "apiKey",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "install": {
+    "type": "npm",
+    "command": "npm install -g poke"
+  },
+  "quickstartUrl": "https://poke.com/docs/api",
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "api",
+    "cli"
+  ],
+  "createdAt": "2026-11-17T15:25:53.000Z",
+  "updatedAt": "2026-11-17T15:25:53.000Z"
+}

@@ -1,0 +1,72 @@
+{
+  "id": "mobilerun",
+  "name": "Mobilerun (formerly Droidrun)",
+  "slug": "mobilerun",
+  "description": "Open-source framework and cloud for AI agents that control real Android and iOS phones: run tasks, tap and type in apps, read screens, via hosted MCP, CLI, SDKs and REST API.",
+  "providerName": "Mobilerun",
+  "providerUrl": "https://mobilerun.ai",
+  "agentUrl": "https://docs.mobilerun.ai/mcp-server",
+  "categories": [
+    "browser-computer",
+    "autonomous-agents"
+  ],
+  "tags": [
+    "droidrun",
+    "android",
+    "ios",
+    "phone-use",
+    "mobile-automation",
+    "cloud-phones",
+    "adb",
+    "remote-mcp"
+  ],
+  "skills": [
+    {
+      "id": "control-android-phone",
+      "name": "Control an Android Phone",
+      "description": "Tap, type, install apps, upload files and read the UI state or screenshots of a real or cloud Android device."
+    },
+    {
+      "id": "run-cloud-phones",
+      "name": "Run Cloud Phones",
+      "description": "Create and terminate hosted Cloud Android and Cloud iOS phones, or connect your own Android or iPhone to the cloud."
+    },
+    {
+      "id": "run-mobile-agent-tasks",
+      "name": "Run Mobile Agent Tasks",
+      "description": "Send a natural-language goal to the Mobilerun agent, monitor task status and screenshots, and get structured output."
+    },
+    {
+      "id": "read-sms-email-codes",
+      "name": "Read SMS and Email Codes",
+      "description": "Provision phone numbers and mailboxes and read SMS conversations and email verification codes during sign-up flows."
+    },
+    {
+      "id": "tunnel-adb",
+      "name": "Tunnel ADB to Cloud Devices",
+      "description": "Run local adb or Frida, or Puppeteer and Playwright over CDP, against a Mobilerun cloud device through a WebSocket tunnel."
+    }
+  ],
+  "authType": "apiKey",
+  "supportsStreaming": false,
+  "supportsPushNotifications": true,
+  "mcpEndpoint": "https://cloud.mobilerun.ai/api/mcp",
+  "install": {
+    "type": "pip",
+    "command": "uv tool install mobilerun"
+  },
+  "quickstartUrl": "https://docs.mobilerun.ai/quickstart",
+  "apiBaseUrl": "https://api.mobilerun.ai/v1",
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "mcp",
+    "api",
+    "cli"
+  ],
+  "createdAt": "2026-11-17T15:25:53.000Z",
+  "updatedAt": "2026-11-17T15:25:53.000Z"
+}

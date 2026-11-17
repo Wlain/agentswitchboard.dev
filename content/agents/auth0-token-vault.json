@@ -1,0 +1,60 @@
+{
+  "id": "auth0-token-vault",
+  "name": "Auth0 Token Vault",
+  "slug": "auth0-token-vault",
+  "description": "Stores and refreshes users' OAuth tokens for Google, Slack, GitHub and more so AI agents can call third-party APIs on their behalf. Part of Auth0 for AI Agents by Okta.",
+  "providerName": "Auth0",
+  "providerUrl": "https://auth0.com",
+  "agentUrl": "https://auth0.com/ai/docs/intro/token-vault",
+  "categories": [
+    "security",
+    "infrastructure"
+  ],
+  "tags": [
+    "token-vault",
+    "oauth",
+    "managed-auth",
+    "connected-accounts",
+    "delegated-authorization",
+    "ciba",
+    "fine-grained-authorization",
+    "okta"
+  ],
+  "skills": [
+    {
+      "id": "vault-oauth-tokens",
+      "name": "Vault Users' OAuth Tokens",
+      "description": "Stores and refreshes each user's access and refresh tokens for connected accounts like Google, Microsoft, Slack and GitHub."
+    },
+    {
+      "id": "call-apis-on-users-behalf",
+      "name": "Call APIs on a User's Behalf",
+      "description": "Exchanges an Auth0 token for a provider access token so an agent can call external APIs as the signed-in user."
+    },
+    {
+      "id": "ask-users-to-approve-actions",
+      "name": "Ask Users to Approve Actions",
+      "description": "Requests user consent for sensitive agent actions by push notification, SMS or email using CIBA asynchronous authorization."
+    },
+    {
+      "id": "authorize-rag-retrieval",
+      "name": "Authorize RAG Retrieval",
+      "description": "Filters the documents an agent retrieves with Auth0 Fine-Grained Authorization so answers only use data the user may see."
+    }
+  ],
+  "authType": "oauth2",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "quickstartUrl": "https://auth0.com/ai/docs/get-started/call-third-party-apis-on-users-behalf",
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "official": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "api"
+  ],
+  "createdAt": "2026-11-17T15:25:53.000Z",
+  "updatedAt": "2026-11-17T15:25:53.000Z"
+}

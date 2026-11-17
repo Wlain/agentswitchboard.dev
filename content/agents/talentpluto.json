@@ -1,0 +1,63 @@
+{
+  "id": "talentpluto",
+  "name": "Pluto",
+  "slug": "talentpluto",
+  "description": "Recruiting MCP server and plugin for Claude Code and Codex: find candidates from a job description, enrich and score them, and run email outreach. Backed by Y Combinator.",
+  "providerName": "TalentPluto",
+  "providerUrl": "https://talentpluto.com",
+  "agentUrl": "https://github.com/talentpluto/pluto-mcp",
+  "categories": [
+    "autonomous-agents",
+    "sales-marketing"
+  ],
+  "tags": [
+    "remote-mcp",
+    "recruiting",
+    "candidate-sourcing",
+    "email-enrichment",
+    "ashby",
+    "y-combinator",
+    "claude-code-plugin"
+  ],
+  "skills": [
+    {
+      "id": "find-candidates",
+      "name": "Find Candidate Leads",
+      "description": "Find and review candidate leads from a plain-English request or a full job description."
+    },
+    {
+      "id": "enrich-profiles",
+      "name": "Enrich LinkedIn Profiles",
+      "description": "Find verified work and personal emails and deep-enrich up to 50 selected LinkedIn profiles."
+    },
+    {
+      "id": "score-candidates",
+      "name": "Score Candidates",
+      "description": "Score candidates 0-100 against your Team DNA, a job description or a saved rubric, citing evidence."
+    },
+    {
+      "id": "run-email-campaign",
+      "name": "Run Email Campaigns",
+      "description": "Draft, review and launch an email campaign to up to 500 selected candidates, via Pluto or a Gmail inbox."
+    },
+    {
+      "id": "sync-to-ashby",
+      "name": "Sync Candidates to Ashby",
+      "description": "Create or update candidates in Ashby, upload resumes, and move applications between stages."
+    }
+  ],
+  "authType": "oauth2",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "mcpEndpoint": "https://app.talentpluto.com/api/mcp",
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "mcp"
+  ],
+  "createdAt": "2026-11-17T15:25:53.000Z",
+  "updatedAt": "2026-11-17T15:25:53.000Z"
+}

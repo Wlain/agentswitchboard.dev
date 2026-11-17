@@ -1,0 +1,64 @@
+{
+  "id": "simular-box",
+  "name": "box by Simular",
+  "slug": "simular-box",
+  "description": "Hosted cloud Linux desktop that any MCP client drives: an agent gets Chrome, a shell and a full Ubuntu desktop to browse, click, type, read the screen and run commands.",
+  "providerName": "Simular",
+  "providerUrl": "https://www.simular.ai",
+  "agentUrl": "https://box.simular.ai/docs/mcp",
+  "categories": [
+    "browser-computer",
+    "infrastructure"
+  ],
+  "tags": [
+    "computer-use",
+    "cloud-desktop",
+    "linux-desktop",
+    "remote-mcp",
+    "secret-injection",
+    "live-view",
+    "shell-access"
+  ],
+  "skills": [
+    {
+      "id": "use-cloud-desktop",
+      "name": "Use a Cloud Desktop",
+      "description": "Give an agent a persistent Ubuntu desktop with Chrome to open sites, click, type and read the screen from any MCP client."
+    },
+    {
+      "id": "run-shell-commands",
+      "name": "Run Shell Commands",
+      "description": "Run commands and scripts in the box's persistent shell, with files and state kept while the desktop sleeps."
+    },
+    {
+      "id": "keep-api-keys-hidden",
+      "name": "Keep API Keys Hidden",
+      "description": "Store API keys as box secrets so commands use the real key while the AI only ever sees a stand-in value."
+    },
+    {
+      "id": "watch-and-take-control",
+      "name": "Watch and Take Control",
+      "description": "Watch the agent's desktop live in the browser and take over the mouse and keyboard when a human is needed."
+    }
+  ],
+  "authType": "oauth2",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "mcpEndpoint": "https://mcp.box.simular.ai/mcp",
+  "install": {
+    "type": "npm",
+    "command": "npx @simular-ai/box@1.2.1 connect"
+  },
+  "quickstartUrl": "https://box.simular.ai/install",
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "mcp",
+    "cli"
+  ],
+  "createdAt": "2026-11-17T15:25:53.000Z",
+  "updatedAt": "2026-11-17T15:25:53.000Z"
+}

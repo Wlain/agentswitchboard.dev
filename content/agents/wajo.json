@@ -1,0 +1,59 @@
+{
+  "id": "wajo",
+  "name": "Fo by Wajo",
+  "slug": "wajo",
+  "description": "Personal agent Fo as a hosted MCP server: Claude or ChatGPT can hand Fo tasks it does from your Wajo account, like emails, calendar changes, phone calls and purchases.",
+  "providerName": "Wajo",
+  "providerUrl": "https://wajo.ai",
+  "agentUrl": "https://wajo.ai/help",
+  "categories": [
+    "autonomous-agents",
+    "voice-messaging",
+    "commerce-payments"
+  ],
+  "tags": [
+    "remote-mcp",
+    "personal-assistant",
+    "phone-calls",
+    "sms",
+    "imessage",
+    "purchases",
+    "claude-connector"
+  ],
+  "skills": [
+    {
+      "id": "ask-fo",
+      "name": "Delegate Tasks to Fo",
+      "description": "Send a request to Fo, which acts from your Wajo account across email, calendar, calls, purchases and integrations."
+    },
+    {
+      "id": "make-phone-calls",
+      "name": "Make Phone Calls",
+      "description": "Have Fo call businesses or people from a US number, with a recording and transcript of every call."
+    },
+    {
+      "id": "send-group-texts",
+      "name": "Send SMS and iMessages",
+      "description": "Have Fo text people for you in a group text that includes you, over SMS, iMessage or Telegram."
+    },
+    {
+      "id": "read-fo-conversations",
+      "name": "Read Fo Conversations",
+      "description": "List and read your Fo conversations across chat, email, texting, Slack and voice from the connected app."
+    }
+  ],
+  "authType": "oauth2",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "mcpEndpoint": "https://mcp.api.wajo.ai/fo",
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "mcp"
+  ],
+  "createdAt": "2026-11-17T15:25:53.000Z",
+  "updatedAt": "2026-11-17T15:25:53.000Z"
+}

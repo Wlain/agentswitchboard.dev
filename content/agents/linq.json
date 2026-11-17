@@ -1,0 +1,66 @@
+{
+  "id": "linq",
+  "name": "Linq",
+  "slug": "linq",
+  "description": "Messaging API that gives AI agents phone lines sending native iMessage, RCS and SMS, with group chats, reactions, typing indicators and webhooks. For agent and assistant builders.",
+  "providerName": "Linq",
+  "providerUrl": "https://linqapp.com",
+  "agentUrl": "https://docs.linqapp.com/channel/imessage/",
+  "categories": [
+    "voice-messaging",
+    "communication"
+  ],
+  "tags": [
+    "imessage",
+    "rcs",
+    "sms",
+    "phone-number",
+    "messaging-api",
+    "webhooks",
+    "whatsapp"
+  ],
+  "skills": [
+    {
+      "id": "send-receive-imessages",
+      "name": "Send and Receive iMessages",
+      "description": "Send and receive native iMessage, RCS and SMS messages with attachments, voice memos and rich link previews over REST."
+    },
+    {
+      "id": "manage-group-chats",
+      "name": "Manage Group Chats",
+      "description": "Create and manage group conversations, show typing indicators, share contact cards and react to messages."
+    },
+    {
+      "id": "check-imessage-capability",
+      "name": "Check iMessage Capability",
+      "description": "Probe whether a phone number or handle can receive iMessage or RCS before sending, and check line reputation."
+    },
+    {
+      "id": "receive-message-webhooks",
+      "name": "Receive Message Webhooks",
+      "description": "Get webhook events for inbound messages, reactions, typing and delivery status on your Linq phone numbers."
+    }
+  ],
+  "authType": "apiKey",
+  "supportsStreaming": false,
+  "supportsPushNotifications": true,
+  "mcpCommand": "npx -y @linqapp/sdk-mcp@latest",
+  "install": {
+    "type": "npm",
+    "command": "npm install -g @linqapp/cli@latest"
+  },
+  "quickstartUrl": "https://docs.linqapp.com/channel/imessage/getting-started/quickstart/",
+  "apiBaseUrl": "https://api.linqapp.com/api/partner/v3",
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "api",
+    "mcp",
+    "cli"
+  ],
+  "createdAt": "2026-11-17T15:25:53.000Z",
+  "updatedAt": "2026-11-17T15:25:53.000Z"
+}

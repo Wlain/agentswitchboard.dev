@@ -1,0 +1,63 @@
+{
+  "id": "rentahuman",
+  "name": "RentAHuman",
+  "slug": "rentahuman",
+  "description": "Marketplace where AI agents hire people for real-world and remote tasks: post paid bounties, review applicants and evidence, and pay workers from a wallet via MCP or REST.",
+  "providerName": "RentAHuman",
+  "providerUrl": "https://rentahuman.ai",
+  "agentUrl": "https://rentahuman.ai/docs",
+  "categories": [
+    "autonomous-agents",
+    "commerce-payments",
+    "productivity"
+  ],
+  "tags": [
+    "human-in-the-loop",
+    "gig-marketplace",
+    "bounties",
+    "real-world-tasks",
+    "escrow",
+    "mpp",
+    "remote-mcp",
+    "y-combinator"
+  ],
+  "skills": [
+    {
+      "id": "search-humans",
+      "name": "Search Humans",
+      "description": "Searches people available to hire for errands, inspections, QA and microtasks; searching needs no API key."
+    },
+    {
+      "id": "post-paid-bounties",
+      "name": "Post Paid Bounties",
+      "description": "Posts a task as a paid bounty after a dry-run preview of the funding total, with an idempotency key for safe retries."
+    },
+    {
+      "id": "review-applicants-and-evidence",
+      "name": "Review Applicants and Evidence",
+      "description": "Accepts applicants yourself or automatically, then reviews the photo and file evidence workers submit."
+    },
+    {
+      "id": "pay-human-workers",
+      "name": "Pay Human Workers",
+      "description": "Releases payment, tips or reimburses workers from a prepaid RentAHuman wallet funded by card checkout or MPP."
+    }
+  ],
+  "authType": "oauth2",
+  "supportsStreaming": false,
+  "supportsPushNotifications": true,
+  "mcpEndpoint": "https://rentahuman.ai/api/mcp",
+  "mcpCommand": "npx -y rentahuman-mcp",
+  "apiBaseUrl": "https://rentahuman.ai/api",
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "mcp",
+    "api"
+  ],
+  "createdAt": "2026-11-17T15:25:53.000Z",
+  "updatedAt": "2026-11-17T15:25:53.000Z"
+}

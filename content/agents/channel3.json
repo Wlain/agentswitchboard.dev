@@ -1,0 +1,64 @@
+{
+  "id": "channel3",
+  "name": "Channel3",
+  "slug": "channel3",
+  "description": "Product search API and MCP over 150M+ products from 100,000+ brands, with live multi-retailer offers and commission-earning links for AI shopping agents. Backed by Y Combinator.",
+  "providerName": "Channel3",
+  "providerUrl": "https://channel3.ai",
+  "agentUrl": "https://channel3.ai/docs/",
+  "categories": [
+    "commerce-payments",
+    "research"
+  ],
+  "tags": [
+    "product-search",
+    "product-catalog",
+    "shopping",
+    "image-search",
+    "affiliate-links",
+    "remote-mcp",
+    "y-combinator"
+  ],
+  "skills": [
+    {
+      "id": "search-product-catalogs",
+      "name": "Search Product Catalogs",
+      "description": "Finds products by natural-language query with filters for brand, price, retailer, color and attributes, with ranked offers."
+    },
+    {
+      "id": "search-products-by-image",
+      "name": "Search Products by Image",
+      "description": "Turns a photo or screenshot into matching product results across the Channel3 catalog."
+    },
+    {
+      "id": "look-up-product-urls",
+      "name": "Look Up a Product URL",
+      "description": "Returns structured pricing, variants, images and merchant offers for any product URL in one response."
+    },
+    {
+      "id": "find-similar-products",
+      "name": "Find Similar Products",
+      "description": "Returns products similar to a given item, for recommendations and alternatives in shopping apps."
+    }
+  ],
+  "authType": "none",
+  "supportsStreaming": false,
+  "supportsPushNotifications": true,
+  "mcpEndpoint": "https://mcp.trychannel3.com/",
+  "install": {
+    "type": "npm",
+    "command": "npm install -g @channel3/cli"
+  },
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "mcp",
+    "api",
+    "cli"
+  ],
+  "createdAt": "2026-11-17T15:25:53.000Z",
+  "updatedAt": "2026-11-17T15:25:53.000Z"
+}

@@ -1,0 +1,67 @@
+{
+  "id": "zerosettle",
+  "name": "ZeroSettle",
+  "slug": "zerosettle",
+  "description": "Dedicated iMessage numbers on Apple hardware for businesses and AI agents, with a REST API, signed webhooks, live SSE stream, an MCP connector and an optional hosted reply agent.",
+  "providerName": "ZeroSettle",
+  "providerUrl": "https://zerosettle.io",
+  "agentUrl": "https://portal.zerosettle.io/docs/ai-agent",
+  "categories": [
+    "voice-messaging",
+    "communication"
+  ],
+  "tags": [
+    "imessage",
+    "phone-number",
+    "messaging-api",
+    "webhooks",
+    "remote-mcp",
+    "group-chats",
+    "sms-fallback",
+    "y-combinator"
+  ],
+  "skills": [
+    {
+      "id": "send-receive-imessages",
+      "name": "Send and Receive iMessages",
+      "description": "Send iMessages with attachments and typing indicators from a dedicated number, with SMS fallback, and read every thread."
+    },
+    {
+      "id": "provision-imessage-number",
+      "name": "Provision an iMessage Number",
+      "description": "Sign up and claim a dedicated iMessage number, set its name and photo, and subscribe, all from an MCP client."
+    },
+    {
+      "id": "receive-reply-webhooks",
+      "name": "Receive Reply Webhooks",
+      "description": "Get a signed HTTP POST the moment someone texts your line, or follow messages live over a server-sent events stream."
+    },
+    {
+      "id": "run-hosted-reply-agent",
+      "name": "Run a Hosted Reply Agent",
+      "description": "Let ZeroSettle's hosted agent answer inbound texts from your business context, or route them to your own model."
+    },
+    {
+      "id": "sign-in-with-imessage",
+      "name": "Sign In with iMessage",
+      "description": "Verify users by having them text your line, as an alternative to SMS one-time codes for sign-in flows."
+    }
+  ],
+  "authType": "apiKey",
+  "supportsStreaming": true,
+  "supportsPushNotifications": true,
+  "mcpEndpoint": "https://portal.zerosettle.io/mcp",
+  "quickstartUrl": "https://portal.zerosettle.io/docs/ai-agent",
+  "apiBaseUrl": "https://portal.zerosettle.io",
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "mcp",
+    "api"
+  ],
+  "createdAt": "2026-11-17T15:25:53.000Z",
+  "updatedAt": "2026-11-17T15:25:53.000Z"
+}

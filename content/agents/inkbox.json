@@ -1,0 +1,73 @@
+{
+  "id": "inkbox",
+  "name": "Inkbox",
+  "slug": "inkbox",
+  "description": "Persistent identities for AI agents: each gets an email inbox, phone number for calls and SMS, iMessage, WhatsApp, a public tunnel URL and a credential vault, via API, CLI, SDKs or MCP.",
+  "providerName": "Inkbox",
+  "providerUrl": "https://inkbox.ai",
+  "agentUrl": "https://inkbox.ai/docs/get-started/introduction",
+  "categories": [
+    "communication",
+    "voice-messaging",
+    "infrastructure"
+  ],
+  "tags": [
+    "agent-identity",
+    "email",
+    "phone-number",
+    "imessage",
+    "sms",
+    "whatsapp",
+    "remote-mcp",
+    "y-combinator"
+  ],
+  "skills": [
+    {
+      "id": "give-agent-email-inbox",
+      "name": "Create Agent Email Inboxes",
+      "description": "Create an agent identity with its own mailbox to send and receive email, manage threads and drafts, on custom domains."
+    },
+    {
+      "id": "provision-phone-number",
+      "name": "Provision a Phone Number",
+      "description": "Give an agent a phone number to place and answer calls with transcripts, or have Inkbox Voice AI handle calls."
+    },
+    {
+      "id": "send-receive-imessages",
+      "name": "Send and Receive iMessages",
+      "description": "Reach people over iMessage, SMS/MMS and WhatsApp from an agent's number, with tapbacks and contact rules."
+    },
+    {
+      "id": "vault-agent-credentials",
+      "name": "Vault Agent Credentials",
+      "description": "Store encrypted credentials and shared notes that agents can access under per-identity access control."
+    },
+    {
+      "id": "expose-public-tunnel",
+      "name": "Expose a Public Tunnel",
+      "description": "Give an agent a stable public URL that routes inbound HTTP, WebSocket and raw TCP traffic to its local server."
+    }
+  ],
+  "authType": "apiKey",
+  "supportsStreaming": false,
+  "supportsPushNotifications": true,
+  "mcpEndpoint": "https://inkbox.ai/mcp",
+  "install": {
+    "type": "npm",
+    "command": "npm install -g @inkbox/cli"
+  },
+  "quickstartUrl": "https://inkbox.ai/docs/get-started/quickstart",
+  "apiBaseUrl": "https://inkbox.ai/api/v1",
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "api",
+    "cli",
+    "mcp"
+  ],
+  "createdAt": "2026-11-17T15:25:53.000Z",
+  "updatedAt": "2026-11-17T15:25:53.000Z"
+}

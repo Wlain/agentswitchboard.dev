@@ -1,0 +1,62 @@
+{
+  "id": "kite",
+  "name": "Kite Agent Passport",
+  "slug": "kite",
+  "description": "Gives AI agents an identity, a USDC wallet and passkey-approved spending sessions with budgets, so they can pay x402 and MPP services on their own. Uses the kpass CLI and agent skills.",
+  "providerName": "Kite AI",
+  "providerUrl": "https://gokite.ai",
+  "agentUrl": "https://docs.gokite.ai/passport",
+  "categories": [
+    "commerce-payments",
+    "infrastructure"
+  ],
+  "tags": [
+    "agent-identity",
+    "x402",
+    "mpp",
+    "spending-sessions",
+    "usdc",
+    "stablecoins",
+    "agent-skills"
+  ],
+  "skills": [
+    {
+      "id": "set-agent-spend-limits",
+      "name": "Set Agent Spend Limits",
+      "description": "Creates a spending session with a budget, per-transaction limit and time window that the user approves with a passkey."
+    },
+    {
+      "id": "pay-with-x402",
+      "name": "Pay with x402",
+      "description": "Makes paid API requests through an approved session, with the backend negotiating x402 payments automatically."
+    },
+    {
+      "id": "search-paid-api-catalog",
+      "name": "Search Paid API Catalog",
+      "description": "Finds paid APIs, AI models and data services in the Kite catalog with the ksearch command."
+    },
+    {
+      "id": "send-from-agent-wallet",
+      "name": "Send from Agent Wallet",
+      "description": "Checks multichain wallet balances and sends USDC from the user's Passport wallet with passkey approval."
+    }
+  ],
+  "authType": "bearer",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "install": {
+    "type": "binary",
+    "command": "curl -fsSL https://cli.gokite.ai/install.sh | bash"
+  },
+  "quickstartUrl": "https://docs.gokite.ai/passport/install",
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "cli"
+  ],
+  "createdAt": "2026-11-17T15:25:53.000Z",
+  "updatedAt": "2026-11-17T15:25:53.000Z"
+}

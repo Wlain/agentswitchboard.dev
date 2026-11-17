@@ -2,19 +2,39 @@
   "id": "5DZl9Q3W7ZHT0uAquZOfWd",
   "name": "Descope",
   "slug": "descope",
-  "description": "Drag-and-drop authentication platform with visual workflow builder for auth flows, MFA, and user management.",
+  "description": "Authentication platform with an Agentic Identity Hub: secures MCP servers and APIs for agents, and vaults users' OAuth tokens and API keys for the tools agents call on their behalf.",
   "providerName": "Descope",
   "providerUrl": "https://descope.com",
-  "agentUrl": "https://www.descope.com/",
+  "agentUrl": "https://docs.descope.com/agentic-identity-hub",
   "categories": [
     "security"
   ],
   "tags": [
     "auth",
     "identity",
+    "mcp-auth",
+    "token-vault",
+    "oauth",
+    "agent-identity",
     "no-code"
   ],
-  "skills": [],
+  "skills": [
+    {
+      "id": "secure-mcp-servers",
+      "name": "Secure MCP Servers",
+      "description": "Adds managed OAuth authentication and scope-based authorization to MCP servers and APIs that agents connect to."
+    },
+    {
+      "id": "vault-user-tokens",
+      "name": "Vault Users' OAuth Tokens",
+      "description": "Stores, refreshes and hands out users' or tenants' OAuth tokens and API keys for third-party services through Connections."
+    },
+    {
+      "id": "agent-auth-sdk",
+      "name": "Agent Auth SDK",
+      "description": "Lets an agent fetch short-lived, scope-limited credentials to call MCP servers and APIs on a user's behalf (Python and TypeScript)."
+    }
+  ],
   "authType": "apiKey",
   "supportsStreaming": false,
   "supportsPushNotifications": false,
@@ -29,5 +49,5 @@
     "cli"
   ],
   "createdAt": "2026-03-22T09:53:18.492Z",
-  "updatedAt": "2026-03-22T09:53:18.492Z"
+  "updatedAt": "2026-11-17T15:14:47.000Z"
 }

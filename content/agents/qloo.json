@@ -1,0 +1,64 @@
+{
+  "id": "qloo",
+  "name": "Qloo",
+  "slug": "qloo",
+  "description": "Taste and cultural intelligence API over a knowledge graph of entities, tags and places: recommendations, audience insights and trends for agents, with a local MCP server and CLI.",
+  "providerName": "Qloo",
+  "providerUrl": "https://qloo.com",
+  "agentUrl": "https://docs.qloo.com/reference/qloo-mcp",
+  "categories": [
+    "data-analytics",
+    "memory-state"
+  ],
+  "tags": [
+    "taste-graph",
+    "recommendations",
+    "cultural-intelligence",
+    "audience-insights",
+    "personalization",
+    "trend-analysis",
+    "demographics"
+  ],
+  "skills": [
+    {
+      "id": "recommend-from-taste",
+      "name": "Recommend from Taste",
+      "description": "Find restaurants, films, music, brands and places related to a taste profile built from entities, tags and locations."
+    },
+    {
+      "id": "rank-options",
+      "name": "Rank Options by Taste",
+      "description": "Rank a set of options you provide, such as hotel brands or venues, against a shared audience taste profile."
+    },
+    {
+      "id": "compare-audiences",
+      "name": "Compare Audiences",
+      "description": "Compare the audiences of two groups of entities and return the tags and aggregate demographics that characterize them."
+    },
+    {
+      "id": "explore-trends",
+      "name": "Explore Popularity Trends",
+      "description": "Get popularity trends for up to five entities over a date range and find geographic areas where an entity is popular."
+    }
+  ],
+  "authType": "apiKey",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "install": {
+    "type": "npm",
+    "command": "npm install --global @qloo/qloo-harness"
+  },
+  "quickstartUrl": "https://docs.qloo.com/reference/api-onboarding",
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "api",
+    "mcp",
+    "cli"
+  ],
+  "createdAt": "2026-11-17T15:25:53.000Z",
+  "updatedAt": "2026-11-17T15:25:53.000Z"
+}

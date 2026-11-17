@@ -1,0 +1,68 @@
+{
+  "id": "orgo",
+  "name": "Orgo",
+  "slug": "orgo",
+  "description": "Cloud Linux and Windows computers for AI agents: each is an isolated VM with a desktop, browser and terminal that agents drive via API, SDKs, CLI or hosted MCP.",
+  "providerName": "Orgo",
+  "providerUrl": "https://orgo.ai",
+  "agentUrl": "https://docs.orgo.ai/guides/mcp",
+  "categories": [
+    "browser-computer",
+    "infrastructure"
+  ],
+  "tags": [
+    "computer-use",
+    "cloud-desktop",
+    "virtual-machines",
+    "windows",
+    "linux-desktop",
+    "vnc",
+    "remote-mcp",
+    "y-combinator"
+  ],
+  "skills": [
+    {
+      "id": "launch-cloud-computers",
+      "name": "Launch Cloud Computers",
+      "description": "Create, stop and resume persistent Linux or Windows VMs, each with its own disk, desktop, browser and terminal."
+    },
+    {
+      "id": "control-desktop",
+      "name": "Control a Desktop",
+      "description": "Take screenshots, click, drag, type, press keys and scroll on a cloud computer's screen for computer-use agents."
+    },
+    {
+      "id": "run-bash-and-python",
+      "name": "Run Bash and Python",
+      "description": "Execute shell commands and Python on a cloud computer, and upload, export or download files from it."
+    },
+    {
+      "id": "embed-live-screen",
+      "name": "Embed a Live Screen",
+      "description": "Put a live computer screen in your own app over VNC, or share an app running on the computer at a public URL."
+    }
+  ],
+  "authType": "apiKey",
+  "supportsStreaming": true,
+  "supportsPushNotifications": false,
+  "mcpEndpoint": "https://www.orgo.ai/mcp",
+  "mcpCommand": "npx -y orgo-mcp-server",
+  "install": {
+    "type": "npm",
+    "command": "npm install -g orgo"
+  },
+  "quickstartUrl": "https://docs.orgo.ai/quickstart",
+  "apiBaseUrl": "https://www.orgo.ai/api",
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "mcp",
+    "api",
+    "cli"
+  ],
+  "createdAt": "2026-11-17T15:25:53.000Z",
+  "updatedAt": "2026-11-17T15:25:53.000Z"
+}

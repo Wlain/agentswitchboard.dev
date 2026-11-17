@@ -1,5 +1,442 @@
 [
   {
+    "action": "added",
+    "slug": "1password-environments-mcp",
+    "name": "1Password Environments MCP",
+    "date": "2026-11-17"
+  },
+  {
+    "action": "added",
+    "slug": "agentcard",
+    "name": "AgentCard",
+    "date": "2026-11-17"
+  },
+  {
+    "action": "added",
+    "slug": "allowance",
+    "name": "Allowance",
+    "date": "2026-11-17"
+  },
+  {
+    "action": "added",
+    "slug": "ampersend",
+    "name": "ampersend",
+    "date": "2026-11-17"
+  },
+  {
+    "action": "added",
+    "slug": "auth0-token-vault",
+    "name": "Auth0 Token Vault",
+    "date": "2026-11-17"
+  },
+  {
+    "action": "added",
+    "slug": "basis-theory",
+    "name": "Basis Theory",
+    "date": "2026-11-17"
+  },
+  {
+    "action": "added",
+    "slug": "channel3",
+    "name": "Channel3",
+    "date": "2026-11-17"
+  },
+  {
+    "action": "added",
+    "slug": "chert",
+    "name": "Chert",
+    "date": "2026-11-17"
+  },
+  {
+    "action": "added",
+    "slug": "configure",
+    "name": "Configure",
+    "date": "2026-11-17"
+  },
+  {
+    "action": "added",
+    "slug": "crossmint",
+    "name": "Crossmint",
+    "date": "2026-11-17"
+  },
+  {
+    "action": "added",
+    "slug": "dazzle",
+    "name": "Dazzle",
+    "date": "2026-11-17"
+  },
+  {
+    "action": "added",
+    "slug": "dial",
+    "name": "Dial",
+    "date": "2026-11-17"
+  },
+  {
+    "action": "added",
+    "slug": "firmly",
+    "name": "firmly",
+    "date": "2026-11-17"
+  },
+  {
+    "action": "added",
+    "slug": "fyxer",
+    "name": "Fyxer",
+    "date": "2026-11-17"
+  },
+  {
+    "action": "added",
+    "slug": "hiringcafe",
+    "name": "HiringCafe Job Search",
+    "date": "2026-11-17"
+  },
+  {
+    "action": "added",
+    "slug": "inkbox",
+    "name": "Inkbox",
+    "date": "2026-11-17"
+  },
+  {
+    "action": "added",
+    "slug": "jack-and-jill",
+    "name": "Jack & Jill",
+    "date": "2026-11-17"
+  },
+  {
+    "action": "added",
+    "slug": "kite",
+    "name": "Kite Agent Passport",
+    "date": "2026-11-17"
+  },
+  {
+    "action": "added",
+    "slug": "langmem",
+    "name": "LangMem",
+    "date": "2026-11-17"
+  },
+  {
+    "action": "added",
+    "slug": "linq",
+    "name": "Linq",
+    "date": "2026-11-17"
+  },
+  {
+    "action": "added",
+    "slug": "lithic",
+    "name": "Lithic",
+    "date": "2026-11-17"
+  },
+  {
+    "action": "added",
+    "slug": "locus",
+    "name": "Locus",
+    "date": "2026-11-17"
+  },
+  {
+    "action": "added",
+    "slug": "memorylake",
+    "name": "MemoryLake",
+    "date": "2026-11-17"
+  },
+  {
+    "action": "added",
+    "slug": "mobilerun",
+    "name": "Mobilerun (formerly Droidrun)",
+    "date": "2026-11-17"
+  },
+  {
+    "action": "added",
+    "slug": "nevermined",
+    "name": "Nevermined",
+    "date": "2026-11-17"
+  },
+  {
+    "action": "added",
+    "slug": "notte",
+    "name": "Notte",
+    "date": "2026-11-17"
+  },
+  {
+    "action": "added",
+    "slug": "nylas",
+    "name": "Nylas",
+    "date": "2026-11-17"
+  },
+  {
+    "action": "added",
+    "slug": "openfort",
+    "name": "Openfort",
+    "date": "2026-11-17"
+  },
+  {
+    "action": "added",
+    "slug": "orgo",
+    "name": "Orgo",
+    "date": "2026-11-17"
+  },
+  {
+    "action": "added",
+    "slug": "pally",
+    "name": "Pally",
+    "date": "2026-11-17"
+  },
+  {
+    "action": "added",
+    "slug": "phone-harness",
+    "name": "Phone Harness",
+    "date": "2026-11-17"
+  },
+  {
+    "action": "added",
+    "slug": "ploid",
+    "name": "Ploid",
+    "date": "2026-11-17"
+  },
+  {
+    "action": "added",
+    "slug": "poke",
+    "name": "Poke",
+    "date": "2026-11-17"
+  },
+  {
+    "action": "added",
+    "slug": "privy",
+    "name": "Privy Agent Wallets",
+    "date": "2026-11-17"
+  },
+  {
+    "action": "added",
+    "slug": "qloo",
+    "name": "Qloo",
+    "date": "2026-11-17"
+  },
+  {
+    "action": "added",
+    "slug": "rentahuman",
+    "name": "RentAHuman",
+    "date": "2026-11-17"
+  },
+  {
+    "action": "added",
+    "slug": "rye",
+    "name": "Rye",
+    "date": "2026-11-17"
+  },
+  {
+    "action": "added",
+    "slug": "sapiom",
+    "name": "Sapiom",
+    "date": "2026-11-17"
+  },
+  {
+    "action": "added",
+    "slug": "scalekit",
+    "name": "Scalekit",
+    "date": "2026-11-17"
+  },
+  {
+    "action": "added",
+    "slug": "sendblue",
+    "name": "Sendblue",
+    "date": "2026-11-17"
+  },
+  {
+    "action": "added",
+    "slug": "shopsavvy",
+    "name": "ShopSavvy",
+    "date": "2026-11-17"
+  },
+  {
+    "action": "added",
+    "slug": "simular-box",
+    "name": "box by Simular",
+    "date": "2026-11-17"
+  },
+  {
+    "action": "added",
+    "slug": "skyfire",
+    "name": "Skyfire",
+    "date": "2026-11-17"
+  },
+  {
+    "action": "added",
+    "slug": "t54",
+    "name": "t54 Labs",
+    "date": "2026-11-17"
+  },
+  {
+    "action": "added",
+    "slug": "talentpluto",
+    "name": "Pluto",
+    "date": "2026-11-17"
+  },
+  {
+    "action": "added",
+    "slug": "tasklet",
+    "name": "Tasklet",
+    "date": "2026-11-17"
+  },
+  {
+    "action": "added",
+    "slug": "tensorlake",
+    "name": "Tensorlake",
+    "date": "2026-11-17"
+  },
+  {
+    "action": "added",
+    "slug": "tsenta",
+    "name": "Tsenta",
+    "date": "2026-11-17"
+  },
+  {
+    "action": "added",
+    "slug": "turnkey",
+    "name": "Turnkey",
+    "date": "2026-11-17"
+  },
+  {
+    "action": "added",
+    "slug": "vouched",
+    "name": "Vouched Checkpoint",
+    "date": "2026-11-17"
+  },
+  {
+    "action": "added",
+    "slug": "wajo",
+    "name": "Fo by Wajo",
+    "date": "2026-11-17"
+  },
+  {
+    "action": "added",
+    "slug": "zerosettle",
+    "name": "ZeroSettle",
+    "date": "2026-11-17"
+  },
+  {
+    "action": "added",
+    "slug": "zinc",
+    "name": "Zinc",
+    "date": "2026-11-17"
+  },
+  {
+    "action": "updated",
+    "slug": "monid-ai",
+    "name": "Monid",
+    "note": "name updated",
+    "date": "2026-11-17"
+  },
+  {
+    "action": "updated",
+    "slug": "monid-ai",
+    "name": "Monid",
+    "note": "providerName updated",
+    "date": "2026-11-17"
+  },
+  {
+    "action": "updated",
+    "slug": "monid-ai",
+    "name": "Monid",
+    "note": "agentUrl updated",
+    "date": "2026-11-17"
+  },
+  {
+    "action": "updated",
+    "slug": "monid-ai",
+    "name": "Monid",
+    "note": "description updated",
+    "date": "2026-11-17"
+  },
+  {
+    "action": "updated",
+    "slug": "monid-ai",
+    "name": "Monid",
+    "note": "categories updated",
+    "date": "2026-11-17"
+  },
+  {
+    "action": "updated",
+    "slug": "monid-ai",
+    "name": "Monid",
+    "note": "tags updated",
+    "date": "2026-11-17"
+  },
+  {
+    "action": "updated",
+    "slug": "monid-ai",
+    "name": "Monid",
+    "note": "skills updated",
+    "date": "2026-11-17"
+  },
+  {
+    "action": "updated",
+    "slug": "monid-ai",
+    "name": "Monid",
+    "note": "accessMethods updated",
+    "date": "2026-11-17"
+  },
+  {
+    "action": "updated",
+    "slug": "monid-ai",
+    "name": "Monid",
+    "note": "mcpEndpoint updated",
+    "date": "2026-11-17"
+  },
+  {
+    "action": "updated",
+    "slug": "monid-ai",
+    "name": "Monid",
+    "note": "install updated",
+    "date": "2026-11-17"
+  },
+  {
+    "action": "updated",
+    "slug": "monid-ai",
+    "name": "Monid",
+    "note": "apiBaseUrl updated",
+    "date": "2026-11-17"
+  },
+  {
+    "action": "updated",
+    "slug": "shopify-agentic-storefronts",
+    "name": "Shopify Agentic Storefronts",
+    "note": "description updated",
+    "date": "2026-11-17"
+  },
+  {
+    "action": "updated",
+    "slug": "shopify-agentic-storefronts",
+    "name": "Shopify Agentic Storefronts",
+    "note": "tags updated",
+    "date": "2026-11-17"
+  },
+  {
+    "action": "updated",
+    "slug": "descope",
+    "name": "Descope",
+    "note": "description updated",
+    "date": "2026-11-17"
+  },
+  {
+    "action": "updated",
+    "slug": "descope",
+    "name": "Descope",
+    "note": "agentUrl updated",
+    "date": "2026-11-17"
+  },
+  {
+    "action": "updated",
+    "slug": "descope",
+    "name": "Descope",
+    "note": "tags updated",
+    "date": "2026-11-17"
+  },
+  {
+    "action": "updated",
+    "slug": "descope",
+    "name": "Descope",
+    "note": "skills updated",
+    "date": "2026-11-17"
+  },
+  {
     "action": "removed",
     "slug": "gpt-pilot",
     "name": "GPT Pilot",

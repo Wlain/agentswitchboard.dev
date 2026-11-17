@@ -1,0 +1,66 @@
+{
+  "id": "shopsavvy",
+  "name": "ShopSavvy",
+  "slug": "shopsavvy",
+  "description": "Product lookup, current prices from tens of thousands of retailers and price history for AI agents, through a free hosted MCP server or the ShopSavvy Data API.",
+  "providerName": "ShopSavvy",
+  "providerUrl": "https://shopsavvy.com",
+  "agentUrl": "https://shopsavvy.com/agents",
+  "categories": [
+    "commerce-payments",
+    "data-analytics"
+  ],
+  "tags": [
+    "price-comparison",
+    "price-history",
+    "product-data",
+    "barcode-lookup",
+    "price-monitoring",
+    "remote-mcp",
+    "shopping"
+  ],
+  "skills": [
+    {
+      "id": "look-up-products",
+      "name": "Look Up Products",
+      "description": "Turns a barcode, ASIN, URL or model number into product details, one product at a time or in batches."
+    },
+    {
+      "id": "compare-retailer-prices",
+      "name": "Compare Retailer Prices",
+      "description": "Lists current offers for a product across tens of thousands of retailers, lowest first, with when each price was seen."
+    },
+    {
+      "id": "check-price-history",
+      "name": "Check Price History",
+      "description": "Returns a product's price history over a date range so an agent can judge whether now is a good time to buy."
+    },
+    {
+      "id": "monitor-price-drops",
+      "name": "Monitor Price Drops",
+      "description": "Schedules hourly, daily or weekly refreshes and sends webhooks for price drops and availability changes."
+    },
+    {
+      "id": "read-buying-guides",
+      "name": "Read Buying Guides",
+      "description": "Pulls ShopSavvy best picks, buying guides and short reviews into the conversation to help choose a product."
+    }
+  ],
+  "authType": "none",
+  "supportsStreaming": false,
+  "supportsPushNotifications": true,
+  "mcpEndpoint": "https://api.shopsavvy.com/mcp",
+  "mcpCommand": "npx -y @shopsavvy/mcp-server",
+  "apiBaseUrl": "https://api.shopsavvy.com/v1",
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "mcp",
+    "api"
+  ],
+  "createdAt": "2026-11-17T15:25:53.000Z",
+  "updatedAt": "2026-11-17T15:25:53.000Z"
+}

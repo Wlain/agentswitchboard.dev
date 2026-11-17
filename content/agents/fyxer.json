@@ -1,0 +1,57 @@
+{
+  "id": "fyxer",
+  "name": "Fyxer",
+  "slug": "fyxer",
+  "description": "Inbox and meeting assistant with a hosted MCP server that lets Claude, ChatGPT or Codex search your email and meetings, pull transcripts and draft replies in your style.",
+  "providerName": "Fyxer AI",
+  "providerUrl": "https://www.fyxer.com",
+  "agentUrl": "https://support.fyxer.com/article/fyxer-mcp",
+  "categories": [
+    "productivity",
+    "communication"
+  ],
+  "tags": [
+    "remote-mcp",
+    "email-drafting",
+    "meeting-transcripts",
+    "gmail",
+    "outlook",
+    "inbox-search"
+  ],
+  "skills": [
+    {
+      "id": "search-context",
+      "name": "Search Email and Meetings",
+      "description": "Search across the user's emails, meetings and documents, for example to find action items from last week."
+    },
+    {
+      "id": "get-meeting-transcript",
+      "name": "Get Meeting Transcripts",
+      "description": "Find meetings by topic or attendee and return the full summary or speaker-labelled transcript."
+    },
+    {
+      "id": "draft-email",
+      "name": "Draft Email Replies",
+      "description": "Write an email draft in the user's style that they can open in Gmail or Outlook to review and send."
+    },
+    {
+      "id": "resolve-person",
+      "name": "Look Up Contacts",
+      "description": "Look up a contact's full name and email address from the user's connected inbox."
+    }
+  ],
+  "authType": "oauth2",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "mcpEndpoint": "https://app.fyxer.com/mcp",
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "mcp"
+  ],
+  "createdAt": "2026-11-17T15:25:53.000Z",
+  "updatedAt": "2026-11-17T15:25:53.000Z"
+}

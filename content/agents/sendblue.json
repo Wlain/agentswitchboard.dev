@@ -1,0 +1,72 @@
+{
+  "id": "sendblue",
+  "name": "Sendblue",
+  "slug": "sendblue",
+  "description": "iMessage, SMS, MMS and RCS API for AI agents and businesses: dedicated or shared phone lines, webhooks, FaceTime calls, a setup CLI and an official MCP server. Backed by Y Combinator.",
+  "providerName": "Sendblue",
+  "providerUrl": "https://sendblue.com",
+  "agentUrl": "https://docs.sendblue.com/mcp/",
+  "categories": [
+    "voice-messaging",
+    "communication"
+  ],
+  "tags": [
+    "imessage",
+    "sms",
+    "rcs",
+    "phone-number",
+    "facetime",
+    "messaging-api",
+    "webhooks",
+    "y-combinator"
+  ],
+  "skills": [
+    {
+      "id": "send-receive-imessages",
+      "name": "Send and Receive iMessages",
+      "description": "Send iMessage, SMS, MMS and RCS from a Sendblue number and receive inbound messages as webhook POSTs to your agent."
+    },
+    {
+      "id": "provision-phone-number",
+      "name": "Provision a Phone Number",
+      "description": "Get a shared sandbox line in minutes from the CLI, or provision dedicated inbound-first AI Agent lines via the API."
+    },
+    {
+      "id": "send-reactions-and-typing",
+      "name": "Send Reactions and Typing",
+      "description": "Show typing indicators, send tapback reactions, read receipts, inline replies, voice notes and expressive effects."
+    },
+    {
+      "id": "check-imessage-support",
+      "name": "Check iMessage Support",
+      "description": "Look up whether a phone number can receive iMessage before sending, and fall back to SMS when it can't."
+    },
+    {
+      "id": "start-facetime-calls",
+      "name": "Start FaceTime Calls",
+      "description": "Start programmatic FaceTime calls from a Sendblue line, or place PSTN voice calls through the Twilio integration."
+    }
+  ],
+  "authType": "apiKey",
+  "supportsStreaming": false,
+  "supportsPushNotifications": true,
+  "mcpCommand": "npx -y sendblue-api-mcp@latest",
+  "install": {
+    "type": "npm",
+    "command": "npm install -g @sendblue/cli"
+  },
+  "quickstartUrl": "https://docs.sendblue.com/getting-started/quickstart",
+  "apiBaseUrl": "https://api.sendblue.com",
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "mcp",
+    "api",
+    "cli"
+  ],
+  "createdAt": "2026-11-17T15:25:53.000Z",
+  "updatedAt": "2026-11-17T15:25:53.000Z"
+}

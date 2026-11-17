@@ -1,0 +1,66 @@
+{
+  "id": "crossmint",
+  "name": "Crossmint",
+  "slug": "crossmint",
+  "description": "Payment infrastructure for agents: card vaults with user-approved spending limits, stablecoin agent wallets for x402 and MPP, and one API to check out on any website. Plus the lobster.cash CLI.",
+  "providerName": "Crossmint",
+  "providerUrl": "https://www.crossmint.com",
+  "agentUrl": "https://docs.crossmint.com/agents/overview",
+  "categories": [
+    "commerce-payments",
+    "infrastructure"
+  ],
+  "tags": [
+    "agent-wallets",
+    "agent-payments",
+    "stablecoins",
+    "x402",
+    "agentic-checkout",
+    "card-vault",
+    "remote-mcp",
+    "lobster-cash"
+  ],
+  "skills": [
+    {
+      "id": "hold-funds-in-agent-wallet",
+      "name": "Hold Funds in Agent Wallet",
+      "description": "Creates non-custodial stablecoin wallets that users fund with a card and that an agent spends from as a delegated signer."
+    },
+    {
+      "id": "pay-with-x402",
+      "name": "Pay with x402",
+      "description": "Pays x402-protected and MPP endpoints from a Crossmint wallet so an agent can buy API calls per request."
+    },
+    {
+      "id": "set-agent-spend-limits",
+      "name": "Set Agent Spend Limits",
+      "description": "Lets a user save a card once and approve an order intent, a spending limit the agent can pay within many times."
+    },
+    {
+      "id": "check-out-on-any-merchant",
+      "name": "Check Out on Any Merchant",
+      "description": "Starts an agent checkout to buy, manage a cart or a subscription on any website under a spending cap, with streamed status."
+    }
+  ],
+  "authType": "apiKey",
+  "supportsStreaming": true,
+  "supportsPushNotifications": true,
+  "mcpEndpoint": "https://mcp.crossmint.com/mcp",
+  "install": {
+    "type": "npm",
+    "command": "npx skills add https://github.com/Crossmint/lobstercash-cli-skills --global"
+  },
+  "quickstartUrl": "https://docs.crossmint.com/agents/stablecoin-wallet-quickstart",
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "mcp",
+    "cli",
+    "api"
+  ],
+  "createdAt": "2026-11-17T15:25:53.000Z",
+  "updatedAt": "2026-11-17T15:25:53.000Z"
+}

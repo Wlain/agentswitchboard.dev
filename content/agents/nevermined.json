@@ -1,0 +1,61 @@
+{
+  "id": "nevermined",
+  "name": "Nevermined",
+  "slug": "nevermined",
+  "description": "Payment rails for agents: buy paid AI services over x402 and MPP from one card-funded, spend-capped budget, or charge for your own agent or MCP server with payment plans and metering.",
+  "providerName": "Nevermined",
+  "providerUrl": "https://nevermined.ai",
+  "agentUrl": "https://nevermined.ai/docs",
+  "categories": [
+    "commerce-payments",
+    "infrastructure"
+  ],
+  "tags": [
+    "x402",
+    "mpp",
+    "agent-payments",
+    "usage-metering",
+    "payment-plans",
+    "mcp-monetization",
+    "remote-mcp"
+  ],
+  "skills": [
+    {
+      "id": "pay-with-x402",
+      "name": "Pay with x402",
+      "description": "Pays x402 and MPP services through the Nevermined Router from one budget, without each service integrating Nevermined."
+    },
+    {
+      "id": "set-agent-spend-limits",
+      "name": "Set Agent Spend Limits",
+      "description": "Enrolls a card and creates a delegation, a spend mandate with an amount, an expiry and a number of purchases."
+    },
+    {
+      "id": "search-ai-service-catalog",
+      "name": "Search AI Service Catalog",
+      "description": "Discovers paid AI services in the Nevermined Catalog via the hosted Catalog MCP, keyless for discovery."
+    },
+    {
+      "id": "charge-for-your-agent",
+      "name": "Charge for Your Agent",
+      "description": "Puts an x402 paywall on an agent, API or MCP server with fiat or crypto payment plans and per-request credit metering."
+    }
+  ],
+  "authType": "apiKey",
+  "supportsStreaming": false,
+  "supportsPushNotifications": true,
+  "mcpEndpoint": "https://mcp.live.nevermined.app/mcp",
+  "quickstartUrl": "https://nevermined.ai/docs/integrate/quickstart/5-minute-setup",
+  "apiBaseUrl": "https://api.live.nevermined.app",
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "api",
+    "mcp"
+  ],
+  "createdAt": "2026-11-17T15:25:53.000Z",
+  "updatedAt": "2026-11-17T15:25:53.000Z"
+}
