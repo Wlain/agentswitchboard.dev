@@ -1,0 +1,64 @@
+{
+  "id": "turnkey",
+  "name": "Turnkey",
+  "slug": "turnkey",
+  "description": "Wallet and key infrastructure for agents: policy-scoped signing wallets with spending caps, allowlists and multi-party approval, operated via API, CLI or Turnkey's agent skills.",
+  "providerName": "Turnkey",
+  "providerUrl": "https://www.turnkey.com",
+  "agentUrl": "https://docs.turnkey.com/solutions/company-wallets/agentic-wallets",
+  "categories": [
+    "commerce-payments",
+    "infrastructure",
+    "security"
+  ],
+  "tags": [
+    "agent-wallets",
+    "key-management",
+    "transaction-signing",
+    "wallet-policies",
+    "secure-enclaves",
+    "agent-skills"
+  ],
+  "skills": [
+    {
+      "id": "provision-agent-wallet",
+      "name": "Provision Agent Wallet",
+      "description": "Creates a wallet scoped for an agent with a non-root agent user and constrained API credentials."
+    },
+    {
+      "id": "set-agent-spend-limits",
+      "name": "Set Agent Spend Limits",
+      "description": "Writes policies with spending caps, destination and contract allowlists, and multi-party approval for high-value actions."
+    },
+    {
+      "id": "sign-transactions",
+      "name": "Sign Transactions",
+      "description": "Signs and broadcasts transactions on EVM, Solana, Bitcoin and other chains from policy-checked wallets."
+    },
+    {
+      "id": "monitor-agent-activity",
+      "name": "Monitor Agent Activity",
+      "description": "Reads activity status, consensus approvals and audit logs, and debugs transactions a policy denied."
+    }
+  ],
+  "authType": "apiKey",
+  "supportsStreaming": false,
+  "supportsPushNotifications": true,
+  "install": {
+    "type": "brew",
+    "command": "brew install tkhq/tap/turnkey"
+  },
+  "quickstartUrl": "https://docs.turnkey.com/solutions/company-wallets/quickstart",
+  "apiBaseUrl": "https://api.turnkey.com",
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "api",
+    "cli"
+  ],
+  "createdAt": "2026-11-17T15:25:53.000Z",
+  "updatedAt": "2026-11-17T15:25:53.000Z"
+}

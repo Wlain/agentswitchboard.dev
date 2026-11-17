@@ -1,0 +1,60 @@
+{
+  "id": "zinc",
+  "name": "Zinc",
+  "slug": "zinc",
+  "description": "Lets AI agents search and buy from Amazon, Walmart, Target, Best Buy and more via API or hosted MCP, paying per order with x402, MPP or a card. Backed by Y Combinator.",
+  "providerName": "Zinc",
+  "providerUrl": "https://www.zinc.com",
+  "agentUrl": "https://www.zinc.com/agents",
+  "categories": [
+    "commerce-payments"
+  ],
+  "tags": [
+    "checkout",
+    "product-search",
+    "x402",
+    "mpp",
+    "order-tracking",
+    "remote-mcp",
+    "shopping",
+    "y-combinator"
+  ],
+  "skills": [
+    {
+      "id": "search-product-catalogs",
+      "name": "Search Product Catalogs",
+      "description": "Searches products across major retailers and returns up to 20 orderable results with price, retailer and rating."
+    },
+    {
+      "id": "buy-from-retailers",
+      "name": "Check Out on Major Retailers",
+      "description": "Places orders at retailers like Amazon, Walmart and Target with a max price and shipping address through the orders API."
+    },
+    {
+      "id": "pay-with-x402",
+      "name": "Pay with x402 or MPP",
+      "description": "Places agent orders with no account or API key, paying per order over HTTP 402 with x402, MPP on Tempo, or Link."
+    },
+    {
+      "id": "track-orders-and-returns",
+      "name": "Track Orders and Returns",
+      "description": "Follows order status and shipment tracking, receives webhook updates and starts returns for supported retailers."
+    }
+  ],
+  "authType": "none",
+  "supportsStreaming": false,
+  "supportsPushNotifications": true,
+  "mcpEndpoint": "https://mcp.zinc.com/mcp",
+  "quickstartUrl": "https://www.zinc.com/docs/quickstart",
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "mcp",
+    "api"
+  ],
+  "createdAt": "2026-11-17T15:25:53.000Z",
+  "updatedAt": "2026-11-17T15:25:53.000Z"
+}

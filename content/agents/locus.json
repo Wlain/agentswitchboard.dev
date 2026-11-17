@@ -1,0 +1,67 @@
+{
+  "id": "locus",
+  "name": "Locus",
+  "slug": "locus",
+  "description": "One prepaid balance for agents to find, price and call pay-per-use APIs, data and tools, under spending caps, via MCP, CLI or HTTP. Also offers a USDC agent wallet on Base. YC-backed.",
+  "providerName": "Locus",
+  "providerUrl": "https://paywithlocus.com",
+  "agentUrl": "https://docs.paywithlocus.com/locus-pro/mcp",
+  "categories": [
+    "commerce-payments",
+    "infrastructure"
+  ],
+  "tags": [
+    "pay-per-call",
+    "agent-payments",
+    "spending-limits",
+    "api-marketplace",
+    "usdc",
+    "x402",
+    "remote-mcp",
+    "y-combinator"
+  ],
+  "skills": [
+    {
+      "id": "call-paid-apis",
+      "name": "Call Paid APIs",
+      "description": "Searches the Locus catalog, checks a tool's price and calls it with a credit cap, paying from one prepaid balance."
+    },
+    {
+      "id": "set-agent-spend-limits",
+      "name": "Set Agent Spend Limits",
+      "description": "Caps agent spend with a monthly hard limit, per-request limits, approvals for new tools, auto-reload and email alerts."
+    },
+    {
+      "id": "run-paid-tasks",
+      "name": "Run Paid Tasks",
+      "description": "Turns a plain-language goal into a checked result with files and exact cost, within a credit ceiling, or saves it as a Workflow."
+    },
+    {
+      "id": "hold-funds-in-agent-wallet",
+      "name": "Hold Funds in Agent Wallet",
+      "description": "Gives an agent an on-chain USDC wallet on Base to send payments and pay x402 and wrapped API calls."
+    }
+  ],
+  "authType": "oauth2",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "mcpEndpoint": "https://api.paywithlocus.com/api/credits/mcp",
+  "install": {
+    "type": "binary",
+    "command": "curl -fsSL https://paywithlocus.com/install/locus | sh"
+  },
+  "quickstartUrl": "https://docs.paywithlocus.com/locus-pro/individual/quickstart",
+  "apiBaseUrl": "https://api.paywithlocus.com/api",
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "mcp",
+    "cli",
+    "api"
+  ],
+  "createdAt": "2026-11-17T15:25:53.000Z",
+  "updatedAt": "2026-11-17T15:25:53.000Z"
+}

@@ -1,0 +1,59 @@
+{
+  "id": "basis-theory",
+  "name": "Basis Theory",
+  "slug": "basis-theory",
+  "description": "Agentic payments API that mints single-purchase card credentials from a customer-approved allowance over Visa, Mastercard Agent Pay and Stripe rails, so agents never see raw cards.",
+  "providerName": "Basis Theory",
+  "providerUrl": "https://www.basistheory.com",
+  "agentUrl": "https://developers.basistheory.com/docs/guides/agentic/overview",
+  "categories": [
+    "commerce-payments",
+    "security"
+  ],
+  "tags": [
+    "agentic-payments",
+    "tokenization",
+    "visa-intelligent-commerce",
+    "mastercard-agent-pay",
+    "pci-compliance",
+    "spending-limits",
+    "agent-skills"
+  ],
+  "skills": [
+    {
+      "id": "set-agent-spend-limits",
+      "name": "Set Agent Spend Limits",
+      "description": "Creates an allowance, a customer-approved mandate limiting the merchant, amount and expiry an agent may spend."
+    },
+    {
+      "id": "mint-agent-card-credentials",
+      "name": "Mint Agent Card Credentials",
+      "description": "Mints a single-purchase credential from an allowance: a Visa or Mastercard agentic token or a Stripe shared payment token."
+    },
+    {
+      "id": "run-agent-on-card-data",
+      "name": "Run Agent on Card Data",
+      "description": "Runs agent code inside a PCI-compliant Reactor so it can work with card data while the app stays out of PCI scope."
+    },
+    {
+      "id": "pay-from-browser-automation",
+      "name": "Pay from Browser Automation",
+      "description": "Fills a merchant's checkout from browser automation via Browser Proxy without the agent or app handling the card."
+    }
+  ],
+  "authType": "apiKey",
+  "supportsStreaming": false,
+  "supportsPushNotifications": true,
+  "quickstartUrl": "https://developers.basistheory.com/docs/guides/agentic/setup",
+  "apiBaseUrl": "https://api.us.basistheory.com",
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "api"
+  ],
+  "createdAt": "2026-11-17T15:25:53.000Z",
+  "updatedAt": "2026-11-17T15:25:53.000Z"
+}

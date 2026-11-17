@@ -1,0 +1,60 @@
+{
+  "id": "lithic",
+  "name": "Lithic",
+  "slug": "lithic",
+  "description": "Card-issuing API for agent payments: issue virtual cards with spend limits and auth rules, simulate transactions in sandbox. Hosted MCP searches docs and runs live API calls.",
+  "providerName": "Lithic",
+  "providerUrl": "https://www.lithic.com",
+  "agentUrl": "https://docs.lithic.com/docs/mcp",
+  "categories": [
+    "commerce-payments",
+    "finance"
+  ],
+  "tags": [
+    "card-issuing",
+    "virtual-cards",
+    "spending-limits",
+    "auth-rules",
+    "agent-payments",
+    "remote-mcp",
+    "sandbox"
+  ],
+  "skills": [
+    {
+      "id": "issue-virtual-cards",
+      "name": "Issue Virtual Cards",
+      "description": "Creates account holders and issues virtual cards through the Lithic API, callable from the MCP server's execute-request tool."
+    },
+    {
+      "id": "set-agent-spend-limits",
+      "name": "Set Agent Spend Limits",
+      "description": "Sets card spending limits and authorization rules that decide in real time which transactions an agent's card can make."
+    },
+    {
+      "id": "simulate-card-transactions",
+      "name": "Simulate Card Transactions",
+      "description": "Follows sandbox workflows to simulate authorizations and clearing and to test authorization rules before going live."
+    },
+    {
+      "id": "search-api-docs",
+      "name": "Search API Docs",
+      "description": "Searches Lithic documentation and inspects endpoint schemas without an API key, to generate integration code."
+    }
+  ],
+  "authType": "apiKey",
+  "supportsStreaming": false,
+  "supportsPushNotifications": true,
+  "mcpEndpoint": "https://docs.lithic.com/mcp",
+  "quickstartUrl": "https://docs.lithic.com/docs/get-api-key",
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "mcp",
+    "api"
+  ],
+  "createdAt": "2026-11-17T15:25:53.000Z",
+  "updatedAt": "2026-11-17T15:25:53.000Z"
+}

@@ -1,0 +1,51 @@
+{
+  "id": "langmem",
+  "name": "LangMem",
+  "slug": "langmem",
+  "description": "Open-source Python library from LangChain that gives agents long-term memory: extract and consolidate memories, memory tools for the hot path, and LangGraph store support.",
+  "providerName": "LangChain",
+  "providerUrl": "https://www.langchain.com",
+  "agentUrl": "https://langchain-ai.github.io/langmem/",
+  "categories": [
+    "memory-state"
+  ],
+  "tags": [
+    "long-term-memory",
+    "python",
+    "langgraph",
+    "open-source",
+    "prompt-optimization",
+    "semantic-memory"
+  ],
+  "skills": [
+    {
+      "id": "memory-tools",
+      "name": "Manage Memory Tools",
+      "description": "Give an agent tools to record and search memories during a conversation, persisted in LangGraph's store."
+    },
+    {
+      "id": "background-memory-manager",
+      "name": "Extract Memories in Background",
+      "description": "Automatically extract, consolidate and update an agent's knowledge from conversations in the background."
+    },
+    {
+      "id": "optimize-prompts",
+      "name": "Optimize Agent Prompts",
+      "description": "Refine one or several agent prompts from conversation feedback so behavior improves over time."
+    }
+  ],
+  "authType": "none",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "official": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "api"
+  ],
+  "createdAt": "2026-11-17T15:25:53.000Z",
+  "updatedAt": "2026-11-17T15:25:53.000Z"
+}

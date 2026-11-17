@@ -1,46 +1,38 @@
 {
   "id": "3zjk734Hck9n8Ed5qDX4zI",
-  "name": "monid.ai",
+  "name": "Monid",
   "slug": "monid-ai",
-  "description": "AI agent platform for social media monitoring and engagement. Tracks brand mentions, analyzes sentiment, and drafts AI-powered responses across channels.",
-  "providerName": "monid.ai",
+  "description": "Lets agents discover, inspect and pay per call for thousands of third-party tools and data APIs from one balance, over a hosted MCP server, a CLI, an agent skill or an HTTP API.",
+  "providerName": "Monid",
   "providerUrl": "https://monid.ai",
-  "agentUrl": "https://monid.ai",
+  "agentUrl": "https://docs.monid.ai/",
   "categories": [
-    "sales-marketing"
+    "infrastructure",
+    "orchestration"
   ],
   "tags": [
-    "social-media",
-    "monitoring",
-    "sentiment-analysis",
-    "brand-management",
-    "marketing-automation"
+    "tool-gateway",
+    "pay-per-call",
+    "data-apis",
+    "remote-mcp",
+    "agent-skill",
+    "usage-billing"
   ],
   "skills": [
     {
-      "id": "monitor-brand-mentions-and-keywords-across-major-social-media-platforms-in-real-time",
-      "name": "Monitor brand mentions and keywords across major social media platforms in real time",
-      "description": "Monitor brand mentions and keywords across major social media platforms in real time"
+      "id": "discover-tools",
+      "name": "Discover Tools",
+      "description": "Finds the endpoints and tools in Monid's catalog that fit a task, with monid discover or POST /v1/discover."
     },
     {
-      "id": "analyze-sentiment-and-tone-of-social-content-with-ai-powered-classification",
-      "name": "Analyze sentiment and tone of social content with AI-powered classification",
-      "description": "Analyze sentiment and tone of social content with AI-powered classification"
+      "id": "inspect-tools",
+      "name": "Inspect Tools",
+      "description": "Shows a tool's input schema, per-call pricing and documentation before the agent runs it."
     },
     {
-      "id": "draft-contextual-response-suggestions-for-social-media-engagement",
-      "name": "Draft contextual response suggestions for social media engagement",
-      "description": "Draft contextual response suggestions for social media engagement"
-    },
-    {
-      "id": "track-competitor-activity-and-share-of-voice-across-platforms",
-      "name": "Track competitor activity and share-of-voice across platforms",
-      "description": "Track competitor activity and share-of-voice across platforms"
-    },
-    {
-      "id": "aggregate-engagement-analytics-into-a-unified-social-performance-dashboard",
-      "name": "Aggregate engagement analytics into a unified social performance dashboard",
-      "description": "Aggregate engagement analytics into a unified social performance dashboard"
+      "id": "run-tools",
+      "name": "Run Paid Tools",
+      "description": "Runs a tool with structured input and returns its results, charged per call to one prepaid Monid balance."
     }
   ],
   "authType": "apiKey",
@@ -52,8 +44,16 @@
   "tier": "free",
   "discoveredBy": "manual",
   "accessMethods": [
-    "api"
+    "api",
+    "mcp",
+    "cli"
   ],
   "createdAt": "2026-04-08T07:17:30.407Z",
-  "updatedAt": "2026-04-08T07:17:30.407Z"
+  "updatedAt": "2026-11-17T15:14:47.000Z",
+  "mcpEndpoint": "https://mcp.monid.ai/v1",
+  "install": {
+    "type": "npm",
+    "command": "npm install -g @monid-ai/cli"
+  },
+  "apiBaseUrl": "https://api.monid.ai/v1"
 }

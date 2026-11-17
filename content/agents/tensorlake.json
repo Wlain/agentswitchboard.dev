@@ -1,0 +1,69 @@
+{
+  "id": "tensorlake",
+  "name": "Tensorlake",
+  "slug": "tensorlake",
+  "description": "MicroVM sandboxes for AI agents and LLM-generated code that boot in milliseconds, suspend and resume with state, and run desktops, plus durable orchestration and hosted Git.",
+  "providerName": "Tensorlake",
+  "providerUrl": "https://tensorlake.ai",
+  "agentUrl": "https://docs.tensorlake.ai/sandboxes/quickstart",
+  "categories": [
+    "infrastructure",
+    "browser-computer"
+  ],
+  "tags": [
+    "sandboxes",
+    "microvm",
+    "code-execution",
+    "computer-use",
+    "snapshots",
+    "gpu-sandboxes",
+    "durable-workflows",
+    "open-source"
+  ],
+  "skills": [
+    {
+      "id": "run-code-sandboxes",
+      "name": "Run Code Sandboxes",
+      "description": "Create isolated MicroVM sandboxes, run commands and processes, stream output and copy files in and out for agent code."
+    },
+    {
+      "id": "snapshot-and-resume",
+      "name": "Snapshot and Resume",
+      "description": "Suspend and resume sandboxes with memory and filesystem preserved, or snapshot and clone them, including running processes."
+    },
+    {
+      "id": "drive-sandbox-desktop",
+      "name": "Drive a Sandbox Desktop",
+      "description": "Launch ubuntu-vnc sandboxes and control their desktop from Python or JavaScript for computer-use agents."
+    },
+    {
+      "id": "orchestrate-agent-workflows",
+      "name": "Orchestrate Agent Workflows",
+      "description": "Deploy serverless, crash-resumable agent applications that coordinate sandboxes for long-running workflows."
+    },
+    {
+      "id": "host-agent-git-repos",
+      "name": "Host Agent Git Repos",
+      "description": "Create managed Git repositories for agent-generated code, mount them into sandboxes and merge branches via SDK or HTTP."
+    }
+  ],
+  "authType": "apiKey",
+  "supportsStreaming": true,
+  "supportsPushNotifications": true,
+  "install": {
+    "type": "binary",
+    "command": "curl -fsSL https://tensorlake.ai/install | sh"
+  },
+  "quickstartUrl": "https://docs.tensorlake.ai/sandboxes/quickstart",
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "api",
+    "cli"
+  ],
+  "createdAt": "2026-11-17T15:25:53.000Z",
+  "updatedAt": "2026-11-17T15:25:53.000Z"
+}

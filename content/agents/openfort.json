@@ -1,0 +1,64 @@
+{
+  "id": "openfort",
+  "name": "Openfort",
+  "slug": "openfort",
+  "description": "Wallet infrastructure for agents: policy-bounded backend wallets an agent controls, paying via x402 or MPP, with a CLI that runs as an MCP server to create wallets, set policies and send transactions.",
+  "providerName": "Openfort",
+  "providerUrl": "https://www.openfort.io",
+  "agentUrl": "https://www.openfort.io/docs/products/server/workflows/agentic-wallets",
+  "categories": [
+    "commerce-payments",
+    "infrastructure"
+  ],
+  "tags": [
+    "agent-wallets",
+    "backend-wallets",
+    "wallet-policies",
+    "x402",
+    "mpp",
+    "gas-sponsorship",
+    "eip-7702"
+  ],
+  "skills": [
+    {
+      "id": "hold-funds-in-agent-wallet",
+      "name": "Hold Funds in Agent Wallet",
+      "description": "Creates a backend EVM wallet that an autonomous agent controls, persisted as the agent's onchain identity."
+    },
+    {
+      "id": "set-agent-spend-limits",
+      "name": "Set Agent Spend Limits",
+      "description": "Bounds an agent wallet with signing policies that limit which contracts, methods and amounts it may sign."
+    },
+    {
+      "id": "pay-with-x402",
+      "name": "Pay with x402",
+      "description": "Lets an agent pay HTTP services from its Openfort wallet with x402 or the Machine Payments Protocol on Tempo."
+    },
+    {
+      "id": "manage-wallets-from-mcp",
+      "name": "Manage Wallets from MCP",
+      "description": "Exposes every Openfort CLI command as an MCP tool, so an agent can create wallets, manage policies and send transactions."
+    }
+  ],
+  "authType": "apiKey",
+  "supportsStreaming": false,
+  "supportsPushNotifications": true,
+  "install": {
+    "type": "npm",
+    "command": "npm install -g @openfort/cli"
+  },
+  "quickstartUrl": "https://www.openfort.io/docs/products/server/setup",
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "mcp",
+    "cli",
+    "api"
+  ],
+  "createdAt": "2026-11-17T15:25:53.000Z",
+  "updatedAt": "2026-11-17T15:25:53.000Z"
+}

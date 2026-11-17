@@ -1,0 +1,59 @@
+{
+  "id": "jack-and-jill",
+  "name": "Jack & Jill",
+  "slug": "jack-and-jill",
+  "description": "AI recruiting marketplace: hiring agents search Jack's opted-in candidate network, score and commit matches, and request consent-gated intros over MCP or REST.",
+  "providerName": "Jack & Jill",
+  "providerUrl": "https://www.jackandjill.ai",
+  "agentUrl": "https://platform.jackandjill.ai/agent-quickstart.md",
+  "categories": [
+    "autonomous-agents",
+    "productivity"
+  ],
+  "tags": [
+    "remote-mcp",
+    "recruiting",
+    "candidate-search",
+    "hiring",
+    "talent-marketplace",
+    "openapi"
+  ],
+  "skills": [
+    {
+      "id": "search-candidates",
+      "name": "Search Candidate Network",
+      "description": "Search Jack's network of opted-in professionals into pools by query or criteria, then filter and rank them."
+    },
+    {
+      "id": "commit-matches",
+      "name": "Commit Candidate Matches",
+      "description": "Commit the best pool for a hiring assignment into durable matches and record feedback on them."
+    },
+    {
+      "id": "request-introductions",
+      "name": "Request Candidate Intros",
+      "description": "Send moderated messages and consent-gated introduction requests to matched candidates."
+    },
+    {
+      "id": "manage-assignments",
+      "name": "Manage Hiring Assignments",
+      "description": "Open and resume hiring assignments with shared working context, hiring handbooks and a notification inbox."
+    }
+  ],
+  "authType": "oauth2",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "mcpEndpoint": "https://platform.jackandjill.ai/mcp/marketplace/v1/",
+  "quickstartUrl": "https://platform.jackandjill.ai/agent-quickstart.md",
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "mcp",
+    "api"
+  ],
+  "createdAt": "2026-11-17T15:25:53.000Z",
+  "updatedAt": "2026-11-17T15:25:53.000Z"
+}

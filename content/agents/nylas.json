@@ -1,0 +1,73 @@
+{
+  "id": "nylas",
+  "name": "Nylas",
+  "slug": "nylas",
+  "description": "Email, calendar, contacts and meeting notetaker API for AI agents, with a hosted MCP server of 38 tools, a CLI and SDKs for Gmail, Outlook, iCloud and IMAP accounts.",
+  "providerName": "Nylas",
+  "providerUrl": "https://www.nylas.com",
+  "agentUrl": "https://developer.nylas.com/docs/dev-guide/mcp/",
+  "categories": [
+    "communication",
+    "scheduling",
+    "productivity"
+  ],
+  "tags": [
+    "email-api",
+    "calendar-api",
+    "contacts-api",
+    "meeting-notetaker",
+    "gmail",
+    "outlook",
+    "remote-mcp",
+    "agent-inboxes"
+  ],
+  "skills": [
+    {
+      "id": "send-and-read-email",
+      "name": "Send and Read Email",
+      "description": "Lists, searches, reads and sends email in connected Gmail, Outlook or IMAP mailboxes through one API or MCP."
+    },
+    {
+      "id": "manage-calendar-events",
+      "name": "Manage Calendar Events",
+      "description": "Creates, updates and lists events and checks availability across Google, Outlook and iCloud calendars."
+    },
+    {
+      "id": "search-contacts",
+      "name": "Search Contacts",
+      "description": "Searches, lists and creates contacts in a connected account from the API, MCP server or CLI."
+    },
+    {
+      "id": "send-a-meeting-notetaker",
+      "name": "Send a Meeting Notetaker",
+      "description": "Sends a Notetaker bot to a video meeting to record and transcribe it, then fetches the results."
+    },
+    {
+      "id": "provision-agent-inboxes",
+      "name": "Provision Agent Inboxes",
+      "description": "Creates Agent Accounts, Nylas-hosted mailboxes for agents, on your own domain or a free nylas.email subdomain."
+    }
+  ],
+  "authType": "apiKey",
+  "supportsStreaming": false,
+  "supportsPushNotifications": true,
+  "mcpEndpoint": "https://mcp.us.nylas.com",
+  "install": {
+    "type": "brew",
+    "command": "brew install nylas/nylas-cli/nylas"
+  },
+  "quickstartUrl": "https://developer.nylas.com/docs/v3/getting-started/cli-for-agents/",
+  "apiBaseUrl": "https://api.us.nylas.com",
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "mcp",
+    "api",
+    "cli"
+  ],
+  "createdAt": "2026-11-17T15:25:53.000Z",
+  "updatedAt": "2026-11-17T15:25:53.000Z"
+}

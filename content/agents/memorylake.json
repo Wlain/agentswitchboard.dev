@@ -1,0 +1,59 @@
+{
+  "id": "memorylake",
+  "name": "MemoryLake",
+  "slug": "memorylake",
+  "description": "Multimodal memory platform for agents: store and search memories and documents across projects through a REST API or a hosted OAuth MCP server.",
+  "providerName": "MemoryLake",
+  "providerUrl": "https://memorylake.ai",
+  "agentUrl": "https://docs.memorylake.ai/features/memorylake/mcp-servers/overview",
+  "categories": [
+    "memory-state"
+  ],
+  "tags": [
+    "remote-mcp",
+    "long-term-memory",
+    "multimodal-memory",
+    "document-search",
+    "rest-api",
+    "openclaw-plugin"
+  ],
+  "skills": [
+    {
+      "id": "search-memory",
+      "name": "Search Memories",
+      "description": "Run hybrid keyword and semantic search across a project's memories and uploaded documents."
+    },
+    {
+      "id": "add-forget-memories",
+      "name": "Add and Forget Memories",
+      "description": "Add, search, trace and forget memories and resolve conflicts programmatically over the REST API."
+    },
+    {
+      "id": "analyze-files",
+      "name": "Analyze Project Files",
+      "description": "Run sandboxed Python with pandas and numpy over project files, with state kept across calls."
+    },
+    {
+      "id": "query-databases",
+      "name": "Query Connected Databases",
+      "description": "Ask natural-language questions that run as SQL against databases connected to the project."
+    }
+  ],
+  "authType": "oauth2",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "mcpEndpoint": "https://app.memorylake.ai/memorylake/mcp/v2",
+  "quickstartUrl": "https://docs.memorylake.ai/quickstart",
+  "apiBaseUrl": "https://app.memorylake.ai/openapi/memorylake",
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "mcp",
+    "api"
+  ],
+  "createdAt": "2026-11-17T15:25:53.000Z",
+  "updatedAt": "2026-11-17T15:25:53.000Z"
+}

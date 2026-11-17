@@ -1,0 +1,70 @@
+{
+  "id": "agentcard",
+  "name": "AgentCard",
+  "slug": "agentcard",
+  "description": "Lets agents buy online for users: a vault for users' own cards, issued agent cards, and opencommerce checkout at 5,000+ stores, each purchase passkey-approved. MCP, CLI, API. YC-backed.",
+  "providerName": "Agentcard",
+  "providerUrl": "https://agentcard.com",
+  "agentUrl": "https://docs.agentcard.com",
+  "categories": [
+    "commerce-payments"
+  ],
+  "tags": [
+    "virtual-cards",
+    "agent-payments",
+    "agentic-checkout",
+    "card-vault",
+    "opencommerce",
+    "remote-mcp",
+    "y-combinator"
+  ],
+  "skills": [
+    {
+      "id": "check-out-on-any-merchant",
+      "name": "Check Out on Any Merchant",
+      "description": "Uses opencommerce's buy tool to find a product, build the cart, get the user's approval and place the order at 5,000+ online stores."
+    },
+    {
+      "id": "issue-virtual-cards",
+      "name": "Issue Virtual Cards",
+      "description": "Issues single-use or multi-use virtual debit cards that an agent spends as itself, after the user completes KYC and funds the card."
+    },
+    {
+      "id": "vault-user-cards",
+      "name": "Vault Users' Cards",
+      "description": "Stores each user's own card once via a hosted link, then pays with it from an agent browser without the agent seeing the number."
+    },
+    {
+      "id": "approve-purchases-with-passkey",
+      "name": "Approve Purchases",
+      "description": "Requires the user's passkey, Face ID or a granted auto-approval for each purchase, scoped to one merchant and one exact total."
+    },
+    {
+      "id": "track-and-return-orders",
+      "name": "Track and Return Orders",
+      "description": "Tracks placed orders, reads order history and starts returns through the buy tools on the MCP server."
+    }
+  ],
+  "authType": "oauth2",
+  "supportsStreaming": true,
+  "supportsPushNotifications": true,
+  "mcpEndpoint": "https://mcp.agentcard.sh/mcp",
+  "install": {
+    "type": "npm",
+    "command": "npx agent-cards init"
+  },
+  "quickstartUrl": "https://docs.agentcard.com/getting-started",
+  "apiBaseUrl": "https://api.agentcard.sh",
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "mcp",
+    "cli",
+    "api"
+  ],
+  "createdAt": "2026-11-17T15:25:53.000Z",
+  "updatedAt": "2026-11-17T15:25:53.000Z"
+}

@@ -1,0 +1,66 @@
+{
+  "id": "phone-harness",
+  "name": "Phone Harness",
+  "slug": "phone-harness",
+  "description": "Open-source harness and cloud phones that let AI agents tap, type, swipe, read the screen and open apps on Cloud Android and Cloud iPhones, via hosted MCP, CLI and REST API.",
+  "providerName": "Phone Harness",
+  "providerUrl": "https://phone-harness.com",
+  "agentUrl": "https://phone-harness.com/docs/guides/mcp-server",
+  "categories": [
+    "browser-computer"
+  ],
+  "tags": [
+    "phone-use",
+    "android",
+    "ios",
+    "cloud-phones",
+    "adb",
+    "mobile-automation",
+    "remote-mcp",
+    "y-combinator"
+  ],
+  "skills": [
+    {
+      "id": "control-android-phone",
+      "name": "Control an Android Phone",
+      "description": "Tap, type, swipe, open apps, read on-screen text and take screenshots on a cloud or local Android phone over ADB."
+    },
+    {
+      "id": "drive-an-iphone",
+      "name": "Drive an iPhone",
+      "description": "Use a real Cloud iPhone on a hosted Mac, or your own iPhone through macOS iPhone Mirroring, with the same agent helpers."
+    },
+    {
+      "id": "run-cloud-phones",
+      "name": "Run Cloud Phones",
+      "description": "Start and stop temporary or saved cloud Android sessions through the API, with apps and logins kept between sessions."
+    },
+    {
+      "id": "watch-live-phone-view",
+      "name": "Watch Live Phone View",
+      "description": "Mint expiring live-view or interactive viewer URLs and still snapshots so a human can watch or take over the phone."
+    }
+  ],
+  "authType": "oauth2",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "mcpEndpoint": "https://mcp.phone-harness.com/mcp",
+  "install": {
+    "type": "pip",
+    "command": "pip install phone-harness"
+  },
+  "quickstartUrl": "https://phone-harness.com/docs/quickstart",
+  "apiBaseUrl": "https://api.phone-harness.com",
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "mcp",
+    "cli",
+    "api"
+  ],
+  "createdAt": "2026-11-17T15:25:53.000Z",
+  "updatedAt": "2026-11-17T15:25:53.000Z"
+}

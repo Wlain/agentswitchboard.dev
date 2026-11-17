@@ -1,0 +1,63 @@
+{
+  "id": "ampersend",
+  "name": "ampersend",
+  "slug": "ampersend",
+  "description": "Control layer for agent spending over x402: agent wallets with budgets, spending limits, seller allowlists and audit trails, plus a CLI and SDK for MCP and A2A payments. By Edge & Node.",
+  "providerName": "Edge & Node",
+  "providerUrl": "https://ampersend.ai",
+  "agentUrl": "https://docs.ampersend.ai/",
+  "categories": [
+    "commerce-payments",
+    "infrastructure"
+  ],
+  "tags": [
+    "x402",
+    "agent-wallets",
+    "spending-limits",
+    "usdc",
+    "base",
+    "a2a",
+    "audit-trail"
+  ],
+  "skills": [
+    {
+      "id": "hold-funds-in-agent-wallet",
+      "name": "Hold Funds in Agent Wallet",
+      "description": "Creates or imports an agent wallet funded with USDC on Base, with auto top-ups from the main account."
+    },
+    {
+      "id": "set-agent-spend-limits",
+      "name": "Set Agent Spend Limits",
+      "description": "Sets per-transaction, daily and monthly limits and seller allowlists that every agent payment is checked against."
+    },
+    {
+      "id": "pay-with-x402",
+      "name": "Pay with x402",
+      "description": "Pays x402-enabled MCP tools, A2A agents and HTTP APIs through the SDK's payment-aware clients and MCP proxy."
+    },
+    {
+      "id": "sell-paid-endpoints",
+      "name": "Sell Paid Endpoints",
+      "description": "Turns an OpenAPI spec into paid hosted endpoints and manages them from the ampersend CLI."
+    }
+  ],
+  "authType": "apiKey",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "install": {
+    "type": "npm",
+    "command": "npm i -g @ampersend_ai/ampersend-sdk"
+  },
+  "quickstartUrl": "https://docs.ampersend.ai/quick-starts/sdk-quickstart",
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "cli",
+    "api"
+  ],
+  "createdAt": "2026-11-17T15:25:53.000Z",
+  "updatedAt": "2026-11-17T15:25:53.000Z"
+}

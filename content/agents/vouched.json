@@ -1,0 +1,65 @@
+{
+  "id": "vouched",
+  "name": "Vouched Checkpoint",
+  "slug": "vouched",
+  "description": "Know Your Agent platform from Vouched: detects AI agents on your site, enforces policy on them, and verifies agent identity and delegated authority with KYA-OS (MCP-I).",
+  "providerName": "Vouched",
+  "providerUrl": "https://www.vouched.id",
+  "agentUrl": "https://kya.vouched.id/docs",
+  "categories": [
+    "security",
+    "infrastructure"
+  ],
+  "tags": [
+    "know-your-agent",
+    "agent-identity",
+    "agent-verification",
+    "kya-os",
+    "mcp-i",
+    "bot-detection",
+    "decentralized-identifiers",
+    "delegation"
+  ],
+  "skills": [
+    {
+      "id": "verify-agent-identity",
+      "name": "Verify an Agent's Identity",
+      "description": "Verifies KYA-OS cryptographic proofs so your server knows which agent DID is calling and which delegation authorizes it."
+    },
+    {
+      "id": "detect-ai-agents",
+      "name": "Detect AI Agents",
+      "description": "Detects AI agents visiting a site through a pixel, beacon, middleware or gateway, with a class, confidence and risk score."
+    },
+    {
+      "id": "enforce-agent-policy",
+      "name": "Enforce Agent Policy",
+      "description": "Evaluates each agent request against your policy and allows, blocks or redirects it before the request completes."
+    },
+    {
+      "id": "manage-agent-delegations",
+      "name": "Manage Agent Delegations",
+      "description": "Creates, verifies and revokes scoped delegations that let a user authorize an agent to act for them under set limits."
+    }
+  ],
+  "authType": "apiKey",
+  "supportsStreaming": false,
+  "supportsPushNotifications": true,
+  "install": {
+    "type": "npm",
+    "command": "npm install -g @kya-os/cli"
+  },
+  "quickstartUrl": "https://kya.vouched.id/docs/quick-start",
+  "apiBaseUrl": "https://kya.vouched.id/api/v1",
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "api",
+    "cli"
+  ],
+  "createdAt": "2026-11-17T15:25:53.000Z",
+  "updatedAt": "2026-11-17T15:25:53.000Z"
+}

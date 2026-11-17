@@ -2,7 +2,7 @@
   "id": "4CJLnDRBpmkcHr9EjhvvK6",
   "name": "Shopify Agentic Storefronts",
   "slug": "shopify-agentic-storefronts",
-  "description": "Shopify's A2A-compatible layer for agentic commerce. AI agents browse catalogs, configure products, and initiate checkout. Full storefront exposed as an agent API with real-time inventory sync.",
+  "description": "Shopify's agentic commerce APIs: agents search Shopify Catalog across merchants through its UCP MCP server, configure products, build carts and start checkout, with live inventory.",
   "providerName": "Shopify",
   "providerUrl": "https://shopify.com",
   "agentUrl": "https://shopify.dev/docs/agents",
@@ -12,11 +12,11 @@
   "tags": [
     "e-commerce",
     "agentic-commerce",
-    "checkout-automation",
-    "a2a-protocol",
-    "multi-channel",
-    "inventory-sync",
-    "conversational-commerce",
+    "checkout",
+    "product-catalog",
+    "shopify-catalog",
+    "ucp",
+    "product-search",
     "shopify"
   ],
   "skills": [
@@ -62,5 +62,5 @@
     "mcp"
   ],
   "createdAt": "2026-03-31T00:56:27.374Z",
-  "updatedAt": "2026-11-02T07:34:56.527Z"
+  "updatedAt": "2026-11-17T15:14:47.000Z"
 }

@@ -1,0 +1,56 @@
+{
+  "id": "rye",
+  "name": "Rye",
+  "slug": "rye",
+  "description": "Universal Checkout API that turns any product URL into a completed order, handling price, tax, shipping and order placement so AI agents can buy from thousands of merchants.",
+  "providerName": "Rye",
+  "providerUrl": "https://rye.com",
+  "agentUrl": "https://rye.com/docs/",
+  "categories": [
+    "commerce-payments"
+  ],
+  "tags": [
+    "checkout",
+    "universal-checkout",
+    "agentic-commerce",
+    "shopping",
+    "amazon",
+    "shopify",
+    "promo-codes"
+  ],
+  "skills": [
+    {
+      "id": "check-out-on-any-merchant",
+      "name": "Check Out on Any Merchant",
+      "description": "Creates a checkout intent from any product URL and buyer address, then confirms it with payment to place the order."
+    },
+    {
+      "id": "buy-in-one-call",
+      "name": "Buy in One Call",
+      "description": "Creates and confirms an order in a single request with the fire-and-forget Purchase endpoint."
+    },
+    {
+      "id": "find-promo-codes",
+      "name": "Find Promo Codes",
+      "description": "Scans for valid promo codes at checkout and applies them automatically to lower the final price."
+    },
+    {
+      "id": "set-price-limits",
+      "name": "Set Price Limits",
+      "description": "Sets a maximum price so an order is only placed when the total falls within the agent's budget."
+    }
+  ],
+  "authType": "apiKey",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "status": "published",
+  "featured": false,
+  "verified": false,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "api"
+  ],
+  "createdAt": "2026-11-17T15:25:53.000Z",
+  "updatedAt": "2026-11-17T15:25:53.000Z"
+}

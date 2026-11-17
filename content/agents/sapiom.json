@@ -1,0 +1,61 @@
+{
+  "id": "sapiom",
+  "name": "Sapiom",
+  "slug": "sapiom",
+  "description": "Lets a platform's agent buy for each of its users with that user's own vaulted card, using UCP or browser checkout under per-card budgets. For apps whose agent shops for many users.",
+  "providerName": "Sapiom",
+  "providerUrl": "https://www.sapiom.ai",
+  "agentUrl": "https://docs.sapiom.ai",
+  "categories": [
+    "commerce-payments",
+    "infrastructure"
+  ],
+  "tags": [
+    "agent-payments",
+    "card-vault",
+    "agentic-checkout",
+    "ucp",
+    "spending-limits",
+    "remote-mcp",
+    "browser-checkout"
+  ],
+  "skills": [
+    {
+      "id": "vault-user-cards",
+      "name": "Vault Users' Cards",
+      "description": "Sends each user a hosted setup link to save their card, so the agent can pay with it without ever seeing the card number."
+    },
+    {
+      "id": "check-merchant",
+      "name": "Check a Merchant",
+      "description": "Checks whether a merchant offers a UCP checkout Sapiom can drive, before the agent starts a purchase."
+    },
+    {
+      "id": "check-out-on-merchant",
+      "name": "Check Out on a Merchant",
+      "description": "Buys from one merchant with a user's saved card through a UCP checkout or a browser checkout page the agent completes."
+    },
+    {
+      "id": "set-agent-spend-limits",
+      "name": "Set Agent Spend Limits",
+      "description": "Sets 30-day card budgets and optional spending limits so purchases within them go through without asking the user."
+    }
+  ],
+  "authType": "apiKey",
+  "supportsStreaming": false,
+  "supportsPushNotifications": true,
+  "mcpEndpoint": "https://api.sapiom.ai/v1/mcp/pay",
+  "quickstartUrl": "https://docs.sapiom.ai/first-purchase",
+  "apiBaseUrl": "https://api.sapiom.ai/v1",
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "mcp",
+    "api"
+  ],
+  "createdAt": "2026-11-17T15:25:53.000Z",
+  "updatedAt": "2026-11-17T15:25:53.000Z"
+}

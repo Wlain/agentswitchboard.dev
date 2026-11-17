@@ -1,0 +1,72 @@
+{
+  "id": "notte",
+  "name": "Notte",
+  "slug": "notte",
+  "description": "Cloud browser sessions for AI agents with stealth mode, CAPTCHA solving, credential vaults and serverless browser functions, via hosted MCP, CLI, SDKs and REST API.",
+  "providerName": "Notte (Nottelabs)",
+  "providerUrl": "https://notte.cc",
+  "agentUrl": "https://docs.notte.cc/mcp-server",
+  "categories": [
+    "browser-computer",
+    "infrastructure"
+  ],
+  "tags": [
+    "cloud-browser",
+    "browser-automation",
+    "remote-mcp",
+    "web-scraping",
+    "captcha-solving",
+    "credential-vault",
+    "playwright",
+    "y-combinator"
+  ],
+  "skills": [
+    {
+      "id": "run-cloud-browsers",
+      "name": "Run Cloud Browsers",
+      "description": "Start, observe and control hosted browser sessions that navigate, click, fill forms and take screenshots for an agent."
+    },
+    {
+      "id": "scrape-structured-data",
+      "name": "Scrape Structured Data",
+      "description": "Extract page markdown or typed structured data from any web page, or search the web and get sourced answers."
+    },
+    {
+      "id": "vault-login-credentials",
+      "name": "Vault Login Credentials",
+      "description": "Store passwords, 2FA codes and cards in secret vaults and reuse saved logins through persistent browser profiles."
+    },
+    {
+      "id": "deploy-browser-functions",
+      "name": "Deploy Browser Functions",
+      "description": "Deploy browser automations as serverless API endpoints you can call via API or webhook, or run on a cron schedule."
+    },
+    {
+      "id": "solve-captchas-stealth",
+      "name": "Solve CAPTCHAs Stealthily",
+      "description": "Bypass bot detection with stealth mode, residential proxies and automatic CAPTCHA solving during browser sessions."
+    }
+  ],
+  "authType": "apiKey",
+  "supportsStreaming": false,
+  "supportsPushNotifications": true,
+  "mcpEndpoint": "https://api.notte.cc/mcp",
+  "install": {
+    "type": "binary",
+    "command": "curl -fsSL https://notte.cc/install-cli.sh | sh"
+  },
+  "quickstartUrl": "https://docs.notte.cc/quickstart",
+  "apiBaseUrl": "https://api.notte.cc",
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "mcp",
+    "api",
+    "cli"
+  ],
+  "createdAt": "2026-11-17T15:25:53.000Z",
+  "updatedAt": "2026-11-17T15:25:53.000Z"
+}

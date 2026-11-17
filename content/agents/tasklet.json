@@ -1,0 +1,54 @@
+{
+  "id": "tasklet",
+  "name": "Tasklet",
+  "slug": "tasklet",
+  "description": "Cloud agent platform with a hosted MCP server, so Claude, ChatGPT, Cursor or Codex can delegate tasks to your Tasklet agents and check their progress. Backed by Y Combinator.",
+  "providerName": "Tasklet",
+  "providerUrl": "https://tasklet.ai",
+  "agentUrl": "https://tasklet.ai/learn/mcp",
+  "categories": [
+    "autonomous-agents",
+    "orchestration",
+    "productivity"
+  ],
+  "tags": [
+    "remote-mcp",
+    "agent-delegation",
+    "scheduled-agents",
+    "cloud-browser",
+    "y-combinator",
+    "integrations"
+  ],
+  "skills": [
+    {
+      "id": "delegate-to-agent",
+      "name": "Delegate to Tasklet Agents",
+      "description": "Hand a task to one of your Tasklet agents, which does it with its own connections, skills and permissions."
+    },
+    {
+      "id": "check-thread-progress",
+      "name": "Check Agent Progress",
+      "description": "Read threads in connected Tasklet agents to check progress on a task and send follow-ups."
+    },
+    {
+      "id": "copy-skills",
+      "name": "Copy Skills to Agents",
+      "description": "Copy skills you built in Claude Code or Codex to a Tasklet agent so it and its sharers can reuse them."
+    }
+  ],
+  "authType": "oauth2",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "mcpEndpoint": "https://api.tasklet.ai/mcp",
+  "quickstartUrl": "https://tasklet.ai/learn/mcp",
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "mcp"
+  ],
+  "createdAt": "2026-11-17T15:25:53.000Z",
+  "updatedAt": "2026-11-17T15:25:53.000Z"
+}

@@ -1,0 +1,70 @@
+{
+  "id": "ploid",
+  "name": "Ploid",
+  "slug": "ploid",
+  "description": "People search and enrichment over 2B+ people: find people by role or company, resolve identities, and get work emails and phones via REST API, CLI or hosted MCP.",
+  "providerName": "Ploid",
+  "providerUrl": "https://ploid.com",
+  "agentUrl": "https://ploid.com/documentation/api",
+  "categories": [
+    "data-analytics",
+    "sales-marketing"
+  ],
+  "tags": [
+    "people-search",
+    "contact-enrichment",
+    "email-finder",
+    "identity-resolution",
+    "lead-generation",
+    "remote-mcp",
+    "y-combinator"
+  ],
+  "skills": [
+    {
+      "id": "find-people",
+      "name": "Find People",
+      "description": "Searches an index of more than two billion people by role, company, location or experience, ranked by evidence."
+    },
+    {
+      "id": "resolve-a-person",
+      "name": "Resolve a Person",
+      "description": "Identifies one person from a full name plus a clue such as company, email or phone and returns a permanent person ID."
+    },
+    {
+      "id": "find-emails-and-phones",
+      "name": "Find Emails and Phones",
+      "description": "Finds work emails, personal emails and phone numbers for a known person through the enrich endpoint."
+    },
+    {
+      "id": "enrich-lists",
+      "name": "Enrich Lists",
+      "description": "Fills typed columns like headcount, socials or work email for rows you supply, each answer with confidence and evidence."
+    },
+    {
+      "id": "monitor-people",
+      "name": "Monitor People Changes",
+      "description": "Watches people or lists and notifies you through webhooks when something changes."
+    }
+  ],
+  "authType": "oauth2",
+  "supportsStreaming": false,
+  "supportsPushNotifications": true,
+  "mcpEndpoint": "https://api.ploid.com/mcp",
+  "install": {
+    "type": "binary",
+    "command": "curl https://ploid.com/install -fsS | bash"
+  },
+  "apiBaseUrl": "https://api.ploid.com/v1",
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "mcp",
+    "api",
+    "cli"
+  ],
+  "createdAt": "2026-11-17T15:25:53.000Z",
+  "updatedAt": "2026-11-17T15:25:53.000Z"
+}

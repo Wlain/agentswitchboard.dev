@@ -1,0 +1,60 @@
+{
+  "id": "configure",
+  "name": "Configure",
+  "slug": "configure",
+  "description": "User context for agents: users bring approved memories and connected apps across ChatGPT, Claude and other agents, which read and write a shared profile via MCP, API or SDK.",
+  "providerName": "Configure",
+  "providerUrl": "https://configure.dev",
+  "agentUrl": "https://docs.configure.dev/",
+  "categories": [
+    "memory-state"
+  ],
+  "tags": [
+    "remote-mcp",
+    "user-context",
+    "cross-agent-memory",
+    "user-profile",
+    "memory-import",
+    "typescript-sdk",
+    "webhooks"
+  ],
+  "skills": [
+    {
+      "id": "read-user-profile",
+      "name": "Read User Profile",
+      "description": "Read a user's approved profile, including identity, preferences and a summary, to personalize from the first turn."
+    },
+    {
+      "id": "search-memories",
+      "name": "Search User Memories",
+      "description": "Search a user's saved memories by words, category, source or date across every agent they connected."
+    },
+    {
+      "id": "save-memories",
+      "name": "Save and Forget Memories",
+      "description": "Save facts the user asks to keep, commit each turn, and delete memories the agent saved."
+    },
+    {
+      "id": "import-memories",
+      "name": "Import Assistant Memories",
+      "description": "Let users import what ChatGPT, Claude, Gemini or Grok already know about them, and connect apps like Gmail."
+    }
+  ],
+  "authType": "apiKey",
+  "supportsStreaming": false,
+  "supportsPushNotifications": true,
+  "mcpEndpoint": "https://mcp.configure.dev",
+  "quickstartUrl": "https://docs.configure.dev/quickstart",
+  "apiBaseUrl": "https://api.configure.dev",
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "mcp",
+    "api"
+  ],
+  "createdAt": "2026-11-17T15:25:53.000Z",
+  "updatedAt": "2026-11-17T15:25:53.000Z"
+}

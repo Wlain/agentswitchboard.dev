@@ -1,0 +1,63 @@
+{
+  "id": "privy",
+  "name": "Privy Agent Wallets",
+  "slug": "privy",
+  "description": "Wallets for agents: policy-bounded server wallets an agent controls, funded by card, bank or stablecoin, paying via transfers, x402 and MPP. Includes an agent wallet CLI. Owned by Stripe.",
+  "providerName": "Privy",
+  "providerUrl": "https://www.privy.io",
+  "agentUrl": "https://docs.privy.io/agent-wallets/overview",
+  "categories": [
+    "commerce-payments",
+    "infrastructure"
+  ],
+  "tags": [
+    "agent-wallets",
+    "server-wallets",
+    "wallet-policies",
+    "x402",
+    "mpp",
+    "stablecoins",
+    "stripe"
+  ],
+  "skills": [
+    {
+      "id": "hold-funds-in-agent-wallet",
+      "name": "Hold Funds in Agent Wallet",
+      "description": "Creates wallets that an agent controls through authorization keys, or user-owned wallets with the agent added as a scoped signer."
+    },
+    {
+      "id": "set-agent-spend-limits",
+      "name": "Set Agent Spend Limits",
+      "description": "Attaches policies with transfer limits, contract and recipient allowlists and time windows that bound what an agent can sign."
+    },
+    {
+      "id": "pay-with-x402",
+      "name": "Pay with x402",
+      "description": "Pays x402 and Machine Payments Protocol (MPP) endpoints from a Privy wallet so agents can buy API calls autonomously."
+    },
+    {
+      "id": "run-agent-wallet-cli",
+      "name": "Run Agent Wallet CLI",
+      "description": "Lets agents like Claude Code create, fund and spend from sandbox wallets via a CLI, after one browser approval by the user."
+    }
+  ],
+  "authType": "apiKey",
+  "supportsStreaming": false,
+  "supportsPushNotifications": true,
+  "install": {
+    "type": "npm",
+    "command": "npm install -g @privy-io/agent-wallet-cli"
+  },
+  "quickstartUrl": "https://docs.privy.io/recipes/agent-integrations/agentic-wallets",
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "api",
+    "cli"
+  ],
+  "createdAt": "2026-11-17T15:25:53.000Z",
+  "updatedAt": "2026-11-17T15:25:53.000Z"
+}

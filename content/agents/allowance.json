@@ -1,0 +1,57 @@
+{
+  "id": "allowance",
+  "name": "Allowance",
+  "slug": "allowance",
+  "description": "Remote MCP that lets agents request a user's iPhone approval for a purchase, then get a capped, merchant-locked one-time card to check out. Works in ChatGPT and Claude. Backed by Y Combinator.",
+  "providerName": "Allowance",
+  "providerUrl": "https://useallowance.com",
+  "agentUrl": "https://mcp.useallowance.com/docs",
+  "categories": [
+    "commerce-payments"
+  ],
+  "tags": [
+    "one-time-cards",
+    "virtual-cards",
+    "purchase-approval",
+    "agent-payments",
+    "remote-mcp",
+    "y-combinator"
+  ],
+  "skills": [
+    {
+      "id": "request-purchase-approval",
+      "name": "Request Purchase Approval",
+      "description": "Sends the user an iPhone approval request for a specific purchase intent, merchant and amount before the agent can pay."
+    },
+    {
+      "id": "issue-one-time-card",
+      "name": "Issue One-Time Card",
+      "description": "Issues a scoped, merchant-locked virtual card capped at the approved amount, shown only through a short-lived reveal link."
+    },
+    {
+      "id": "complete-checkout",
+      "name": "Complete Checkout",
+      "description": "Gets checkout context, handles card authorization and reports the purchase result and receipt back to Allowance."
+    },
+    {
+      "id": "manage-allowances",
+      "name": "Manage Allowances",
+      "description": "Lists and manages the user's active allowances, the spending permissions an agent holds for a task."
+    }
+  ],
+  "authType": "oauth2",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "mcpEndpoint": "https://mcp.useallowance.com",
+  "quickstartUrl": "https://useallowance.com/connect-agent/",
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "mcp"
+  ],
+  "createdAt": "2026-11-17T15:25:53.000Z",
+  "updatedAt": "2026-11-17T15:25:53.000Z"
+}

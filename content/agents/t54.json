@@ -1,0 +1,64 @@
+{
+  "id": "t54",
+  "name": "t54 Labs",
+  "slug": "t54",
+  "description": "Underwrites AI agent payments before they execute: the Trustline risk API scores agent transactions, and X402 Secure adds risk checks to x402 payments on XRPL.",
+  "providerName": "t54 Labs",
+  "providerUrl": "https://www.t54.ai",
+  "agentUrl": "https://www.t54.ai/docs/trustline/overview",
+  "categories": [
+    "security",
+    "commerce-payments"
+  ],
+  "tags": [
+    "agent-payments",
+    "x402",
+    "risk-engine",
+    "underwriting",
+    "xrpl",
+    "audit-evidence",
+    "fraud-prevention"
+  ],
+  "skills": [
+    {
+      "id": "assess-agent-transactions",
+      "name": "Assess Agent Transactions",
+      "description": "Submits an agent transaction to the Trustline async underwriting API and polls for an allow, deny or review decision."
+    },
+    {
+      "id": "secure-x402-payments",
+      "name": "Secure x402 Payments",
+      "description": "Binds reasoning traces, Verifiable Intent and AP2 mandates to an x402 payment and returns a risk decision before settlement."
+    },
+    {
+      "id": "pay-with-x402-on-xrpl",
+      "name": "Pay with x402 on XRPL",
+      "description": "Verifies and settles x402 exact-scheme payments on the XRP Ledger through t54's hosted XRPL x402 Facilitator."
+    },
+    {
+      "id": "resolve-agentic-challenges",
+      "name": "Resolve Agentic Challenges",
+      "description": "Asks the agent for more evidence when a transaction lacks it, through the Agentic Challenge flow, instead of declining."
+    },
+    {
+      "id": "export-audit-evidence",
+      "name": "Export Audit Evidence",
+      "description": "Records tamper-evident evidence for every underwriting decision so compliance teams can verify and export it."
+    }
+  ],
+  "authType": "bearer",
+  "supportsStreaming": false,
+  "supportsPushNotifications": true,
+  "quickstartUrl": "https://www.t54.ai/docs/trustline/getting-started",
+  "apiBaseUrl": "https://portal.t54.ai/api/v1",
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "api"
+  ],
+  "createdAt": "2026-11-17T15:25:53.000Z",
+  "updatedAt": "2026-11-17T15:25:53.000Z"
+}

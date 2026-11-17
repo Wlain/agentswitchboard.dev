@@ -1,0 +1,64 @@
+{
+  "id": "chert",
+  "name": "Chert",
+  "slug": "chert",
+  "description": "iMessage and FaceTime lines for AI agents: send and receive iMessages through a messaging API with webhooks, and connect LiveKit voice agents to FaceTime audio and video calls.",
+  "providerName": "Chert",
+  "providerUrl": "https://trychert.com",
+  "agentUrl": "https://docs.trychert.com/api/overview",
+  "categories": [
+    "voice-messaging",
+    "communication"
+  ],
+  "tags": [
+    "imessage",
+    "facetime",
+    "phone-number",
+    "voice-agents",
+    "livekit",
+    "messaging-api",
+    "webhooks",
+    "y-combinator"
+  ],
+  "skills": [
+    {
+      "id": "send-receive-imessages",
+      "name": "Send and Receive iMessages",
+      "description": "Send 1:1 and group iMessages with attachments, voice notes and rich links, and receive replies as signed webhooks."
+    },
+    {
+      "id": "answer-facetime-calls",
+      "name": "Answer FaceTime Calls",
+      "description": "Connect a LiveKit voice agent to a Chert line to receive inbound or place outbound FaceTime audio and video calls."
+    },
+    {
+      "id": "send-reactions-and-typing",
+      "name": "Send Reactions and Typing",
+      "description": "Show typing indicators, mark chats read, edit messages and send standard tapback reactions over the API."
+    },
+    {
+      "id": "stream-message-events",
+      "name": "Stream Message Events",
+      "description": "Poll, stream over SSE or replay stored events such as message.received and reaction.added for an agent inbox."
+    }
+  ],
+  "authType": "apiKey",
+  "supportsStreaming": true,
+  "supportsPushNotifications": true,
+  "install": {
+    "type": "npm",
+    "command": "npm install -g @trychert/facetime@0.1.0-beta.21"
+  },
+  "quickstartUrl": "https://docs.trychert.com/api/quickstart",
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "api",
+    "cli"
+  ],
+  "createdAt": "2026-11-17T15:25:53.000Z",
+  "updatedAt": "2026-11-17T15:25:53.000Z"
+}

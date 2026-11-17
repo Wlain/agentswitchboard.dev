@@ -1,0 +1,61 @@
+{
+  "id": "skyfire",
+  "name": "Skyfire",
+  "slug": "skyfire",
+  "description": "Identity and payments network for agents: create know-your-agent (KYA) and pay tokens so agents can verify identity and pay services in stablecoins, and sellers can charge them. MCP and API.",
+  "providerName": "Skyfire",
+  "providerUrl": "https://skyfire.xyz",
+  "agentUrl": "https://docs.skyfire.xyz/docs/using-the-skyfire-mcp-server",
+  "categories": [
+    "commerce-payments",
+    "security"
+  ],
+  "tags": [
+    "agent-identity",
+    "know-your-agent",
+    "kyapay",
+    "agent-payments",
+    "stablecoins",
+    "jwt",
+    "remote-mcp"
+  ],
+  "skills": [
+    {
+      "id": "issue-know-your-agent-token",
+      "name": "Issue a Know-Your-Agent Token",
+      "description": "Creates a kya token carrying the agent's verified identity and its human principal, to present to services."
+    },
+    {
+      "id": "verify-agent-identity",
+      "name": "Verify an Agent's Identity",
+      "description": "Lets sellers verify a KYA token's signature against Skyfire's JWKS and require verified agent identity for access."
+    },
+    {
+      "id": "pay-with-kyapay-token",
+      "name": "Pay with a KYAPay Token",
+      "description": "Creates pay or kya-pay tokens that carry payment intent, which sellers charge against the buyer agent's funded wallet."
+    },
+    {
+      "id": "discover-sellers",
+      "name": "Discover Sellers",
+      "description": "Finds seller services in the Skyfire directory that an agent can access or pay through the MCP server."
+    }
+  ],
+  "authType": "apiKey",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "mcpEndpoint": "https://mcp.skyfire.xyz/mcp",
+  "quickstartUrl": "https://docs.skyfire.xyz/docs/quickstart",
+  "apiBaseUrl": "https://api.skyfire.xyz",
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "mcp",
+    "api"
+  ],
+  "createdAt": "2026-11-17T15:25:53.000Z",
+  "updatedAt": "2026-11-17T15:25:53.000Z"
+}

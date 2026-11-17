@@ -1,0 +1,48 @@
+{
+  "id": "pally",
+  "name": "Pally",
+  "slug": "pally",
+  "description": "Text-message personal assistant with a hosted MCP server, so Claude, ChatGPT or Cursor can message your Pally and collect its replies. Backed by Y Combinator.",
+  "providerName": "Pally Technologies",
+  "providerUrl": "https://pally.com",
+  "agentUrl": "https://pally.com/mcp",
+  "categories": [
+    "autonomous-agents",
+    "productivity",
+    "communication"
+  ],
+  "tags": [
+    "remote-mcp",
+    "personal-assistant",
+    "imessage",
+    "telegram",
+    "y-combinator",
+    "oauth-dcr"
+  ],
+  "skills": [
+    {
+      "id": "message-pally",
+      "name": "Message Your Pally",
+      "description": "Send a message to your Pally assistant and get its reply, with long jobs returning a handle to check later."
+    },
+    {
+      "id": "check-pally",
+      "name": "Check Pally Replies",
+      "description": "Use the handle from a long-running request to collect Pally's reply once the work is ready."
+    }
+  ],
+  "authType": "oauth2",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "mcpEndpoint": "https://agent.pally.com/mcp",
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "mcp"
+  ],
+  "createdAt": "2026-11-17T15:25:53.000Z",
+  "updatedAt": "2026-11-17T15:25:53.000Z"
+}

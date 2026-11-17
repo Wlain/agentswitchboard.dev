@@ -1,0 +1,56 @@
+{
+  "id": "firmly",
+  "name": "firmly",
+  "slug": "firmly",
+  "description": "Agentic commerce API that lets AI agents search merchant catalogs, build carts and check out natively at firmly merchants, with card, wallet and network-token payments.",
+  "providerName": "firmly",
+  "providerUrl": "https://www.firmly.ai",
+  "agentUrl": "https://developers.firmly.ai/",
+  "categories": [
+    "commerce-payments"
+  ],
+  "tags": [
+    "checkout",
+    "agentic-commerce",
+    "cart-api",
+    "network-tokens",
+    "ucp",
+    "product-search",
+    "shopping"
+  ],
+  "skills": [
+    {
+      "id": "search-merchant-catalogs",
+      "name": "Search Merchant Catalogs",
+      "description": "Searches products across firmly merchant catalogs with filters for domain, price, availability and variant attributes."
+    },
+    {
+      "id": "build-carts",
+      "name": "Build Carts",
+      "description": "Adds line items, add-ons and promo codes to a merchant cart and sets shipping before checkout."
+    },
+    {
+      "id": "check-out-natively",
+      "name": "Check Out Natively",
+      "description": "Completes the order on the merchant's own platform, paying by card, PayPal, Google Pay or Klarna."
+    },
+    {
+      "id": "pay-with-network-tokens",
+      "name": "Pay with Network Tokens",
+      "description": "Enrolls a card and authorizes agent payments with Visa, Mastercard or Discover network tokens through Agentic Pay."
+    }
+  ],
+  "authType": "apiKey",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "api"
+  ],
+  "createdAt": "2026-11-17T15:25:53.000Z",
+  "updatedAt": "2026-11-17T15:25:53.000Z"
+}
