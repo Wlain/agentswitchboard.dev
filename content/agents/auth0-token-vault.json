@@ -7,6 +7,7 @@
   "providerUrl": "https://auth0.com",
   "agentUrl": "https://auth0.com/ai/docs/intro/token-vault",
   "categories": [
+    "agent-identity",
     "security",
     "infrastructure"
   ],
@@ -56,5 +57,5 @@
     "api"
   ],
   "createdAt": "2026-11-17T15:25:53.000Z",
-  "updatedAt": "2026-11-17T15:25:53.000Z"
+  "updatedAt": "2026-11-17T15:30:32.000Z"
 }

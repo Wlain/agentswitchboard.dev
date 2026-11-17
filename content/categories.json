@@ -96,10 +96,18 @@
     "sortOrder": 12
   },
   {
+    "id": "aGXfB2zyQiUY4nLPsKfPRO",
+    "name": "Agent Identity & Access",
+    "slug": "agent-identity",
+    "description": "Identity, authentication and credentials for AI agents acting on someone's behalf. These tools vault users' OAuth tokens, secure MCP servers, issue scoped credentials and verify who an agent is and who it works for. The trust layer for agents that sign in, call APIs and transact.",
+    "icon": "Fingerprint",
+    "sortOrder": 12
+  },
+  {
     "id": "44nVoPNVZXunRtMumItZfO",
     "name": "Commerce & Payments",
     "slug": "commerce-payments",
-    "description": "AI agents powering e-commerce automation, checkout optimization, and payment intelligence. These tools enable agentic shopping experiences, dynamic pricing, inventory sync, and payment routing — all programmatically. Built for AI-native storefronts and the next generation of financial flows.",
+    "description": "AI agents and APIs for agentic commerce and payments: product search, catalogs and checkout, plus agent wallets, virtual cards, stablecoin and x402 payments with spend controls. These tools let agents find, buy and pay programmatically, within the limits a person sets. Built for AI-native storefronts and the next generation of financial flows.",
     "icon": "ShoppingCart",
     "sortOrder": 13
   },
@@ -121,9 +129,9 @@
   },
   {
     "id": "6g6TPbURSB52Z2scsiUGxN",
-    "name": "Browser & Computer Use",
+    "name": "Browser, Computer & Phone Use",
     "slug": "browser-computer",
-    "description": "AI agents that control browsers, execute code in sandboxed environments, and interact with websites and desktop apps. These tools extend AI beyond text into the real web — navigating UIs, filling forms, scraping data, and running code securely. The infrastructure layer for autonomous web agents.",
+    "description": "AI agents that control browsers, desktops and phones, execute code in sandboxed environments, and interact with websites, desktop apps and Android or iOS apps. These tools extend AI beyond text into real interfaces — navigating UIs, filling forms, tapping through apps and running code securely. The infrastructure layer for autonomous computer and phone use.",
     "icon": "Monitor",
     "sortOrder": 15
   },

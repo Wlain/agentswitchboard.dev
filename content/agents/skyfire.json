@@ -7,6 +7,7 @@
   "providerUrl": "https://skyfire.xyz",
   "agentUrl": "https://docs.skyfire.xyz/docs/using-the-skyfire-mcp-server",
   "categories": [
+    "agent-identity",
     "commerce-payments",
     "security"
   ],
@@ -57,5 +58,5 @@
     "api"
   ],
   "createdAt": "2026-11-17T15:25:53.000Z",
-  "updatedAt": "2026-11-17T15:25:53.000Z"
+  "updatedAt": "2026-11-17T15:30:32.000Z"
 }

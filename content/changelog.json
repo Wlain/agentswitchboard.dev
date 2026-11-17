@@ -1,5 +1,89 @@
 [
   {
+    "action": "updated",
+    "slug": "arcade-dev",
+    "name": "Arcade.dev",
+    "note": "categories updated",
+    "date": "2026-11-17"
+  },
+  {
+    "action": "updated",
+    "slug": "workos-pipes",
+    "name": "WorkOS Pipes",
+    "note": "categories updated",
+    "date": "2026-11-17"
+  },
+  {
+    "action": "updated",
+    "slug": "nango",
+    "name": "Nango",
+    "note": "categories updated",
+    "date": "2026-11-17"
+  },
+  {
+    "action": "updated",
+    "slug": "descope",
+    "name": "Descope",
+    "note": "categories updated",
+    "date": "2026-11-17"
+  },
+  {
+    "action": "updated",
+    "slug": "auth0-mcp",
+    "name": "Auth0 MCP",
+    "note": "categories updated",
+    "date": "2026-11-17"
+  },
+  {
+    "action": "updated",
+    "slug": "composio",
+    "name": "Composio",
+    "note": "categories updated",
+    "date": "2026-11-17"
+  },
+  {
+    "action": "updated",
+    "slug": "auth0-token-vault",
+    "name": "Auth0 Token Vault",
+    "note": "categories updated",
+    "date": "2026-11-17"
+  },
+  {
+    "action": "updated",
+    "slug": "1password-environments-mcp",
+    "name": "1Password Environments MCP",
+    "note": "categories updated",
+    "date": "2026-11-17"
+  },
+  {
+    "action": "updated",
+    "slug": "vouched",
+    "name": "Vouched Checkpoint",
+    "note": "categories updated",
+    "date": "2026-11-17"
+  },
+  {
+    "action": "updated",
+    "slug": "scalekit",
+    "name": "Scalekit",
+    "note": "categories updated",
+    "date": "2026-11-17"
+  },
+  {
+    "action": "updated",
+    "slug": "skyfire",
+    "name": "Skyfire",
+    "note": "categories updated",
+    "date": "2026-11-17"
+  },
+  {
+    "action": "updated",
+    "slug": "t54",
+    "name": "t54 Labs",
+    "note": "categories updated",
+    "date": "2026-11-17"
+  },
+  {
     "action": "added",
     "slug": "1password-environments-mcp",
     "name": "1Password Environments MCP",

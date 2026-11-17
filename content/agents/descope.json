@@ -7,6 +7,7 @@
   "providerUrl": "https://descope.com",
   "agentUrl": "https://docs.descope.com/agentic-identity-hub",
   "categories": [
+    "agent-identity",
     "security"
   ],
   "tags": [
@@ -49,5 +50,5 @@
     "cli"
   ],
   "createdAt": "2026-03-22T09:53:18.492Z",
-  "updatedAt": "2026-11-17T15:14:47.000Z"
+  "updatedAt": "2026-11-17T15:30:32.000Z"
 }

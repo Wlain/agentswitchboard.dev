@@ -4,6 +4,21 @@ Every release of [Agent Switchboard](https://agentswitchboard.dev), newest first
 
 Versions follow MAJOR.MINOR.PATCH: a minor version adds features, a patch fixes or adjusts. Versions before 2.2.0 were assigned afterwards, reconstructed from the git history. "Directory" lines summarize catalog changes since the previous release; the full log of every listing added, updated or removed is on [/changelog](https://agentswitchboard.dev/changelog), and batch by batch on [/drops](https://agentswitchboard.dev/drops). From 2.2.0 on, each minor release opens with its highlights, what you can do now with a link to try it, which [/whats-new](https://agentswitchboard.dev/whats-new) also shows.
 
+## [2.13.0] - 2026-11-17 - Agents that pay, shop, text and use phones
+
+### Highlights
+- Find the tools that let an agent pay for things: agent wallets, virtual cards and x402 payments with spend limits, from AgentCard, Crossmint, Lithic, Privy, Kite and 23 more. [Try it](https://agentswitchboard.dev/tasks/let-an-agent-pay)
+- Let an agent shop and check out online with product search and checkout APIs such as Channel3, Zinc, firmly and Shopify's agentic storefronts. [Try it](https://agentswitchboard.dev/tasks/shop-and-check-out)
+- Give an agent its own phone number to text from, or let it control an Android phone or iPhone: Dial, Linq, Sendblue and Inkbox for SMS and iMessage, Mobilerun and Phone Harness for phone use. [Try it](https://agentswitchboard.dev/tasks/control-a-phone)
+- Connect an agent to your users' accounts and check who an agent is, in the new Agent Identity & Access category: Auth0 Token Vault, Scalekit, Nango, Vouched and Skyfire. [Try it](https://agentswitchboard.dev/categories/agent-identity)
+
+### Added
+- Six tasks on [/tasks](https://agentswitchboard.dev/tasks), 53 in all: let an agent pay for things, shop and check out online, connect to users' accounts, text from a phone number, control an Android or iPhone, and verify who an agent is. Each has its own page, share card and `GET /api/tasks/<slug>`, appears on /browse as `?task=`, and is what the homepage box answers when you name the job. Together they fit 28, 17, 31, 20, 17 and 5 listings, most of them added in the [2026-11-17 drop](https://agentswitchboard.dev/drops/2026-11-17) ([#423](https://github.com/assafbar2/agentswitchboard.dev/pull/423)) from a16z's agent-economy map. ([#424](https://github.com/assafbar2/agentswitchboard.dev/pull/424))
+- A category, [Agent Identity & Access](https://agentswitchboard.dev/categories/agent-identity), for authentication, token vaults and identity for agents acting on someone's behalf. It starts with 12 listings: Arcade.dev, WorkOS Pipes, Nango, Descope, Auth0 MCP and Composio, already in the directory, and Auth0 Token Vault, 1Password Environments MCP, Vouched Checkpoint, Scalekit, Skyfire and t54 Labs from the drop. ([#424](https://github.com/assafbar2/agentswitchboard.dev/pull/424))
+
+### Changed
+- The Browser & Computer Use category is now [Browser, Computer & Phone Use](https://agentswitchboard.dev/categories/browser-computer), with the same address, and its description names phones. The [Commerce & Payments](https://agentswitchboard.dev/categories/commerce-payments) description names product search, checkout, agent wallets, virtual cards, stablecoin and x402 payments and spend controls. ([#424](https://github.com/assafbar2/agentswitchboard.dev/pull/424))
+
 ## [2.12.0] - 2026-11-14 - Featured and Sponsored come first in task answers
 
 ### Highlights

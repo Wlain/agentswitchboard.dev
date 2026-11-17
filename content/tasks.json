@@ -374,5 +374,53 @@
     "categories": ["productivity", "legal", "sales-marketing"],
     "access": ["mcp", "api"],
     "keywords": ["e-signature", "signatures", "sales proposals", "docusign", "document templates"]
+  },
+  {
+    "slug": "let-an-agent-pay",
+    "label": "let an agent pay for things",
+    "blurb": "Agent wallets, virtual cards and x402 payments that let an agent pay, within the spend limits you set.",
+    "categories": ["commerce-payments", "finance"],
+    "access": ["api", "mcp"],
+    "keywords": ["agent wallet", "spend limits", "stablecoin", "x402", "virtual card"]
+  },
+  {
+    "slug": "shop-and-check-out",
+    "label": "shop and check out online",
+    "blurb": "Product search, catalogs and checkout APIs that let an agent find a product and buy it from a merchant.",
+    "categories": ["commerce-payments"],
+    "access": ["api", "mcp"],
+    "keywords": ["checkout", "product catalog", "shopping", "product search"]
+  },
+  {
+    "slug": "connect-user-accounts",
+    "label": "connect to users' accounts",
+    "blurb": "Managed OAuth and token vaults that let an agent call Gmail, Slack and other apps on a user's behalf.",
+    "categories": ["agent-identity", "security", "infrastructure"],
+    "access": ["api", "mcp"],
+    "keywords": ["oauth", "managed auth", "token vault", "integrations"]
+  },
+  {
+    "slug": "text-from-a-phone-number",
+    "label": "text from a phone number",
+    "blurb": "SMS, iMessage and WhatsApp APIs that give an agent its own phone number to text from.",
+    "categories": ["communication", "voice-messaging"],
+    "access": ["api", "mcp"],
+    "keywords": ["sms", "imessage", "whatsapp", "phone number"]
+  },
+  {
+    "slug": "control-a-phone",
+    "label": "control an Android or iPhone",
+    "blurb": "Phone-use agents, cloud phones and MCP servers that tap, type and read screens in Android and iOS apps.",
+    "categories": ["browser-computer"],
+    "access": ["api", "mcp", "cli"],
+    "keywords": ["android", "ios", "mobile automation", "adb", "phone use"]
+  },
+  {
+    "slug": "verify-agent-identity",
+    "label": "verify who an agent is",
+    "blurb": "Know-your-agent tokens and identity checks that prove who an agent is and who it acts for.",
+    "categories": ["agent-identity", "security"],
+    "access": ["api", "mcp"],
+    "keywords": ["agent identity", "know your agent", "agent verification"]
   }
 ]

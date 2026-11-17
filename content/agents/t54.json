@@ -7,6 +7,7 @@
   "providerUrl": "https://www.t54.ai",
   "agentUrl": "https://www.t54.ai/docs/trustline/overview",
   "categories": [
+    "agent-identity",
     "security",
     "commerce-payments"
   ],
@@ -60,5 +61,5 @@
     "api"
   ],
   "createdAt": "2026-11-17T15:25:53.000Z",
-  "updatedAt": "2026-11-17T15:25:53.000Z"
+  "updatedAt": "2026-11-17T15:30:32.000Z"
 }
