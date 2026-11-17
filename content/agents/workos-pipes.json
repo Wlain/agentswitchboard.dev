@@ -7,6 +7,7 @@
   "providerUrl": "https://workos.com",
   "agentUrl": "https://workos.com/pipes",
   "categories": [
+    "agent-identity",
     "infrastructure",
     "security"
   ],
@@ -60,5 +61,5 @@
     "api"
   ],
   "createdAt": "2026-10-31T07:10:38.191Z",
-  "updatedAt": "2026-11-02T07:34:56.527Z"
+  "updatedAt": "2026-11-17T15:30:32.000Z"
 }

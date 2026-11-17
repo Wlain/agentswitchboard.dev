@@ -7,6 +7,7 @@
   "providerUrl": "https://nango.dev",
   "agentUrl": "https://nango.dev/docs/getting-started/intro-to-nango",
   "categories": [
+    "agent-identity",
     "infrastructure"
   ],
   "tags": [
@@ -56,5 +57,5 @@
     "api"
   ],
   "createdAt": "2026-04-08T07:17:27.018Z",
-  "updatedAt": "2026-09-25T23:53:39.246Z"
+  "updatedAt": "2026-11-17T15:30:32.000Z"
 }

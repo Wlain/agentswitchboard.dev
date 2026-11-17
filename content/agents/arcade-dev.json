@@ -7,6 +7,7 @@
   "providerUrl": "https://arcade.dev",
   "agentUrl": "https://arcade.dev",
   "categories": [
+    "agent-identity",
     "infrastructure",
     "security"
   ],
@@ -49,5 +50,5 @@
     "api"
   ],
   "createdAt": "2026-07-06T07:04:22.119Z",
-  "updatedAt": "2026-07-06T07:04:22.119Z"
+  "updatedAt": "2026-11-17T15:30:32.000Z"
 }

@@ -8,7 +8,8 @@
   "agentUrl": "https://auth0.com/docs/get-started/auth0-mcp-server",
   "categories": [
     "security",
-    "code-devtools"
+    "code-devtools",
+    "agent-identity"
   ],
   "tags": [
     "identity",
@@ -61,5 +62,5 @@
     "mcp"
   ],
   "createdAt": "2026-10-04T17:55:56.169Z",
-  "updatedAt": "2026-11-02T07:34:56.527Z"
+  "updatedAt": "2026-11-17T15:30:32.000Z"
 }
