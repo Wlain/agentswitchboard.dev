@@ -1,5 +1,9 @@
 [
   {
+    "items": ["docusign-mcp", "docuseal", "signnow-mcp"],
+    "intro": "Three ways for an agent to send documents for e-signature: Docusign and SignNow through hosted OAuth MCP servers, and DocuSeal, open source, with a hosted MCP or self-hosting."
+  },
+  {
     "items": ["github-copilot", "cursor", "codeium-windsurf"],
     "intro": "Three AI coding assistants, each an official listing. Cursor and Devin Desktop (formerly Windsurf) are editors with multi-file edits and autonomous coding; GitHub Copilot is a pair programmer with an agent mode."
   },

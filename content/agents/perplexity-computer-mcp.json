@@ -1,0 +1,36 @@
+{
+  "id": "perplexity-computer-mcp",
+  "name": "Perplexity Computer MCP Server",
+  "slug": "perplexity-computer-mcp",
+  "description": "Delegates multi-step tasks from Claude Code, Codex or another MCP client to Perplexity Computer through a remote MCP server.",
+  "providerName": "Perplexity",
+  "providerUrl": "https://www.perplexity.ai",
+  "agentUrl": "https://docs.perplexity.ai/docs/getting-started/integrations/computer-mcp-server",
+  "categories": [
+    "autonomous-agents",
+    "browser-computer"
+  ],
+  "tags": [
+    "task-delegation",
+    "computer-use",
+    "remote-mcp",
+    "perplexity",
+    "autonomous-tasks"
+  ],
+  "skills": [],
+  "authType": "oauth2",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "mcpEndpoint": "https://www.perplexity.ai/rest/computer/mcp",
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "official": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "mcp"
+  ],
+  "createdAt": "2026-11-20T17:42:21.600Z",
+  "updatedAt": "2026-11-20T17:42:21.600Z"
+}

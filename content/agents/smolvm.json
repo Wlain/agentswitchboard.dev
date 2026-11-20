@@ -1,0 +1,38 @@
+{
+  "id": "smolvm",
+  "name": "smolvm",
+  "slug": "smolvm",
+  "description": "Sandboxes AI agents in branchable local microVMs, with Node, Python, Rust and Go SDKs and a hosted cloud.",
+  "providerName": "smol machines",
+  "providerUrl": "https://github.com/smol-machines",
+  "agentUrl": "https://smolmachines.com",
+  "categories": [
+    "infrastructure"
+  ],
+  "tags": [
+    "microvm",
+    "sandboxes",
+    "agent-isolation",
+    "code-execution",
+    "sdk"
+  ],
+  "skills": [],
+  "authType": "apiKey",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "install": {
+    "type": "brew",
+    "command": "brew install smol-machines/tap/smolvm"
+  },
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "cli",
+    "api"
+  ],
+  "createdAt": "2026-11-20T17:42:21.705Z",
+  "updatedAt": "2026-11-20T17:42:21.705Z"
+}

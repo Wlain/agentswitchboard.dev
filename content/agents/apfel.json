@@ -1,0 +1,38 @@
+{
+  "id": "apfel",
+  "name": "apfel",
+  "slug": "apfel",
+  "description": "Runs Apple's on-device FoundationModels LLM from a CLI and a local OpenAI-compatible server, with MCP tool calling.",
+  "providerName": "Arthur Ficial",
+  "providerUrl": "https://github.com/Arthur-Ficial",
+  "agentUrl": "https://apfel.franzai.com",
+  "categories": [
+    "infrastructure"
+  ],
+  "tags": [
+    "on-device-llm",
+    "apple-intelligence",
+    "openai-compatible",
+    "local-llm",
+    "macos"
+  ],
+  "skills": [],
+  "authType": "none",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "install": {
+    "type": "brew",
+    "command": "brew install apfel"
+  },
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "cli",
+    "api"
+  ],
+  "createdAt": "2026-11-20T17:42:21.624Z",
+  "updatedAt": "2026-11-20T17:42:21.624Z"
+}

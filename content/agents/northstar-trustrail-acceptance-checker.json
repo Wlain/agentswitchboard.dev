@@ -29,7 +29,7 @@
   "authType": "none",
   "supportsStreaming": false,
   "supportsPushNotifications": false,
-  "status": "published",
+  "status": "archived",
   "featured": false,
   "verified": true,
   "tier": "free",
@@ -39,5 +39,5 @@
     "mcp"
   ],
   "createdAt": "2026-10-24T00:00:00.000Z",
-  "updatedAt": "2026-11-13T12:20:01.320Z"
+  "updatedAt": "2026-11-20T17:42:56.657Z"
 }

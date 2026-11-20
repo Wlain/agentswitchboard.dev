@@ -1,0 +1,35 @@
+{
+  "id": "suno-mcp",
+  "name": "Suno MCP",
+  "slug": "suno-mcp",
+  "description": "Makes, extends and covers songs from AI chats through Suno's official remote MCP server.",
+  "providerName": "Suno",
+  "providerUrl": "https://suno.com",
+  "agentUrl": "https://suno.com/mcp",
+  "categories": [
+    "content-media"
+  ],
+  "tags": [
+    "music-generation",
+    "song-creation",
+    "audio-generation",
+    "remote-mcp",
+    "suno"
+  ],
+  "skills": [],
+  "authType": "oauth2",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "mcpEndpoint": "https://api.suno.com/mcp",
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "official": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "mcp"
+  ],
+  "createdAt": "2026-11-20T17:42:21.616Z",
+  "updatedAt": "2026-11-20T17:42:21.616Z"
+}

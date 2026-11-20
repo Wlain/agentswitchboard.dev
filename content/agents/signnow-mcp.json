@@ -1,0 +1,52 @@
+{
+  "id": "signnow-mcp",
+  "name": "SignNow MCP Server",
+  "slug": "signnow-mcp",
+  "description": "Sends documents for eSignature, builds templates, tracks signing and embeds signing flows from agents through SignNow's hosted MCP.",
+  "providerName": "airSlate SignNow",
+  "providerUrl": "https://www.signnow.com",
+  "agentUrl": "https://docs.signnow.com/docs/mcp-server",
+  "categories": [
+    "productivity",
+    "legal"
+  ],
+  "tags": [
+    "e-signature",
+    "document-signing",
+    "signing-workflows",
+    "templates",
+    "remote-mcp"
+  ],
+  "skills": [
+    {
+      "id": "send-for-signature",
+      "name": "Send for signature",
+      "description": "Sends documents and document groups for signature in a role-based signing order."
+    },
+    {
+      "id": "templates-prefill",
+      "name": "Templates and pre-fill",
+      "description": "Creates reusable templates from documents and pre-fills document fields with data."
+    },
+    {
+      "id": "track-signing",
+      "name": "Track signing",
+      "description": "Tracks each document's signing progress and downloads the completed, signed documents when they finish."
+    }
+  ],
+  "authType": "oauth2",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "mcpEndpoint": "https://mcp-server.signnow.com/mcp",
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "mcp",
+    "api"
+  ],
+  "createdAt": "2026-11-20T17:42:21.628Z",
+  "updatedAt": "2026-11-20T17:42:21.628Z"
+}

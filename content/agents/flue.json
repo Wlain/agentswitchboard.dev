@@ -1,0 +1,33 @@
+{
+  "id": "flue",
+  "name": "Flue",
+  "slug": "flue",
+  "description": "Builds agents with a TypeScript agent framework and harness that runs them in local, virtual or remote sandboxes, from the Astro team.",
+  "providerName": "Astro",
+  "providerUrl": "https://github.com/withastro",
+  "agentUrl": "https://flueframework.com",
+  "categories": [
+    "orchestration"
+  ],
+  "tags": [
+    "agent-framework",
+    "typescript",
+    "sandboxes",
+    "agent-harness",
+    "vite"
+  ],
+  "skills": [],
+  "authType": "none",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "cli"
+  ],
+  "createdAt": "2026-11-20T17:42:21.681Z",
+  "updatedAt": "2026-11-20T17:42:21.681Z"
+}

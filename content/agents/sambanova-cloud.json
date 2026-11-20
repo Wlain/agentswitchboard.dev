@@ -1,0 +1,36 @@
+{
+  "id": "sambanova-cloud",
+  "name": "SambaNova Cloud (SambaCloud)",
+  "slug": "sambanova-cloud",
+  "description": "Serves open models fast on SambaNova chips through an OpenAI-compatible inference API and Python SDK.",
+  "providerName": "SambaNova",
+  "providerUrl": "https://sambanova.ai",
+  "agentUrl": "https://cloud.sambanova.ai",
+  "categories": [
+    "infrastructure",
+    "language"
+  ],
+  "tags": [
+    "llm-inference",
+    "open-models",
+    "openai-compatible",
+    "fast-inference",
+    "python-sdk"
+  ],
+  "skills": [],
+  "authType": "apiKey",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "apiBaseUrl": "https://api.sambanova.ai/v1",
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "official": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "api"
+  ],
+  "createdAt": "2026-11-20T17:42:21.611Z",
+  "updatedAt": "2026-11-20T17:42:21.611Z"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "cli-printing-press",
+  "name": "CLI Printing Press",
+  "slug": "cli-printing-press",
+  "description": "Generates agent-first Go CLIs, and MCP servers, for any API from its docs and traffic.",
+  "providerName": "Matt Van Horn",
+  "providerUrl": "https://github.com/mvanhorn",
+  "agentUrl": "https://printingpress.dev",
+  "categories": [
+    "code-devtools"
+  ],
+  "tags": [
+    "cli-generator",
+    "api-clients",
+    "go",
+    "code-generation",
+    "mcp-server"
+  ],
+  "skills": [],
+  "authType": "none",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "install": {
+    "type": "binary",
+    "command": "curl -fsSL https://raw.githubusercontent.com/mvanhorn/cli-printing-press/main/scripts/install.sh | bash"
+  },
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "cli"
+  ],
+  "createdAt": "2026-11-20T17:42:21.770Z",
+  "updatedAt": "2026-11-20T17:42:21.770Z"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "gogcli",
+  "name": "gogcli",
+  "slug": "gogcli",
+  "description": "Works with Google Workspace (Gmail, Calendar, Drive and more) from a CLI with a typed stdio MCP server for agents.",
+  "providerName": "openclaw",
+  "providerUrl": "https://github.com/openclaw",
+  "agentUrl": "https://gogcli.sh",
+  "categories": [
+    "productivity"
+  ],
+  "tags": [
+    "google-workspace",
+    "gmail",
+    "google-calendar",
+    "google-drive",
+    "mcp-server"
+  ],
+  "skills": [],
+  "authType": "oauth2",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "install": {
+    "type": "brew",
+    "command": "brew install openclaw/tap/gogcli"
+  },
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "cli",
+    "mcp"
+  ],
+  "createdAt": "2026-11-20T17:42:21.683Z",
+  "updatedAt": "2026-11-20T17:42:21.683Z"
+}

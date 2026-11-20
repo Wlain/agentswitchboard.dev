@@ -1,0 +1,37 @@
+{
+  "id": "microsoft-agent-governance-toolkit",
+  "name": "Agent Governance Toolkit",
+  "slug": "microsoft-agent-governance-toolkit",
+  "description": "Enforces policies, agent identity, sandboxing and audit logging for AI agents, with Python, TypeScript and .NET SDKs and a CLI.",
+  "providerName": "Microsoft",
+  "providerUrl": "https://www.microsoft.com",
+  "agentUrl": "https://github.com/microsoft/agent-governance-toolkit",
+  "categories": [
+    "security",
+    "agent-identity"
+  ],
+  "tags": [
+    "agent-governance",
+    "policy-enforcement",
+    "agent-identity",
+    "audit-logging",
+    "sandboxing",
+    "approval-workflows"
+  ],
+  "skills": [],
+  "authType": "none",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "official": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "cli",
+    "api"
+  ],
+  "createdAt": "2026-11-20T17:42:21.574Z",
+  "updatedAt": "2026-11-20T17:42:21.574Z"
+}

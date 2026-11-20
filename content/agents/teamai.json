@@ -1,0 +1,50 @@
+{
+  "id": "teamai",
+  "name": "TeamAI",
+  "slug": "teamai",
+  "description": "Syncs a team's agent skills, rules, MCP servers, hooks and models from a shared git repo to every member's coding agents.",
+  "providerName": "Tencent",
+  "providerUrl": "https://www.tencent.com",
+  "agentUrl": "https://github.com/Tencent/teamai-cli",
+  "categories": [
+    "code-devtools",
+    "orchestration"
+  ],
+  "tags": [
+    "team-config",
+    "agent-skills",
+    "mcp-config",
+    "coding-agents",
+    "git-sync"
+  ],
+  "skills": [
+    {
+      "id": "team-execution",
+      "name": "Team execution",
+      "description": "Makes every agent work the team's way by syncing skills, rules, agents, hooks, MCP servers and workflows."
+    },
+    {
+      "id": "team-context",
+      "name": "Team context",
+      "description": "Shares learnings, a codebase graph and a team wiki so every agent understands the team (beta)."
+    }
+  ],
+  "authType": "none",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "install": {
+    "type": "npm",
+    "command": "npm install -g teamai-cli"
+  },
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "official": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "cli"
+  ],
+  "createdAt": "2026-11-20T17:42:21.582Z",
+  "updatedAt": "2026-11-20T17:42:21.582Z"
+}

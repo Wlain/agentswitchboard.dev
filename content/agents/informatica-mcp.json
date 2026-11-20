@@ -1,0 +1,34 @@
+{
+  "id": "informatica-mcp",
+  "name": "Informatica MCP Servers (Catalog Discovery)",
+  "slug": "informatica-mcp",
+  "description": "Searches governed catalog data assets from agents through Informatica's hosted MCP servers, per IDMC pod, with OAuth 2.1.",
+  "providerName": "Informatica",
+  "providerUrl": "https://www.informatica.com",
+  "agentUrl": "https://www.informatica.com/products/ai/mcp.html",
+  "categories": [
+    "data-analytics"
+  ],
+  "tags": [
+    "data-catalog",
+    "data-governance",
+    "catalog-search",
+    "remote-mcp",
+    "idmc"
+  ],
+  "skills": [],
+  "authType": "oauth2",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "official": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "mcp"
+  ],
+  "createdAt": "2026-11-20T17:42:21.594Z",
+  "updatedAt": "2026-11-20T17:42:21.594Z"
+}

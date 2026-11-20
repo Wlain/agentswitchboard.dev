@@ -1,0 +1,49 @@
+{
+  "id": "tryatlas",
+  "name": "Atlas",
+  "slug": "tryatlas",
+  "description": "Records Claude Code, Codex and other agent sessions in one desktop IDE and CLI, with shared memory, linking each change to its prompt.",
+  "providerName": "Atlas",
+  "providerUrl": "https://github.com/tryatlas",
+  "agentUrl": "https://www.tryatlas.cc/",
+  "categories": [
+    "code-devtools",
+    "orchestration"
+  ],
+  "tags": [
+    "coding-agents",
+    "session-recording",
+    "agent-ide",
+    "shared-memory",
+    "commit-tracing"
+  ],
+  "skills": [
+    {
+      "id": "parallel-agents",
+      "name": "Run agents in parallel",
+      "description": "Runs Claude Code, Codex and other coding agents side by side, in parallel, in one desktop window."
+    },
+    {
+      "id": "trace-incidents",
+      "name": "Trace incidents",
+      "description": "Traces a change back to its prompt, showing whose agent changed what and in which session."
+    }
+  ],
+  "authType": "none",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "install": {
+    "type": "binary",
+    "command": "curl -fsSL https://github.com/tryatlas/cli/releases/latest/download/install.sh | sh"
+  },
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "cli"
+  ],
+  "createdAt": "2026-11-20T17:42:21.675Z",
+  "updatedAt": "2026-11-20T17:42:21.675Z"
+}

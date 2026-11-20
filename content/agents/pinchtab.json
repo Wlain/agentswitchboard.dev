@@ -1,0 +1,39 @@
+{
+  "id": "pinchtab",
+  "name": "PinchTab",
+  "slug": "pinchtab",
+  "description": "Gives agents control of Chrome through a local HTTP server, an MCP server and a CLI daemon, with sensitive endpoints off by default.",
+  "providerName": "Pinchtab",
+  "providerUrl": "https://github.com/pinchtab",
+  "agentUrl": "https://pinchtab.com",
+  "categories": [
+    "browser-computer"
+  ],
+  "tags": [
+    "browser-control",
+    "chrome",
+    "browser-automation",
+    "local-http-api",
+    "mcp-server"
+  ],
+  "skills": [],
+  "authType": "bearer",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "install": {
+    "type": "npm",
+    "command": "npm install -g pinchtab"
+  },
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "api",
+    "mcp",
+    "cli"
+  ],
+  "createdAt": "2026-11-20T17:42:21.664Z",
+  "updatedAt": "2026-11-20T17:42:21.664Z"
+}

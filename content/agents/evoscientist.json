@@ -1,0 +1,44 @@
+{
+  "id": "evoscientist",
+  "name": "EvoScientist",
+  "slug": "evoscientist",
+  "description": "Plans, codes, analyzes and writes research with a self-evolving multi-agent AI scientist, run from a CLI, web UI or chat channels.",
+  "providerName": "EvoScientist",
+  "providerUrl": "https://github.com/EvoScientist",
+  "agentUrl": "https://evoscientist.ai",
+  "categories": [
+    "research",
+    "autonomous-agents"
+  ],
+  "tags": [
+    "ai-scientist",
+    "research-agent",
+    "multi-agent",
+    "experiment-automation",
+    "academic-writing"
+  ],
+  "skills": [
+    {
+      "id": "research-team",
+      "name": "Research team",
+      "description": "Runs six sub-agents that plan, research, code, debug, analyze and write together."
+    }
+  ],
+  "authType": "apiKey",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "install": {
+    "type": "pip",
+    "command": "uv tool install EvoScientist"
+  },
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "cli"
+  ],
+  "createdAt": "2026-11-20T17:42:21.767Z",
+  "updatedAt": "2026-11-20T17:42:21.767Z"
+}

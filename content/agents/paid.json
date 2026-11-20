@@ -1,0 +1,36 @@
+{
+  "id": "paid",
+  "name": "Paid",
+  "slug": "paid",
+  "description": "Meters usage, sets prices, bills customers and reports value for companies building AI agents, through Paid's API, SDKs and MCP.",
+  "providerName": "Paid",
+  "providerUrl": "https://paid.ai",
+  "agentUrl": "https://docs.paid.ai/mcp/mcp/quickstart.md",
+  "categories": [
+    "commerce-payments",
+    "finance"
+  ],
+  "tags": [
+    "usage-metering",
+    "agent-billing",
+    "pricing",
+    "invoicing",
+    "remote-mcp"
+  ],
+  "skills": [],
+  "authType": "oauth2",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "mcpEndpoint": "https://mcp.agentpaid.io/mcp",
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "mcp",
+    "api"
+  ],
+  "createdAt": "2026-11-20T17:42:21.646Z",
+  "updatedAt": "2026-11-20T17:42:21.646Z"
+}

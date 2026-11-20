@@ -1,0 +1,37 @@
+{
+  "id": "nullclaw",
+  "name": "NullClaw",
+  "slug": "nullclaw",
+  "description": "Runs an autonomous AI assistant as a 678 KB static Zig binary on ARM, x86 or RISC-V, with MCP tools and chat channels.",
+  "providerName": "null-ai",
+  "providerUrl": "https://github.com/nullclaw",
+  "agentUrl": "https://nullclaw.io",
+  "categories": [
+    "autonomous-agents"
+  ],
+  "tags": [
+    "autonomous-assistant",
+    "zig",
+    "edge-devices",
+    "static-binary",
+    "openclaw"
+  ],
+  "skills": [],
+  "authType": "apiKey",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "install": {
+    "type": "brew",
+    "command": "brew install nullclaw"
+  },
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "cli"
+  ],
+  "createdAt": "2026-11-20T17:42:21.689Z",
+  "updatedAt": "2026-11-20T17:42:21.689Z"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "fallow",
+  "name": "Fallow",
+  "slug": "fallow",
+  "description": "Finds dead code, duplication and complexity in TypeScript and JavaScript codebases from a Rust CLI with an MCP server for agents.",
+  "providerName": "fallow",
+  "providerUrl": "https://github.com/fallow-rs",
+  "agentUrl": "https://fallow.tools",
+  "categories": [
+    "code-devtools"
+  ],
+  "tags": [
+    "dead-code",
+    "code-quality",
+    "typescript",
+    "javascript",
+    "static-analysis"
+  ],
+  "skills": [
+    {
+      "id": "audit-changes",
+      "name": "Audit changes",
+      "description": "Checks a change for findings it introduces and fails only on those, leaving existing findings alone."
+    },
+    {
+      "id": "auto-fix",
+      "name": "Auto-fix findings",
+      "description": "Fixes auto-fixable findings with the fallow fix command, after marking them in its JSON output."
+    }
+  ],
+  "authType": "none",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "install": {
+    "type": "npm",
+    "command": "npx fallow"
+  },
+  "quickstartUrl": "https://fallow.tools/docs/integrations/mcp/",
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "cli",
+    "mcp"
+  ],
+  "createdAt": "2026-11-20T17:42:21.760Z",
+  "updatedAt": "2026-11-20T17:42:21.760Z"
+}

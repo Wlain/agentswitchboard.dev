@@ -1,0 +1,53 @@
+{
+  "id": "codex-security",
+  "name": "Codex Security",
+  "slug": "codex-security",
+  "description": "Finds, validates and patches code vulnerabilities in repositories and Git changes, from the cs CLI, a TypeScript SDK, a GitHub Action or Codex.",
+  "providerName": "OpenAI",
+  "providerUrl": "https://openai.com",
+  "agentUrl": "https://developers.openai.com/codex/security",
+  "categories": [
+    "security",
+    "code-devtools"
+  ],
+  "tags": [
+    "code-security",
+    "vulnerability-scanning",
+    "security-review",
+    "patch-generation",
+    "threat-modeling",
+    "github-action"
+  ],
+  "skills": [
+    {
+      "id": "scan-repositories",
+      "name": "Scan repositories",
+      "description": "Scans whole repositories, selected paths or Git changes for vulnerabilities and returns deduplicated findings."
+    },
+    {
+      "id": "validate-and-patch",
+      "name": "Validate and patch findings",
+      "description": "Validates candidate findings, generates patches for them and verifies that existing fixes hold."
+    },
+    {
+      "id": "threat-models",
+      "name": "Threat models and policies",
+      "description": "Drafts SECURITY.md policies and saves threat models of a project for later security review."
+    }
+  ],
+  "authType": "apiKey",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "official": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "cli",
+    "api"
+  ],
+  "createdAt": "2026-11-20T17:42:21.562Z",
+  "updatedAt": "2026-11-20T17:42:21.562Z"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "webrouter",
+  "name": "WebRouter",
+  "slug": "webrouter",
+  "description": "Routes agents' web search, extraction and browsing across many providers through one interface, from a Python library, CLI or MCP.",
+  "providerName": "Nimble",
+  "providerUrl": "https://github.com/Nimbleway",
+  "agentUrl": "https://docs.webrouter.net",
+  "categories": [
+    "browser-computer",
+    "research"
+  ],
+  "tags": [
+    "web-search",
+    "web-extraction",
+    "provider-routing",
+    "python",
+    "mcp-server"
+  ],
+  "skills": [
+    {
+      "id": "one-call-shape",
+      "name": "One call shape",
+      "description": "Sends the same search, extract, answer, research or browse request to any supported provider."
+    },
+    {
+      "id": "auto-routing",
+      "name": "Auto routing",
+      "description": "Routes each request to providers you hold keys for, ordered by published benchmarks."
+    }
+  ],
+  "authType": "apiKey",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "cli",
+    "mcp"
+  ],
+  "createdAt": "2026-11-20T17:42:21.787Z",
+  "updatedAt": "2026-11-20T17:42:21.787Z"
+}

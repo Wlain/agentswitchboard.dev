@@ -1,0 +1,46 @@
+{
+  "id": "agentteams",
+  "name": "AgentTeams",
+  "slug": "agentteams",
+  "description": "Runs multi-agent teams as a Manager and Workers in Matrix rooms people can join, self-hosted from one command or hosted on Alibaba Cloud.",
+  "providerName": "Alibaba Cloud",
+  "providerUrl": "https://www.alibabacloud.com",
+  "agentUrl": "https://www.aliyun.com/product/agentteams",
+  "categories": [
+    "orchestration"
+  ],
+  "tags": [
+    "multi-agent-runtime",
+    "manager-workers",
+    "matrix",
+    "human-in-the-loop",
+    "self-hosted",
+    "kubernetes"
+  ],
+  "skills": [
+    {
+      "id": "manager-workers",
+      "name": "Manager and workers",
+      "description": "Coordinates worker agents through a manager agent, so people don't have to oversee each worker."
+    },
+    {
+      "id": "collaboration-rooms",
+      "name": "Collaboration rooms",
+      "description": "Puts every task in a Matrix room with you, the manager and the workers, so you can watch and step in."
+    }
+  ],
+  "authType": "none",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "official": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "cli"
+  ],
+  "createdAt": "2026-11-20T17:42:21.578Z",
+  "updatedAt": "2026-11-20T17:42:21.578Z"
+}

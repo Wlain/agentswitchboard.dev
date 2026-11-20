@@ -1,0 +1,38 @@
+{
+  "id": "bb",
+  "name": "bb",
+  "slug": "bb",
+  "description": "Runs a self-modifying agentic IDE from a desktop app, a web app, a CLI and an HTTP API.",
+  "providerName": "get-bb",
+  "providerUrl": "https://github.com/get-bb",
+  "agentUrl": "https://getbb.app",
+  "categories": [
+    "code-devtools"
+  ],
+  "tags": [
+    "agentic-ide",
+    "coding-agent",
+    "desktop-app",
+    "http-api",
+    "self-modifying"
+  ],
+  "skills": [],
+  "authType": "apiKey",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "install": {
+    "type": "npm",
+    "command": "npx bb-app@latest"
+  },
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "cli",
+    "api"
+  ],
+  "createdAt": "2026-11-20T17:42:21.744Z",
+  "updatedAt": "2026-11-20T17:42:21.744Z"
+}

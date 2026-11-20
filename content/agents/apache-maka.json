@@ -1,0 +1,34 @@
+{
+  "id": "apache-maka",
+  "name": "Apache Maka",
+  "slug": "apache-maka",
+  "description": "Runs coding and agent tasks in an Apache-incubating harness with an append-only run log, on your machine with your own model.",
+  "providerName": "The Apache Software Foundation",
+  "providerUrl": "https://github.com/apache",
+  "agentUrl": "https://maka.apache.org/en/",
+  "categories": [
+    "code-devtools",
+    "autonomous-agents"
+  ],
+  "tags": [
+    "agent-harness",
+    "run-log",
+    "local-first",
+    "bring-your-own-model",
+    "apache"
+  ],
+  "skills": [],
+  "authType": "apiKey",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "cli"
+  ],
+  "createdAt": "2026-11-20T17:42:21.739Z",
+  "updatedAt": "2026-11-20T17:42:21.739Z"
+}

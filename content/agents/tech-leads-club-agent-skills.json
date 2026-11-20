@@ -1,0 +1,38 @@
+{
+  "id": "tech-leads-club-agent-skills",
+  "name": "Agent Skills (Tech Leads Club)",
+  "slug": "tech-leads-club-agent-skills",
+  "description": "Installs curated, reviewed skills into coding agents from a skill registry with an installer CLI and an MCP server.",
+  "providerName": "TechLeads.club",
+  "providerUrl": "https://github.com/tech-leads-club",
+  "agentUrl": "https://agent-skills.techleads.club",
+  "categories": [
+    "code-devtools"
+  ],
+  "tags": [
+    "agent-skills",
+    "skill-registry",
+    "coding-agents",
+    "installer",
+    "mcp-server"
+  ],
+  "skills": [],
+  "authType": "none",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "install": {
+    "type": "npm",
+    "command": "npm install -g @tech-leads-club/agent-skills"
+  },
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "cli",
+    "mcp"
+  ],
+  "createdAt": "2026-11-20T17:42:21.701Z",
+  "updatedAt": "2026-11-20T17:42:21.701Z"
+}

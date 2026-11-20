@@ -1,0 +1,40 @@
+{
+  "id": "engram",
+  "name": "Engram",
+  "slug": "engram",
+  "description": "Gives coding agents persistent memory in a single Go binary with an MCP server, HTTP API, CLI and TUI.",
+  "providerName": "Gentleman-Programming",
+  "providerUrl": "https://github.com/Gentleman-Programming",
+  "agentUrl": "https://engram.gentlemanprogramming.com",
+  "categories": [
+    "memory-state",
+    "code-devtools"
+  ],
+  "tags": [
+    "agent-memory",
+    "persistent-memory",
+    "coding-agents",
+    "mcp-server",
+    "go"
+  ],
+  "skills": [],
+  "authType": "none",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "install": {
+    "type": "brew",
+    "command": "brew install gentleman-programming/tap/engram"
+  },
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "mcp",
+    "api",
+    "cli"
+  ],
+  "createdAt": "2026-11-20T17:42:21.687Z",
+  "updatedAt": "2026-11-20T17:42:21.687Z"
+}

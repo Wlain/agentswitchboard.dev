@@ -1,0 +1,36 @@
+{
+  "id": "tabstack",
+  "name": "Tabstack",
+  "slug": "tabstack",
+  "description": "Extracts web content, runs cited research and automates browsers for agents through Mozilla's managed web API, SDKs and CLI.",
+  "providerName": "Mozilla",
+  "providerUrl": "https://tabstack.ai",
+  "agentUrl": "https://tabstack.ai",
+  "categories": [
+    "browser-computer",
+    "research"
+  ],
+  "tags": [
+    "web-extraction",
+    "web-research",
+    "browser-automation",
+    "citations",
+    "mozilla"
+  ],
+  "skills": [],
+  "authType": "apiKey",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "official": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "api",
+    "cli"
+  ],
+  "createdAt": "2026-11-20T17:42:21.783Z",
+  "updatedAt": "2026-11-20T17:42:21.783Z"
+}

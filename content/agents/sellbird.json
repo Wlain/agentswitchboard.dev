@@ -1,0 +1,33 @@
+{
+  "id": "sellbird",
+  "name": "Sellbird",
+  "slug": "sellbird",
+  "description": "Prospects leads, verifies emails, writes and sends cold email from a local outbound sales agent run through Claude Code or Codex.",
+  "providerName": "Ethan+",
+  "providerUrl": "https://github.com/ethanplusai",
+  "agentUrl": "https://sellbird.ai",
+  "categories": [
+    "sales-marketing"
+  ],
+  "tags": [
+    "outbound-sales",
+    "cold-email",
+    "lead-prospecting",
+    "email-verification",
+    "self-hosted"
+  ],
+  "skills": [],
+  "authType": "none",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "cli"
+  ],
+  "createdAt": "2026-11-20T17:42:21.715Z",
+  "updatedAt": "2026-11-20T17:42:21.715Z"
+}

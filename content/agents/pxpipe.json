@@ -1,0 +1,38 @@
+{
+  "id": "pxpipe",
+  "name": "pxpipe",
+  "slug": "pxpipe",
+  "description": "Cuts coding agents' input tokens by rendering bulky context as images in a local proxy for Claude Code, Gemini CLI and Antigravity.",
+  "providerName": "teamchong",
+  "providerUrl": "https://github.com/teamchong",
+  "agentUrl": "https://github.com/teamchong/pxpipe",
+  "categories": [
+    "infrastructure",
+    "code-devtools"
+  ],
+  "tags": [
+    "token-reduction",
+    "context-compression",
+    "local-proxy",
+    "claude-code",
+    "gemini-cli"
+  ],
+  "skills": [],
+  "authType": "none",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "install": {
+    "type": "npm",
+    "command": "npx pxpipe-proxy"
+  },
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "cli"
+  ],
+  "createdAt": "2026-11-20T17:42:21.622Z",
+  "updatedAt": "2026-11-20T17:42:21.622Z"
+}

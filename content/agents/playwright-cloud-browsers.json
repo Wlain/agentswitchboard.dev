@@ -1,0 +1,36 @@
+{
+  "id": "playwright-cloud-browsers",
+  "name": "Playwright Cloud Browsers MCP",
+  "slug": "playwright-cloud-browsers",
+  "description": "Gives agents managed cloud browser sessions through a Microsoft-hosted remote MCP server tied to an Azure Playwright workspace (preview).",
+  "providerName": "Microsoft",
+  "providerUrl": "https://azure.microsoft.com",
+  "agentUrl": "https://learn.microsoft.com/en-us/azure/app-testing/playwright-cloud-browsers/how-to-playwright-workspaces-remote-mcp",
+  "categories": [
+    "browser-computer",
+    "code-devtools"
+  ],
+  "tags": [
+    "cloud-browsers",
+    "playwright",
+    "browser-automation",
+    "remote-mcp",
+    "azure"
+  ],
+  "skills": [],
+  "authType": "oauth2",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "quickstartUrl": "https://learn.microsoft.com/en-us/azure/app-testing/playwright-cloud-browsers/how-to-playwright-workspaces-remote-mcp",
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "official": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "mcp"
+  ],
+  "createdAt": "2026-11-20T17:42:21.590Z",
+  "updatedAt": "2026-11-20T17:42:21.590Z"
+}

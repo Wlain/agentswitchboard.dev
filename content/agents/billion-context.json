@@ -1,0 +1,49 @@
+{
+  "id": "billion-context",
+  "name": "billion-context",
+  "slug": "billion-context",
+  "description": "Compresses context in a local proxy between an agent and its model API, so very long sessions keep going, with a Claude Code plugin.",
+  "providerName": "ranxianglei",
+  "providerUrl": "https://github.com/ranxianglei",
+  "agentUrl": "https://github.com/ranxianglei/billion-context",
+  "categories": [
+    "memory-state",
+    "infrastructure"
+  ],
+  "tags": [
+    "context-compression",
+    "long-context",
+    "local-proxy",
+    "claude-code",
+    "token-reduction"
+  ],
+  "skills": [
+    {
+      "id": "compress-ranges",
+      "name": "Compress ranges",
+      "description": "Folds a range of earlier messages into a detailed summary, freeing context for the rest of the session."
+    },
+    {
+      "id": "restore-and-search",
+      "name": "Restore and search",
+      "description": "Restores a compressed range when exact details are needed and searches compressed summaries by keyword."
+    }
+  ],
+  "authType": "none",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "install": {
+    "type": "npm",
+    "command": "npm install -g billion-context"
+  },
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "cli"
+  ],
+  "createdAt": "2026-11-20T17:42:21.693Z",
+  "updatedAt": "2026-11-20T17:42:21.693Z"
+}

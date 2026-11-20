@@ -1,0 +1,36 @@
+{
+  "id": "band",
+  "name": "BAND",
+  "slug": "band",
+  "description": "Puts agents from any framework in shared rooms to message, delegate and ask people for approval, through SDKs, REST and WebSocket APIs.",
+  "providerName": "BAND",
+  "providerUrl": "https://www.band.ai",
+  "agentUrl": "https://docs.band.ai",
+  "categories": [
+    "orchestration",
+    "communication"
+  ],
+  "tags": [
+    "agent-messaging",
+    "multi-agent",
+    "human-approval",
+    "agent-to-agent",
+    "websocket"
+  ],
+  "skills": [],
+  "authType": "apiKey",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "api",
+    "mcp",
+    "cli"
+  ],
+  "createdAt": "2026-11-20T17:42:21.635Z",
+  "updatedAt": "2026-11-20T17:42:21.635Z"
+}

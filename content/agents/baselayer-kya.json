@@ -1,0 +1,35 @@
+{
+  "id": "baselayer-kya",
+  "name": "Baselayer Know Your Agent",
+  "slug": "baselayer-kya",
+  "description": "Verifies the person or business behind an agent and issues short-lived Know Your Agent credentials that sites can check.",
+  "providerName": "Baselayer",
+  "providerUrl": "https://baselayer.com",
+  "agentUrl": "https://docs.baselayer.com/docs/kya-overview",
+  "categories": [
+    "agent-identity",
+    "security"
+  ],
+  "tags": [
+    "know-your-agent",
+    "agent-verification",
+    "kyb",
+    "verifiable-credentials",
+    "remote-mcp"
+  ],
+  "skills": [],
+  "authType": "oauth2",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "mcp",
+    "api"
+  ],
+  "createdAt": "2026-11-20T17:42:21.636Z",
+  "updatedAt": "2026-11-20T17:42:21.636Z"
+}

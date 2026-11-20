@@ -1,0 +1,37 @@
+{
+  "id": "oh-my-hermes",
+  "name": "oh-my-hermes",
+  "slug": "oh-my-hermes",
+  "description": "Orchestrates Hermes Agent into parallel, model-routed coworker lanes with graph runs and long-term memory, from the omh CLI.",
+  "providerName": "hope",
+  "providerUrl": "https://github.com/rlaope",
+  "agentUrl": "https://omher.app",
+  "categories": [
+    "orchestration"
+  ],
+  "tags": [
+    "hermes-agent",
+    "orchestration",
+    "model-routing",
+    "parallel-agents",
+    "agent-memory"
+  ],
+  "skills": [],
+  "authType": "apiKey",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "install": {
+    "type": "npm",
+    "command": "npm install -g oh-my-hermes"
+  },
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "cli"
+  ],
+  "createdAt": "2026-11-20T17:42:21.746Z",
+  "updatedAt": "2026-11-20T17:42:21.746Z"
+}

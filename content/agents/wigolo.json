@@ -1,0 +1,40 @@
+{
+  "id": "wigolo",
+  "name": "wigolo",
+  "slug": "wigolo",
+  "description": "Searches, fetches, crawls and extracts web pages for AI agents from a local-first MCP server, with cache and models kept on your machine.",
+  "providerName": "Towhid Khan",
+  "providerUrl": "https://github.com/KnockOutEZ",
+  "agentUrl": "https://wigolo.app",
+  "categories": [
+    "browser-computer",
+    "research"
+  ],
+  "tags": [
+    "web-search",
+    "web-crawling",
+    "content-extraction",
+    "local-first",
+    "mcp-server"
+  ],
+  "skills": [],
+  "authType": "none",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "install": {
+    "type": "npm",
+    "command": "npx wigolo init"
+  },
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "mcp",
+    "cli",
+    "api"
+  ],
+  "createdAt": "2026-11-20T17:42:21.748Z",
+  "updatedAt": "2026-11-20T17:42:21.748Z"
+}

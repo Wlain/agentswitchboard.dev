@@ -5,7 +5,7 @@
   "description": "Runs autonomous agents in isolated sandboxes with kernel-level policy enforcement over files, syscalls, and network, injecting credentials only for approved endpoints.",
   "providerName": "NVIDIA",
   "providerUrl": "https://www.nvidia.com",
-  "agentUrl": "https://github.com/NVIDIA/OpenShell",
+  "agentUrl": "https://github.com/ai-openshell/OpenShell",
   "categories": [
     "security",
     "infrastructure"
@@ -53,7 +53,7 @@
   "status": "published",
   "featured": false,
   "verified": true,
-  "official": true,
+  "official": false,
   "tier": "free",
   "discoveredBy": "manual",
   "accessMethods": [
@@ -61,5 +61,5 @@
     "api"
   ],
   "createdAt": "2026-09-25T22:20:34.456Z",
-  "updatedAt": "2026-11-02T07:34:56.527Z"
+  "updatedAt": "2026-11-20T17:42:54.020Z"
 }

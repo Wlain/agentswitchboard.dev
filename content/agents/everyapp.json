@@ -1,0 +1,39 @@
+{
+  "id": "everyapp",
+  "name": "EveryApp",
+  "slug": "everyapp",
+  "description": "Self-hosts open-source apps on Cloudflare behind one gateway with one MCP server for agents, managed from a CLI with JSON output.",
+  "providerName": "EveryApp",
+  "providerUrl": "https://github.com/every-app",
+  "agentUrl": "https://everyapp.com/docs",
+  "categories": [
+    "infrastructure",
+    "productivity"
+  ],
+  "tags": [
+    "self-hosting",
+    "cloudflare-workers",
+    "mcp-gateway",
+    "open-source-apps",
+    "cli"
+  ],
+  "skills": [],
+  "authType": "oauth2",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "install": {
+    "type": "npm",
+    "command": "npm install -g everyapp"
+  },
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "cli",
+    "mcp"
+  ],
+  "createdAt": "2026-11-20T17:42:21.782Z",
+  "updatedAt": "2026-11-20T17:42:21.782Z"
+}

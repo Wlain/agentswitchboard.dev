@@ -1,0 +1,44 @@
+{
+  "id": "testsprite",
+  "name": "TestSprite",
+  "slug": "testsprite",
+  "description": "Tests code changes end to end against a live browser or API in the cloud, writing, running and fixing tests from a CLI and MCP server.",
+  "providerName": "TestSprite",
+  "providerUrl": "https://github.com/TestSprite",
+  "agentUrl": "https://www.testsprite.com",
+  "categories": [
+    "code-devtools"
+  ],
+  "tags": [
+    "end-to-end-testing",
+    "test-generation",
+    "browser-testing",
+    "api-testing",
+    "mcp-server"
+  ],
+  "skills": [
+    {
+      "id": "plan-tests",
+      "name": "Plan tests",
+      "description": "Writes an end-to-end test for new behavior that existing tests don't cover yet, then runs it in the cloud."
+    }
+  ],
+  "authType": "apiKey",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "install": {
+    "type": "npm",
+    "command": "npm install -g @testsprite/testsprite-cli"
+  },
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "cli",
+    "mcp"
+  ],
+  "createdAt": "2026-11-20T17:42:21.762Z",
+  "updatedAt": "2026-11-20T17:42:21.762Z"
+}

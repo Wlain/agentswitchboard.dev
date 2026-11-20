@@ -1,0 +1,51 @@
+{
+  "id": "devspace-mcp",
+  "name": "DevSpace",
+  "slug": "devspace-mcp",
+  "description": "Connects ChatGPT, Claude and other MCP hosts to your local workspace, and lets coding agents delegate to each other in worktrees.",
+  "providerName": "Waishnav",
+  "providerUrl": "https://github.com/Waishnav",
+  "agentUrl": "https://devspace.run",
+  "categories": [
+    "code-devtools",
+    "orchestration"
+  ],
+  "tags": [
+    "local-workspace",
+    "mcp-server",
+    "agent-delegation",
+    "worktrees",
+    "chatgpt"
+  ],
+  "skills": [
+    {
+      "id": "connect-hosts",
+      "name": "Connect MCP hosts",
+      "description": "Connects ChatGPT, Claude and other MCP hosts to your machine to read, write and search code."
+    },
+    {
+      "id": "delegate-agents",
+      "name": "Delegate between agents",
+      "description": "Delegates work between Codex, Claude Code, OpenCode and Pi, each editing in its own parallel worktree."
+    }
+  ],
+  "authType": "bearer",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "install": {
+    "type": "binary",
+    "command": "curl -fsSL https://devspace.run/install | sh"
+  },
+  "quickstartUrl": "https://devspace.run/docs/connect/mcp-hosts",
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "mcp",
+    "cli"
+  ],
+  "createdAt": "2026-11-20T17:42:21.752Z",
+  "updatedAt": "2026-11-20T17:42:21.752Z"
+}

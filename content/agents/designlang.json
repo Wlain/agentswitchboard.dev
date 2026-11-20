@@ -1,0 +1,38 @@
+{
+  "id": "designlang",
+  "name": "designlang",
+  "slug": "designlang",
+  "description": "Extracts a website's design system into tokens from a CLI, with an MCP server that gives coding agents the result.",
+  "providerName": "Manav Arya Singh",
+  "providerUrl": "https://github.com/Manavarya09",
+  "agentUrl": "https://www.designlang.app",
+  "categories": [
+    "code-devtools"
+  ],
+  "tags": [
+    "design-tokens",
+    "design-system",
+    "website-extraction",
+    "coding-agents",
+    "mcp-server"
+  ],
+  "skills": [],
+  "authType": "none",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "install": {
+    "type": "npm",
+    "command": "npm i -g designlang"
+  },
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "cli",
+    "mcp"
+  ],
+  "createdAt": "2026-11-20T17:42:21.763Z",
+  "updatedAt": "2026-11-20T17:42:21.763Z"
+}

@@ -1,0 +1,51 @@
+{
+  "id": "agentsview",
+  "name": "agentsview",
+  "slug": "agentsview",
+  "description": "Searches coding-agent sessions and tracks their token cost locally, from a CLI, a local web UI and a desktop app.",
+  "providerName": "Kenn Software",
+  "providerUrl": "https://github.com/kenn-io",
+  "agentUrl": "https://agentsview.io",
+  "categories": [
+    "code-devtools",
+    "data-analytics"
+  ],
+  "tags": [
+    "session-search",
+    "token-cost",
+    "coding-agents",
+    "usage-analytics",
+    "local-first"
+  ],
+  "skills": [
+    {
+      "id": "cost-breakdown",
+      "name": "Cost breakdown",
+      "description": "Calculates token cost per model with prompt-caching-aware pricing, filtered by date or agent."
+    },
+    {
+      "id": "json-output",
+      "name": "JSON output",
+      "description": "Outputs session usage and token cost as JSON, so scripts and other agents can read the numbers."
+    }
+  ],
+  "authType": "none",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "install": {
+    "type": "binary",
+    "command": "curl -fsSL https://agentsview.io/install.sh | bash"
+  },
+  "quickstartUrl": "https://agentsview.io/docs/mcp/",
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "cli",
+    "mcp"
+  ],
+  "createdAt": "2026-11-20T17:42:21.728Z",
+  "updatedAt": "2026-11-20T17:42:21.728Z"
+}

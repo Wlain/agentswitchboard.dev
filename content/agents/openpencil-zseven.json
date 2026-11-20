@@ -1,0 +1,50 @@
+{
+  "id": "openpencil-zseven",
+  "name": "OpenPencil",
+  "slug": "openpencil-zseven",
+  "description": "Generates and edits vector designs from text with agent teams on an AI-native canvas that has a built-in MCP server.",
+  "providerName": "ZSeven-W",
+  "providerUrl": "https://github.com/ZSeven-W",
+  "agentUrl": "https://op.zseven.tech",
+  "categories": [
+    "content-media",
+    "code-devtools"
+  ],
+  "tags": [
+    "vector-design",
+    "text-to-design",
+    "design-tool",
+    "agent-teams",
+    "mcp-server"
+  ],
+  "skills": [
+    {
+      "id": "text-to-design",
+      "name": "Text to design",
+      "description": "Generates a whole page on the canvas from a text description, streaming the design in as it is drawn."
+    },
+    {
+      "id": "modify-designs",
+      "name": "Modify designs",
+      "description": "Changes selected elements from a natural-language description or a reference screenshot."
+    }
+  ],
+  "authType": "apiKey",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "install": {
+    "type": "brew",
+    "command": "brew install zseven-w/openpencil/op"
+  },
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "mcp",
+    "cli"
+  ],
+  "createdAt": "2026-11-20T17:42:21.699Z",
+  "updatedAt": "2026-11-20T17:42:21.699Z"
+}

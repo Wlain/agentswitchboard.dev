@@ -1,0 +1,33 @@
+{
+  "id": "cowart",
+  "name": "Cowart",
+  "slug": "cowart",
+  "description": "Opens an infinite tldraw canvas in Codex where you generate images, HTML pages, slides and video, through the plugin's MCP server.",
+  "providerName": "Twox",
+  "providerUrl": "https://github.com/zhongerxin",
+  "agentUrl": "https://cowart.jiqiren.ai",
+  "categories": [
+    "content-media"
+  ],
+  "tags": [
+    "tldraw",
+    "canvas",
+    "image-generation",
+    "slides",
+    "codex-plugin"
+  ],
+  "skills": [],
+  "authType": "apiKey",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "mcp"
+  ],
+  "createdAt": "2026-11-20T17:42:21.735Z",
+  "updatedAt": "2026-11-20T17:42:21.735Z"
+}

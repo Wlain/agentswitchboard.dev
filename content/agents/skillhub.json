@@ -1,0 +1,56 @@
+{
+  "id": "skillhub",
+  "name": "SkillHub",
+  "slug": "skillhub",
+  "description": "Hosts a self-hosted enterprise registry where teams publish, version, review and search agent skill packages, with a CLI.",
+  "providerName": "iFLYTEK",
+  "providerUrl": "https://www.iflytek.com",
+  "agentUrl": "https://github.com/iflytek/skillhub",
+  "categories": [
+    "infrastructure",
+    "orchestration"
+  ],
+  "tags": [
+    "skill-registry",
+    "agent-skills",
+    "self-hosted",
+    "package-versioning",
+    "governance"
+  ],
+  "skills": [
+    {
+      "id": "publish-skills",
+      "name": "Publish and version skills",
+      "description": "Publishes agent skill packages with semantic versions to a private, self-hosted registry for your teams."
+    },
+    {
+      "id": "discover-skills",
+      "name": "Discover skills",
+      "description": "Searches published skills by full text with filters by namespace, so teams can find and install them."
+    },
+    {
+      "id": "review-governance",
+      "name": "Review and governance",
+      "description": "Routes skills through team-admin review within each namespace before they are published."
+    }
+  ],
+  "authType": "apiKey",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "install": {
+    "type": "npm",
+    "command": "npm install -g @astron-team/skillhub"
+  },
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "official": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "cli",
+    "api"
+  ],
+  "createdAt": "2026-11-20T17:42:21.585Z",
+  "updatedAt": "2026-11-20T17:42:21.585Z"
+}

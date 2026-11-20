@@ -1,0 +1,34 @@
+{
+  "id": "coral",
+  "name": "Coral",
+  "slug": "coral",
+  "description": "Policy-checks agents' tool calls and injects credentials from a self-hosted gateway, with custom tools for SRE, support and BI work.",
+  "providerName": "Coral",
+  "providerUrl": "https://github.com/withcoral",
+  "agentUrl": "https://withcoral.com",
+  "categories": [
+    "infrastructure",
+    "security"
+  ],
+  "tags": [
+    "agent-gateway",
+    "tool-policy",
+    "credential-injection",
+    "self-hosted",
+    "mcp-gateway"
+  ],
+  "skills": [],
+  "authType": "apiKey",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "mcp"
+  ],
+  "createdAt": "2026-11-20T17:42:21.769Z",
+  "updatedAt": "2026-11-20T17:42:21.769Z"
+}

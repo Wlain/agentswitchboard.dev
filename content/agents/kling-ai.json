@@ -1,0 +1,36 @@
+{
+  "id": "kling-ai",
+  "name": "Kling AI",
+  "slug": "kling-ai",
+  "description": "Generates images and videos with Kling through Kuaishou's official remote MCP server, CLI and REST API.",
+  "providerName": "Kuaishou",
+  "providerUrl": "https://kling.ai",
+  "agentUrl": "https://kling.ai/app/mcp/guide",
+  "categories": [
+    "content-media"
+  ],
+  "tags": [
+    "video-generation",
+    "image-generation",
+    "text-to-video",
+    "remote-mcp",
+    "kling"
+  ],
+  "skills": [],
+  "authType": "oauth2",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "official": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "mcp",
+    "cli",
+    "api"
+  ],
+  "createdAt": "2026-11-20T17:42:21.595Z",
+  "updatedAt": "2026-11-20T17:42:21.595Z"
+}

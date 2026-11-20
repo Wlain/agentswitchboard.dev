@@ -1,8 +1,8 @@
 {
   "id": "superagnt",
-  "name": "superagnt_",
+  "name": "superagnt",
   "slug": "superagnt",
-  "description": "Connects agents to social, web, SEO and lead-enrichment data across 10 platforms and 262 REST endpoints, reachable over one streamable-HTTP MCP server or a keyed REST API.",
+  "description": "Marketing plugin and MCP server for Claude, ChatGPT and other agents finding customers via outbound, SEO and ads: verified-email leads, your and competitors' rankings, their ads, social and web data.",
   "providerName": "agntdata, inc.",
   "providerUrl": "https://superagnt.com",
   "agentUrl": "https://superagnt.com/docs",
@@ -60,5 +60,5 @@
     "api"
   ],
   "createdAt": "2026-10-24T00:00:00.000Z",
-  "updatedAt": "2026-10-25T01:16:46.687Z"
+  "updatedAt": "2026-11-20T17:42:55.149Z"
 }

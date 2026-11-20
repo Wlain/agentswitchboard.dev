@@ -1,0 +1,39 @@
+{
+  "id": "vercel-eve",
+  "name": "eve",
+  "slug": "vercel-eve",
+  "description": "Builds production agents in TypeScript with Vercel's open-source agent framework, scaffolded and linked to a project from the eve CLI.",
+  "providerName": "Vercel",
+  "providerUrl": "https://vercel.com",
+  "agentUrl": "https://github.com/vercel/eve",
+  "categories": [
+    "orchestration",
+    "code-devtools"
+  ],
+  "tags": [
+    "agent-framework",
+    "typescript",
+    "production-agents",
+    "vercel",
+    "scaffolding"
+  ],
+  "skills": [],
+  "authType": "none",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "install": {
+    "type": "npm",
+    "command": "npx eve@latest init"
+  },
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "official": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "cli"
+  ],
+  "createdAt": "2026-11-20T17:42:21.580Z",
+  "updatedAt": "2026-11-20T17:42:21.580Z"
+}

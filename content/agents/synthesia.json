@@ -1,0 +1,36 @@
+{
+  "id": "synthesia",
+  "name": "Synthesia MCP and API",
+  "slug": "synthesia",
+  "description": "Creates AI avatar videos from assistants through Synthesia's hosted MCP server, plus a developer REST API.",
+  "providerName": "Synthesia",
+  "providerUrl": "https://www.synthesia.io",
+  "agentUrl": "https://developers.synthesia.io/docs/synthesia-mcp",
+  "categories": [
+    "content-media"
+  ],
+  "tags": [
+    "avatar-video",
+    "video-generation",
+    "text-to-video",
+    "remote-mcp",
+    "synthesia"
+  ],
+  "skills": [],
+  "authType": "oauth2",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "mcpEndpoint": "https://mcp.synthesia.io/mcp",
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "official": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "mcp",
+    "api"
+  ],
+  "createdAt": "2026-11-20T17:42:21.613Z",
+  "updatedAt": "2026-11-20T17:42:21.613Z"
+}

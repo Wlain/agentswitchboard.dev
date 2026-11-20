@@ -1,0 +1,37 @@
+{
+  "id": "clawteam",
+  "name": "ClawTeam",
+  "slug": "clawteam",
+  "description": "Lets coding agents spawn and coordinate multi-agent swarms with task delegation, from a CLI and a web UI.",
+  "providerName": "Data Intelligence Lab@HKU",
+  "providerUrl": "https://github.com/HKUDS",
+  "agentUrl": "https://github.com/HKUDS/ClawTeam",
+  "categories": [
+    "orchestration"
+  ],
+  "tags": [
+    "agent-swarms",
+    "multi-agent",
+    "task-delegation",
+    "coding-agents",
+    "research"
+  ],
+  "skills": [],
+  "authType": "apiKey",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "install": {
+    "type": "pip",
+    "command": "pip install clawteam"
+  },
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "cli"
+  ],
+  "createdAt": "2026-11-20T17:42:21.749Z",
+  "updatedAt": "2026-11-20T17:42:21.749Z"
+}

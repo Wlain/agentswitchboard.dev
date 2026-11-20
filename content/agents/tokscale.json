@@ -1,0 +1,44 @@
+{
+  "id": "tokscale",
+  "name": "Tokscale",
+  "slug": "tokscale",
+  "description": "Tracks token usage and cost across AI coding agents from a terminal UI and a web dashboard, with live pricing.",
+  "providerName": "Junho Yeo",
+  "providerUrl": "https://github.com/junhoyeo",
+  "agentUrl": "https://tokscale.ai",
+  "categories": [
+    "infrastructure",
+    "code-devtools"
+  ],
+  "tags": [
+    "token-usage",
+    "cost-tracking",
+    "coding-agents",
+    "terminal-ui",
+    "usage-dashboard"
+  ],
+  "skills": [
+    {
+      "id": "token-breakdowns",
+      "name": "Token breakdowns",
+      "description": "Breaks usage down into input, output, cache read and write, and reasoning tokens."
+    }
+  ],
+  "authType": "none",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "install": {
+    "type": "npm",
+    "command": "npx tokscale@latest"
+  },
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "cli"
+  ],
+  "createdAt": "2026-11-20T17:42:21.742Z",
+  "updatedAt": "2026-11-20T17:42:21.742Z"
+}

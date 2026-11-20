@@ -1,0 +1,49 @@
+{
+  "id": "openkb",
+  "name": "OpenKB",
+  "slug": "openkb",
+  "description": "Compiles documents into an LLM-maintained wiki knowledge base with vectorless retrieval, from a CLI and web UI.",
+  "providerName": "PageIndex",
+  "providerUrl": "https://github.com/VectifyAI",
+  "agentUrl": "https://github.com/VectifyAI/OpenKB",
+  "categories": [
+    "memory-state",
+    "research"
+  ],
+  "tags": [
+    "knowledge-base",
+    "wiki",
+    "document-ingestion",
+    "vectorless-rag",
+    "pdf"
+  ],
+  "skills": [
+    {
+      "id": "compile-wiki",
+      "name": "Compile a wiki",
+      "description": "Compiles documents into an LLM-maintained wiki of summaries, concept pages, entity pages and cross-links."
+    },
+    {
+      "id": "query-wiki",
+      "name": "Query the wiki",
+      "description": "Answers one-off questions or multi-turn chats over the wiki, with saved sessions."
+    }
+  ],
+  "authType": "apiKey",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "install": {
+    "type": "pip",
+    "command": "pip install openkb"
+  },
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "cli"
+  ],
+  "createdAt": "2026-11-20T17:42:21.772Z",
+  "updatedAt": "2026-11-20T17:42:21.772Z"
+}

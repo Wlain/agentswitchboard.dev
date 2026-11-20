@@ -1,0 +1,50 @@
+{
+  "id": "gsd-pi",
+  "name": "GSD Pi",
+  "slug": "gsd-pi",
+  "description": "Codes from a local-first terminal agent that breaks work into milestones and tasks, works in Git worktrees and ships an MCP server.",
+  "providerName": "Open GSD",
+  "providerUrl": "https://github.com/open-gsd",
+  "agentUrl": "https://github.com/open-gsd/gsd-pi",
+  "categories": [
+    "code-devtools",
+    "autonomous-agents"
+  ],
+  "tags": [
+    "coding-agent",
+    "terminal-agent",
+    "milestones",
+    "git-worktrees",
+    "mcp-server"
+  ],
+  "skills": [
+    {
+      "id": "autonomous-workflow",
+      "name": "Autonomous workflow",
+      "description": "Breaks work into milestones, slices and tasks, then plans and implements them in auto mode."
+    },
+    {
+      "id": "project-memory",
+      "name": "Project memory",
+      "description": "Stores requirements, decisions, runtime notes and plans for the project locally."
+    }
+  ],
+  "authType": "apiKey",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "install": {
+    "type": "npm",
+    "command": "npm install -g @opengsd/gsd-pi@latest"
+  },
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "cli",
+    "mcp"
+  ],
+  "createdAt": "2026-11-20T17:42:21.777Z",
+  "updatedAt": "2026-11-20T17:42:21.777Z"
+}

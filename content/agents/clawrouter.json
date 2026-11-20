@@ -1,0 +1,39 @@
+{
+  "id": "clawrouter",
+  "name": "ClawRouter",
+  "slug": "clawrouter",
+  "description": "Routes agents' LLM calls through a local OpenAI-compatible proxy that pays per request in USDC over x402, with no accounts or API keys.",
+  "providerName": "BlockRun.ai",
+  "providerUrl": "https://github.com/BlockRunAI",
+  "agentUrl": "https://blockrun.ai",
+  "categories": [
+    "infrastructure",
+    "commerce-payments"
+  ],
+  "tags": [
+    "llm-router",
+    "x402",
+    "usdc-payments",
+    "openai-compatible",
+    "local-proxy"
+  ],
+  "skills": [],
+  "authType": "none",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "install": {
+    "type": "npm",
+    "command": "npm install -g @blockrun/clawrouter"
+  },
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "cli",
+    "api"
+  ],
+  "createdAt": "2026-11-20T17:42:21.720Z",
+  "updatedAt": "2026-11-20T17:42:21.720Z"
+}

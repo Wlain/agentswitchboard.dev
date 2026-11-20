@@ -1,0 +1,57 @@
+{
+  "id": "octop",
+  "name": "Octop",
+  "slug": "octop",
+  "description": "Runs a self-hosted, multi-user, multi-agent assistant that reaches people through IM channels and delegates coding tasks to agents over ACP.",
+  "providerName": "Tencent Cloud",
+  "providerUrl": "https://www.tencentcloud.com",
+  "agentUrl": "https://github.com/TencentCloud/Octop",
+  "categories": [
+    "autonomous-agents",
+    "communication"
+  ],
+  "tags": [
+    "self-hosted-assistant",
+    "multi-agent",
+    "im-bots",
+    "feishu",
+    "wecom",
+    "acp"
+  ],
+  "skills": [
+    {
+      "id": "personal-assistant",
+      "name": "Personal assistant",
+      "description": "Writes weekly reports, organizes notes and manages schedules with a dedicated agent per user."
+    },
+    {
+      "id": "team-routing",
+      "name": "Team task routing",
+      "description": "Routes tasks from Feishu, DingTalk, WeCom and WeChat into teams of agents working in parallel."
+    },
+    {
+      "id": "delegate-coding",
+      "name": "Delegate coding tasks",
+      "description": "Delegates coding tasks to OpenCode or Claude Code over ACP, or troubleshoots from the terminal."
+    }
+  ],
+  "authType": "apiKey",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "install": {
+    "type": "binary",
+    "command": "curl -fsSL https://download.octop.cloud/octop/scripts/install.sh | bash"
+  },
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "official": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "cli",
+    "api"
+  ],
+  "createdAt": "2026-11-20T17:42:21.567Z",
+  "updatedAt": "2026-11-20T17:42:21.567Z"
+}

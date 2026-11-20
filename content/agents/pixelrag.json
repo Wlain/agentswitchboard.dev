@@ -1,0 +1,38 @@
+{
+  "id": "pixelrag",
+  "name": "PixelRAG",
+  "slug": "pixelrag",
+  "description": "Retrieves documents as screenshots for visual search, through a Python package and CLI or a hosted search API that needs no key.",
+  "providerName": "StarTrail",
+  "providerUrl": "https://github.com/StarTrail-org",
+  "agentUrl": "https://pixelrag.ai",
+  "categories": [
+    "research"
+  ],
+  "tags": [
+    "visual-retrieval",
+    "screenshot-search",
+    "rag",
+    "document-search",
+    "python"
+  ],
+  "skills": [],
+  "authType": "none",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "install": {
+    "type": "pip",
+    "command": "uv tool install pixelrag"
+  },
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "cli",
+    "api"
+  ],
+  "createdAt": "2026-11-20T17:42:21.662Z",
+  "updatedAt": "2026-11-20T17:42:21.662Z"
+}

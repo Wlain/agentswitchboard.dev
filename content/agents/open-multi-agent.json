@@ -1,0 +1,33 @@
+{
+  "id": "open-multi-agent",
+  "name": "Open Multi-Agent (OMA)",
+  "slug": "open-multi-agent",
+  "description": "Runs self-hosted multi-agent workflows in TypeScript with approval gates and run records, from an npm SDK and a CLI scaffolder.",
+  "providerName": "OMA",
+  "providerUrl": "https://github.com/open-multi-agent",
+  "agentUrl": "https://open-multi-agent.com",
+  "categories": [
+    "orchestration"
+  ],
+  "tags": [
+    "multi-agent",
+    "typescript",
+    "approval-gates",
+    "self-hosted",
+    "orchestration-sdk"
+  ],
+  "skills": [],
+  "authType": "apiKey",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "cli"
+  ],
+  "createdAt": "2026-11-20T17:42:21.709Z",
+  "updatedAt": "2026-11-20T17:42:21.709Z"
+}

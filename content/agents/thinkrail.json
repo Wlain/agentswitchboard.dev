@@ -1,0 +1,38 @@
+{
+  "id": "thinkrail",
+  "name": "ThinkRail",
+  "slug": "thinkrail",
+  "description": "Runs the pi coding agent in an agentic IDE with parallel workspaces, a spec graph and pull request checks, from JetBrains' incubator.",
+  "providerName": "JetBrains",
+  "providerUrl": "https://github.com/JetBrains",
+  "agentUrl": "https://thinkrail.ai",
+  "categories": [
+    "code-devtools"
+  ],
+  "tags": [
+    "agentic-ide",
+    "coding-agent",
+    "workspaces",
+    "pull-requests",
+    "desktop-app"
+  ],
+  "skills": [],
+  "authType": "apiKey",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "install": {
+    "type": "binary",
+    "command": "curl -fsSL https://raw.githubusercontent.com/JetBrains/thinkrail/main/install.sh | bash"
+  },
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "cli",
+    "mcp"
+  ],
+  "createdAt": "2026-11-20T17:42:21.620Z",
+  "updatedAt": "2026-11-20T17:42:21.620Z"
+}

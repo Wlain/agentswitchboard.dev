@@ -1,0 +1,38 @@
+{
+  "id": "nono",
+  "name": "nono",
+  "slug": "nono",
+  "description": "Sandboxes AI agents with kernel-enforced limits, per-command credential injection and audit logs, from a CLI.",
+  "providerName": "nolabs",
+  "providerUrl": "https://github.com/nolabs-ai",
+  "agentUrl": "https://nono.sh",
+  "categories": [
+    "security",
+    "infrastructure"
+  ],
+  "tags": [
+    "agent-sandbox",
+    "kernel-sandboxing",
+    "credential-injection",
+    "audit-logs",
+    "security"
+  ],
+  "skills": [],
+  "authType": "none",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "install": {
+    "type": "brew",
+    "command": "brew install nono"
+  },
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "cli"
+  ],
+  "createdAt": "2026-11-20T17:42:21.765Z",
+  "updatedAt": "2026-11-20T17:42:21.765Z"
+}

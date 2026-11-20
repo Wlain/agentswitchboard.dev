@@ -1,0 +1,33 @@
+{
+  "id": "mission-control",
+  "name": "Mission Control",
+  "slug": "mission-control",
+  "description": "Dispatches, reviews and tracks the spend of AI agent runs from a self-hosted control plane with an API key for headless access (alpha).",
+  "providerName": "Builderz.dev",
+  "providerUrl": "https://github.com/builderz-labs",
+  "agentUrl": "https://mc.builderz.dev",
+  "categories": [
+    "orchestration"
+  ],
+  "tags": [
+    "agent-control-plane",
+    "agent-runs",
+    "spend-tracking",
+    "self-hosted",
+    "task-dispatch"
+  ],
+  "skills": [],
+  "authType": "apiKey",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "api"
+  ],
+  "createdAt": "2026-11-20T17:42:21.726Z",
+  "updatedAt": "2026-11-20T17:42:21.726Z"
+}

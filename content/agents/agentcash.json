@@ -1,0 +1,35 @@
+{
+  "id": "agentcash",
+  "name": "AgentCash",
+  "slug": "agentcash",
+  "description": "Lets agents pay per call for x402 and MPP APIs from one wallet, with no API keys, through a CLI, a local MCP or a remote MCP.",
+  "providerName": "Merit Systems",
+  "providerUrl": "https://merit.systems",
+  "agentUrl": "https://agentcash.dev/docs",
+  "categories": [
+    "commerce-payments",
+    "infrastructure"
+  ],
+  "tags": [
+    "agent-payments",
+    "x402",
+    "pay-per-call",
+    "crypto-wallet",
+    "usdc"
+  ],
+  "skills": [],
+  "authType": "oauth2",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "cli",
+    "mcp"
+  ],
+  "createdAt": "2026-11-20T17:42:21.633Z",
+  "updatedAt": "2026-11-20T17:42:21.633Z"
+}

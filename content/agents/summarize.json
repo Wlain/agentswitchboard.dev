@@ -1,0 +1,39 @@
+{
+  "id": "summarize",
+  "name": "Summarize",
+  "slug": "summarize",
+  "description": "Extracts and summarizes URLs, YouTube videos, podcasts and files from a CLI with JSON output, an agent skill and a browser extension.",
+  "providerName": "Peter Steinberger",
+  "providerUrl": "https://github.com/steipete",
+  "agentUrl": "https://summarize.sh",
+  "categories": [
+    "research",
+    "content-media"
+  ],
+  "tags": [
+    "summarization",
+    "url-extraction",
+    "youtube-summaries",
+    "podcasts",
+    "json-output"
+  ],
+  "skills": [],
+  "authType": "apiKey",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "install": {
+    "type": "brew",
+    "command": "brew install summarize"
+  },
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "cli",
+    "browser-extension"
+  ],
+  "createdAt": "2026-11-20T17:42:21.713Z",
+  "updatedAt": "2026-11-20T17:42:21.713Z"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "documenso",
+  "name": "Documenso",
+  "slug": "documenso",
+  "description": "Sends documents for signature with open-source Documenso through its REST API, TypeScript SDK and stdio MCP server, hosted or self-hosted.",
+  "providerName": "Documenso",
+  "providerUrl": "https://documenso.com",
+  "agentUrl": "https://docs.documenso.com/docs/developers",
+  "categories": [
+    "productivity",
+    "legal"
+  ],
+  "tags": [
+    "e-signature",
+    "docusign-alternative",
+    "document-signing",
+    "open-source",
+    "self-hosted"
+  ],
+  "skills": [],
+  "authType": "apiKey",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "apiBaseUrl": "https://app.documenso.com/api/v2",
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "api",
+    "mcp"
+  ],
+  "createdAt": "2026-11-20T17:42:21.651Z",
+  "updatedAt": "2026-11-20T17:42:21.651Z"
+}
