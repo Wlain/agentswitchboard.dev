@@ -89,6 +89,7 @@
   {"slug": "glean", "name": "Glean", "basis": "valuation", "evidence": "Valued $7.2B (2025 Series F)", "sources": ["glean.com", "github.com/gleanwork"]},
   {"slug": "gmo-pepabo", "name": "GMO Pepabo", "basis": "public", "evidence": "TSE: 3633 (Muumuu Domain)", "sources": ["muumuu-domain.com", "pepabo.com", "github.com/pepabo"]},
   {"slug": "gocardless", "name": "GoCardless", "basis": "valuation", "evidence": "Acquired by Mollie for €1.1B (Sep 2026)", "sources": ["gocardless.com", "github.com/gocardless"]},
+  {"slug": "godaddy", "name": "GoDaddy", "basis": "public", "evidence": "NYSE: GDDY", "sources": ["godaddy.com", "github.com/godaddy"]},
   {"slug": "gong", "name": "Gong", "basis": "valuation", "evidence": "Valued $7.25B (2021 Series E)", "sources": ["gong.io"]},
   {"slug": "google", "name": "Google", "basis": "public", "evidence": "Alphabet, NASDAQ: GOOGL; includes Google DeepMind and Google Cloud", "sources": ["google.com", "google.dev", "jules.google", "antigravity.google", "deepmind.google", "agentexecutor.io", "firebase.studio", "genkit.dev", "adk.dev", "mcp-toolbox.dev", "github.com/google", "github.com/google-gemini", "github.com/google-deepmind", "github.com/googleapis", "github.com/googlecloudplatform", "github.com/googlecolab", "github.com/googleworkspace", "github.com/genkit-ai", "github.com/chromedevtools", "developer.android.com", "github.com/google-research"]},
   {"slug": "grafana", "name": "Grafana Labs", "basis": "valuation", "evidence": "Valued $6B (2024)", "sources": ["grafana.com", "github.com/grafana"]},
