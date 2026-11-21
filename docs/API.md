@@ -188,7 +188,7 @@ curl "https://agentswitchboard.dev/api/tasks/query-a-database"
 
 ```jsonc
 {
-  "total": 53,
+  "total": 56,
   "tasks": [
     {
       "slug": "query-a-database",

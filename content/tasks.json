@@ -422,5 +422,29 @@
     "categories": ["agent-identity", "security"],
     "access": ["api", "mcp"],
     "keywords": ["agent identity", "know your agent", "agent verification"]
+  },
+  {
+    "slug": "call-llm-apis",
+    "label": "use LLM inference APIs",
+    "blurb": "Hosted and local inference APIs, most of them OpenAI-compatible, that serve open, proprietary and on-device models.",
+    "categories": ["language", "infrastructure"],
+    "access": ["api"],
+    "keywords": ["llm inference", "llm api", "inference api", "open models", "local llm"]
+  },
+  {
+    "slug": "manage-agent-skills",
+    "label": "manage agent skills",
+    "blurb": "Registries, installers and sync tools that find, install, share and update skills across your coding agents.",
+    "categories": ["code-devtools", "orchestration"],
+    "access": ["cli", "mcp"],
+    "keywords": ["agent skills", "skill registry", "skill installer", "skill marketplace", "skill sync"]
+  },
+  {
+    "slug": "track-coding-agent-costs",
+    "label": "track and cut coding-agent token costs",
+    "blurb": "Local trackers and proxies that show what your coding agents spend on tokens and cut how many they send.",
+    "categories": ["code-devtools", "infrastructure"],
+    "access": ["cli"],
+    "keywords": ["token usage", "token cost", "cost tracking", "token reduction", "context compression"]
   }
 ]
