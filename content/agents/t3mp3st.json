@@ -1,0 +1,34 @@
+{
+  "id": "t3mp3st",
+  "name": "T3MP3ST",
+  "slug": "t3mp3st",
+  "description": "Runs authorized penetration tests with a multi-agent offensive-security harness that drives existing coding agents.",
+  "providerName": "pliny",
+  "providerUrl": "https://github.com/elder-plinius",
+  "agentUrl": "https://github.com/elder-plinius/T3MP3ST",
+  "categories": [
+    "security"
+  ],
+  "tags": [
+    "penetration-testing",
+    "offensive-security",
+    "red-team",
+    "multi-agent",
+    "security-testing",
+    "pentest"
+  ],
+  "skills": [],
+  "authType": "apiKey",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "cli"
+  ],
+  "createdAt": "2026-11-20T17:42:21.707Z",
+  "updatedAt": "2026-11-20T17:42:21.707Z"
+}

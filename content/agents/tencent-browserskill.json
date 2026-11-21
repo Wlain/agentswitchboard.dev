@@ -1,0 +1,57 @@
+{
+  "id": "tencent-browserskill",
+  "name": "BrowserSkill",
+  "slug": "tencent-browserskill",
+  "description": "Lets agents drive your logged-in Chrome or Edge in a separate window, inspect network traffic and page performance, through a CLI and local MCP.",
+  "providerName": "Tencent",
+  "providerUrl": "https://www.tencent.com",
+  "agentUrl": "https://github.com/Tencent/BrowserSkill",
+  "categories": [
+    "browser-computer"
+  ],
+  "tags": [
+    "browser-automation",
+    "chrome",
+    "edge",
+    "network-inspection",
+    "web-testing",
+    "mcp-server"
+  ],
+  "skills": [
+    {
+      "id": "inspect-requests",
+      "name": "Inspect requests",
+      "description": "Reads retained request headers, submitted data, response bodies, timing and errors, filtered by traffic."
+    },
+    {
+      "id": "investigate-performance",
+      "name": "Investigate performance",
+      "description": "Inspects page-load metrics, API timing summaries and suspected duplicate requests on a page."
+    },
+    {
+      "id": "mock-and-test",
+      "name": "Mock and test",
+      "description": "Configures request modification, blocking and mock responses for a task, and keeps the evidence."
+    }
+  ],
+  "authType": "none",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "install": {
+    "type": "binary",
+    "command": "curl -fsSL https://raw.githubusercontent.com/Tencent/BrowserSkill/main/install.sh | sh"
+  },
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "official": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "cli",
+    "mcp",
+    "browser-extension"
+  ],
+  "createdAt": "2026-11-20T17:42:21.570Z",
+  "updatedAt": "2026-11-20T17:42:21.570Z"
+}

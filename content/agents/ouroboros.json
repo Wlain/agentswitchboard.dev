@@ -1,0 +1,46 @@
+{
+  "id": "ouroboros",
+  "name": "Ouroboros",
+  "slug": "ouroboros",
+  "description": "Interviews you until a goal is clear, writes a spec, hands it to your coding agent and checks every acceptance criterion.",
+  "providerName": "Q00",
+  "providerUrl": "https://github.com/Q00",
+  "agentUrl": "https://ouroboros.page",
+  "categories": [
+    "code-devtools",
+    "orchestration"
+  ],
+  "tags": [
+    "spec-driven-development",
+    "requirements",
+    "coding-agents",
+    "acceptance-criteria",
+    "claude-code"
+  ],
+  "skills": [
+    {
+      "id": "interview",
+      "name": "Interview to a spec",
+      "description": "Asks questions until the goal is clear, then writes a spec with acceptance criteria."
+    },
+    {
+      "id": "run-and-check",
+      "name": "Run and check",
+      "description": "Builds an existing spec and checks every acceptance criterion against the result."
+    }
+  ],
+  "authType": "none",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "cli",
+    "mcp"
+  ],
+  "createdAt": "2026-11-20T17:42:21.730Z",
+  "updatedAt": "2026-11-20T17:42:21.730Z"
+}

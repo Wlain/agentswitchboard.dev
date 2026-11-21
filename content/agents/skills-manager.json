@@ -1,0 +1,44 @@
+{
+  "id": "skills-manager",
+  "name": "Skills Manager",
+  "slug": "skills-manager",
+  "description": "Installs and syncs agent skills across 50+ coding tools from a desktop app and an agent-friendly CLI.",
+  "providerName": "Jay.TL",
+  "providerUrl": "https://github.com/xingkongliang",
+  "agentUrl": "https://skillsmanager.dev",
+  "categories": [
+    "code-devtools"
+  ],
+  "tags": [
+    "agent-skills",
+    "skill-sync",
+    "coding-agents",
+    "desktop-app",
+    "marketplace"
+  ],
+  "skills": [
+    {
+      "id": "browse-marketplace",
+      "name": "Browse marketplace",
+      "description": "Browses popular skills in the built-in marketplace and finds them with keyword search before installing."
+    },
+    {
+      "id": "track-updates",
+      "name": "Track updates",
+      "description": "Checks Git-based skills for upstream updates and re-imports local ones, so every tool gets the latest copy."
+    }
+  ],
+  "authType": "none",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "cli"
+  ],
+  "createdAt": "2026-11-20T17:42:21.695Z",
+  "updatedAt": "2026-11-20T17:42:21.695Z"
+}

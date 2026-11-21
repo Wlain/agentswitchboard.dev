@@ -1,0 +1,35 @@
+{
+  "id": "gladia",
+  "name": "Gladia",
+  "slug": "gladia",
+  "description": "Transcribes speech to text in real time or in batch for voice agents in 100+ languages, through REST and WebSocket APIs and SDKs.",
+  "providerName": "Gladia",
+  "providerUrl": "https://www.gladia.io",
+  "agentUrl": "https://docs.gladia.io",
+  "categories": [
+    "voice-messaging"
+  ],
+  "tags": [
+    "speech-to-text",
+    "transcription",
+    "real-time-transcription",
+    "voice-agents",
+    "websocket"
+  ],
+  "skills": [],
+  "authType": "apiKey",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "apiBaseUrl": "https://api.gladia.io",
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "official": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "api"
+  ],
+  "createdAt": "2026-11-20T17:42:21.606Z",
+  "updatedAt": "2026-11-20T17:42:21.606Z"
+}

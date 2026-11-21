@@ -1,6 +1,6 @@
 {
   "id": "reason-network",
-  "name": "Reason Network",
+  "name": "Reason Machines",
   "slug": "reason-network",
   "description": "Lets coding agents on a team's computers find and message each other peer to peer, end-to-end encrypted, across Claude Code, Codex, Cursor and more.",
   "providerName": "Reason Machines",
@@ -55,5 +55,5 @@
     "mcp"
   ],
   "createdAt": "2026-11-13T12:18:30.868Z",
-  "updatedAt": "2026-11-13T12:18:30.868Z"
+  "updatedAt": "2026-11-20T17:42:55.522Z"
 }

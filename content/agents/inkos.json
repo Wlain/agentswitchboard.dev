@@ -1,0 +1,37 @@
+{
+  "id": "inkos",
+  "name": "InkOS",
+  "slug": "inkos",
+  "description": "Writes novels, scripts, game stories and translations with a story-writing agent run from a CLI, a TUI or a web studio.",
+  "providerName": "Narcooo",
+  "providerUrl": "https://github.com/Narcooo",
+  "agentUrl": "https://github.com/Narcooo/inkos",
+  "categories": [
+    "content-media"
+  ],
+  "tags": [
+    "fiction-writing",
+    "story-generation",
+    "novel-writing",
+    "translation",
+    "creative-writing"
+  ],
+  "skills": [],
+  "authType": "apiKey",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "install": {
+    "type": "npm",
+    "command": "npm i -g @actalk/inkos"
+  },
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "cli"
+  ],
+  "createdAt": "2026-11-20T17:42:21.660Z",
+  "updatedAt": "2026-11-20T17:42:21.660Z"
+}

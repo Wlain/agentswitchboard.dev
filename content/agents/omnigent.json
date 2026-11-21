@@ -1,0 +1,50 @@
+{
+  "id": "omnigent",
+  "name": "Omnigent",
+  "slug": "omnigent",
+  "description": "Supervises and combines Claude Code, Codex, Cursor and OpenCode sessions, runs them in cloud sandboxes and shares them with teammates.",
+  "providerName": "omnigent",
+  "providerUrl": "https://github.com/omnigent-ai",
+  "agentUrl": "https://omnigent.ai",
+  "categories": [
+    "orchestration",
+    "code-devtools"
+  ],
+  "tags": [
+    "coding-agents",
+    "meta-harness",
+    "agent-sessions",
+    "cloud-sandboxes",
+    "collaboration"
+  ],
+  "skills": [
+    {
+      "id": "supervise-agents",
+      "name": "Supervise agents",
+      "description": "Supervises several coding agents at once, mixing Claude Code, Codex, Cursor and OpenCode."
+    },
+    {
+      "id": "share-sessions",
+      "name": "Share sessions",
+      "description": "Shares a session so teammates can chat with your agent and follow its work from any device."
+    }
+  ],
+  "authType": "apiKey",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "install": {
+    "type": "brew",
+    "command": "brew install omnigent-ai/tap/omnigent"
+  },
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "cli",
+    "api"
+  ],
+  "createdAt": "2026-11-20T17:42:21.659Z",
+  "updatedAt": "2026-11-20T17:42:21.659Z"
+}

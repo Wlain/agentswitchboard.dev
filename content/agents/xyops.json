@@ -1,0 +1,47 @@
+{
+  "id": "xyops",
+  "name": "xyOps",
+  "slug": "xyops",
+  "description": "Schedules jobs, builds workflows and monitors servers in a self-hosted platform with a REST API, the xyCLI and an MCP server.",
+  "providerName": "PixlCore",
+  "providerUrl": "https://github.com/pixlcore",
+  "agentUrl": "https://xyops.io",
+  "categories": [
+    "orchestration",
+    "scheduling",
+    "infrastructure"
+  ],
+  "tags": [
+    "job-scheduler",
+    "workflow-automation",
+    "server-monitoring",
+    "self-hosted",
+    "cronicle"
+  ],
+  "skills": [
+    {
+      "id": "visual-workflows",
+      "name": "Visual workflows",
+      "description": "Builds visual workflows with branching, parallel execution, joins and human approval steps between jobs."
+    }
+  ],
+  "authType": "apiKey",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "install": {
+    "type": "npm",
+    "command": "npm install -g @pixlcore/xycli"
+  },
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "api",
+    "cli",
+    "mcp"
+  ],
+  "createdAt": "2026-11-20T17:42:21.732Z",
+  "updatedAt": "2026-11-20T17:42:21.732Z"
+}

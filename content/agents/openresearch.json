@@ -1,0 +1,38 @@
+{
+  "id": "openresearch",
+  "name": "OpenResearch",
+  "slug": "openresearch",
+  "description": "Turns coding agents into research agents with a local-first harness, CLI and workspace, from alphaXiv.",
+  "providerName": "alphaXiv",
+  "providerUrl": "https://github.com/alphaXiv",
+  "agentUrl": "https://openresearch.sh",
+  "categories": [
+    "research",
+    "orchestration"
+  ],
+  "tags": [
+    "research-agent",
+    "coding-agents",
+    "literature-research",
+    "local-first",
+    "experiments"
+  ],
+  "skills": [],
+  "authType": "apiKey",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "install": {
+    "type": "binary",
+    "command": "curl -LsSf https://openresearch.sh/install.sh | sh"
+  },
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "cli"
+  ],
+  "createdAt": "2026-11-20T17:42:21.685Z",
+  "updatedAt": "2026-11-20T17:42:21.685Z"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "rerun-build",
+  "name": "Rerun",
+  "slug": "rerun-build",
+  "description": "Runs self-hostable AI coworkers that work on a schedule in your tools, with a REST API, web, desktop and iPhone apps.",
+  "providerName": "Rerun",
+  "providerUrl": "https://github.com/rerun-build",
+  "agentUrl": "https://rerun.build",
+  "categories": [
+    "autonomous-agents",
+    "productivity"
+  ],
+  "tags": [
+    "ai-coworkers",
+    "scheduled-agents",
+    "self-hosted",
+    "integrations",
+    "rest-api"
+  ],
+  "skills": [],
+  "authType": "apiKey",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "api"
+  ],
+  "createdAt": "2026-11-20T17:42:21.780Z",
+  "updatedAt": "2026-11-20T17:42:21.780Z"
+}

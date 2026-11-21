@@ -1,0 +1,45 @@
+{
+  "id": "tabularis",
+  "name": "Tabularis",
+  "slug": "tabularis",
+  "description": "Lets agents query MySQL, PostgreSQL and SQLite databases through the built-in MCP server of an open-source desktop SQL workspace.",
+  "providerName": "Tabularis",
+  "providerUrl": "https://github.com/TabularisDB",
+  "agentUrl": "https://tabularis.dev",
+  "categories": [
+    "data-analytics"
+  ],
+  "tags": [
+    "sql-client",
+    "postgres",
+    "mysql",
+    "sqlite",
+    "database-mcp"
+  ],
+  "skills": [
+    {
+      "id": "browse-schema",
+      "name": "Browse schema",
+      "description": "Browses tables, columns, keys, indexes, views and stored routines in a tree view."
+    },
+    {
+      "id": "ssh-tunnels",
+      "name": "SSH tunnels",
+      "description": "Connects to databases over SSH tunnels, using saved connection profiles with Keychain password storage."
+    }
+  ],
+  "authType": "none",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "quickstartUrl": "https://tabularis.dev/wiki/mcp-server",
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "mcp"
+  ],
+  "createdAt": "2026-11-20T17:42:21.754Z",
+  "updatedAt": "2026-11-20T17:42:21.754Z"
+}

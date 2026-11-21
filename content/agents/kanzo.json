@@ -1,0 +1,50 @@
+{
+  "id": "kanzo",
+  "name": "Kanzo",
+  "slug": "kanzo",
+  "description": "Shares one kanban board between people and coding agents: agents take tasks, move cards and comment over MCP, from a single binary.",
+  "providerName": "Emanuele Micheletti",
+  "providerUrl": "https://github.com/emanuele-em",
+  "agentUrl": "https://github.com/emanuele-em/kanzo",
+  "categories": [
+    "productivity",
+    "orchestration"
+  ],
+  "tags": [
+    "kanban",
+    "task-board",
+    "coding-agents",
+    "mcp-server",
+    "project-management"
+  ],
+  "skills": [
+    {
+      "id": "agent-tasks",
+      "name": "Agent tasks",
+      "description": "Takes tasks, moves cards and comments on the shared board over MCP, on behalf of the coding agent."
+    },
+    {
+      "id": "human-tasks",
+      "name": "Human tasks",
+      "description": "Marks a task as human so agents leave it to you, and filters the board to show only those tasks."
+    }
+  ],
+  "authType": "none",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "install": {
+    "type": "binary",
+    "command": "curl -LsSf https://github.com/emanuele-em/kanzo/releases/latest/download/kanzo-installer.sh | sh"
+  },
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "mcp",
+    "cli"
+  ],
+  "createdAt": "2026-11-20T17:42:21.779Z",
+  "updatedAt": "2026-11-20T17:42:21.779Z"
+}

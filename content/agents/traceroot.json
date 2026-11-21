@@ -1,0 +1,39 @@
+{
+  "id": "traceroot",
+  "name": "TraceRoot",
+  "slug": "traceroot",
+  "description": "Traces, detects and evaluates agent failures in open-source observability that coding agents investigate through a CLI.",
+  "providerName": "TraceRoot",
+  "providerUrl": "https://github.com/traceroot-ai",
+  "agentUrl": "https://traceroot.ai",
+  "categories": [
+    "infrastructure",
+    "code-devtools"
+  ],
+  "tags": [
+    "agent-observability",
+    "tracing",
+    "evals",
+    "debugging",
+    "open-source"
+  ],
+  "skills": [],
+  "authType": "apiKey",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "install": {
+    "type": "npm",
+    "command": "npx -y traceroot-cli@latest setup"
+  },
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "api",
+    "cli"
+  ],
+  "createdAt": "2026-11-20T17:42:21.775Z",
+  "updatedAt": "2026-11-20T17:42:21.775Z"
+}

@@ -1,0 +1,39 @@
+{
+  "id": "pilotdeck",
+  "name": "PilotDeck",
+  "slug": "pilotdeck",
+  "description": "Runs agents in a workspace-based agent OS with white-box memory, model routing and background tasks, plus MCP servers and hooks.",
+  "providerName": "OpenBMB",
+  "providerUrl": "https://github.com/OpenBMB",
+  "agentUrl": "https://pilotdeck.openbmb.cn",
+  "categories": [
+    "autonomous-agents",
+    "productivity",
+    "memory-state"
+  ],
+  "tags": [
+    "agent-os",
+    "agent-memory",
+    "model-routing",
+    "background-tasks",
+    "self-hosted"
+  ],
+  "skills": [],
+  "authType": "apiKey",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "install": {
+    "type": "binary",
+    "command": "curl -fsSL https://raw.githubusercontent.com/OpenBMB/PilotDeck/main/install.sh | bash"
+  },
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "cli"
+  ],
+  "createdAt": "2026-11-20T17:42:21.773Z",
+  "updatedAt": "2026-11-20T17:42:21.773Z"
+}

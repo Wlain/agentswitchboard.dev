@@ -53,8 +53,9 @@
   "tier": "free",
   "discoveredBy": "manual",
   "accessMethods": [
-    "mcp"
+    "mcp",
+    "cli"
   ],
   "createdAt": "2026-04-25T19:07:07.049Z",
-  "updatedAt": "2026-11-02T07:11:18.425Z"
+  "updatedAt": "2026-11-20T17:42:54.393Z"
 }

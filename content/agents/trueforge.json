@@ -1,0 +1,50 @@
+{
+  "id": "trueforge",
+  "name": "TrueForge",
+  "slug": "trueforge",
+  "description": "Runs agents on an open-source harness with model calls, remote MCP tools, git-backed skills, a sandbox, approvals and sessions.",
+  "providerName": "TrueFoundry",
+  "providerUrl": "https://github.com/truefoundry",
+  "agentUrl": "https://trueforge.dev",
+  "categories": [
+    "orchestration",
+    "infrastructure"
+  ],
+  "tags": [
+    "agent-harness",
+    "mcp-tools",
+    "human-approval",
+    "sandbox",
+    "typescript-sdk"
+  ],
+  "skills": [
+    {
+      "id": "any-model",
+      "name": "Any model provider",
+      "description": "Calls OpenAI, Anthropic, Gemini and other catalog providers, or any OpenAI-compatible endpoint."
+    },
+    {
+      "id": "human-checkpoints",
+      "name": "Human checkpoints",
+      "description": "Pauses for tool approval and asks the user questions in chat, with generative UI, before continuing."
+    }
+  ],
+  "authType": "apiKey",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "install": {
+    "type": "npm",
+    "command": "npx @truefoundry/trueforge@latest"
+  },
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "cli",
+    "api"
+  ],
+  "createdAt": "2026-11-20T17:42:21.724Z",
+  "updatedAt": "2026-11-20T17:42:21.724Z"
+}

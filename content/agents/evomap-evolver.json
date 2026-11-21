@@ -1,0 +1,39 @@
+{
+  "id": "evomap-evolver",
+  "name": "Evolver",
+  "slug": "evomap-evolver",
+  "description": "Turns ad hoc changes to agent prompts into auditable, reusable evolution assets, from a CLI run in any git repo.",
+  "providerName": "EvoMap",
+  "providerUrl": "https://github.com/EvoMap",
+  "agentUrl": "https://evomap.ai",
+  "categories": [
+    "memory-state",
+    "orchestration"
+  ],
+  "tags": [
+    "prompt-evolution",
+    "agent-prompts",
+    "audit-trail",
+    "self-improvement",
+    "git"
+  ],
+  "skills": [],
+  "authType": "none",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "install": {
+    "type": "npm",
+    "command": "npm install -g @evomap/evolver"
+  },
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "cli",
+    "api"
+  ],
+  "createdAt": "2026-11-20T17:42:21.678Z",
+  "updatedAt": "2026-11-20T17:42:21.678Z"
+}

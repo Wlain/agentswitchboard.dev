@@ -1,0 +1,46 @@
+{
+  "id": "mailflare",
+  "name": "Mailflare",
+  "slug": "mailflare",
+  "description": "Self-hosts email, calendar and drive on Cloudflare, with AI agents that search mail, draft replies and manage events over MCP.",
+  "providerName": "Hieu Nguyen",
+  "providerUrl": "https://github.com/hieunc229",
+  "agentUrl": "https://mailflare.co",
+  "categories": [
+    "communication",
+    "productivity"
+  ],
+  "tags": [
+    "self-hosted-email",
+    "cloudflare",
+    "calendar",
+    "email-assistant",
+    "mcp-server"
+  ],
+  "skills": [
+    {
+      "id": "mail-agents",
+      "name": "Mail agents",
+      "description": "Searches mailboxes, drafts replies and manages calendar events with built-in AI agents or MCP clients."
+    },
+    {
+      "id": "routing-rules",
+      "name": "Routing rules",
+      "description": "Stores, forwards, rejects or sorts incoming mail on your custom domains with routing rules you set."
+    }
+  ],
+  "authType": "apiKey",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "api",
+    "mcp"
+  ],
+  "createdAt": "2026-11-20T17:42:21.697Z",
+  "updatedAt": "2026-11-20T17:42:21.697Z"
+}

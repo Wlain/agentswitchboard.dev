@@ -1,0 +1,33 @@
+{
+  "id": "opensquilla",
+  "name": "OpenSquilla",
+  "slug": "opensquilla",
+  "description": "Runs a token-efficient microkernel agent with a model router, memory and a sandbox, from a CLI, a web UI or chat channels.",
+  "providerName": "TokenRhythm",
+  "providerUrl": "https://github.com/TokenRhythm",
+  "agentUrl": "https://opensquilla.ai",
+  "categories": [
+    "autonomous-agents"
+  ],
+  "tags": [
+    "autonomous-agent",
+    "model-router",
+    "agent-memory",
+    "sandbox",
+    "chat-channels"
+  ],
+  "skills": [],
+  "authType": "apiKey",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "cli"
+  ],
+  "createdAt": "2026-11-20T17:42:21.703Z",
+  "updatedAt": "2026-11-20T17:42:21.703Z"
+}

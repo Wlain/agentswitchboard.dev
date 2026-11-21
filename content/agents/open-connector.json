@@ -1,0 +1,42 @@
+{
+  "id": "open-connector",
+  "name": "OpenConnector",
+  "slug": "open-connector",
+  "description": "Connects agents to 1,000+ SaaS providers through a self-hostable auth and connector gateway with MCP, OpenAPI, an SDK and a CLI.",
+  "providerName": "OOMOL Lab",
+  "providerUrl": "https://github.com/oomol-lab",
+  "agentUrl": "https://oomol.com",
+  "categories": [
+    "agent-identity",
+    "infrastructure"
+  ],
+  "tags": [
+    "connector-gateway",
+    "saas-integrations",
+    "oauth",
+    "credential-management",
+    "mcp-server"
+  ],
+  "skills": [
+    {
+      "id": "credential-handling",
+      "name": "Credential handling",
+      "description": "Manages API keys, OAuth2 and custom credentials for each provider inside an inspectable runtime."
+    }
+  ],
+  "authType": "oauth2",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "mcp",
+    "api",
+    "cli"
+  ],
+  "createdAt": "2026-11-20T17:42:21.734Z",
+  "updatedAt": "2026-11-20T17:42:21.734Z"
+}

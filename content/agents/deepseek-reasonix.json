@@ -48,7 +48,7 @@
   "authType": "apiKey",
   "supportsStreaming": false,
   "supportsPushNotifications": false,
-  "status": "published",
+  "status": "archived",
   "featured": false,
   "verified": true,
   "tier": "free",
@@ -57,5 +57,5 @@
     "cli"
   ],
   "createdAt": "2026-10-04T17:55:56.196Z",
-  "updatedAt": "2026-10-04T17:55:56.196Z"
+  "updatedAt": "2026-11-20T17:42:55.901Z"
 }

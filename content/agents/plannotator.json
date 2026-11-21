@@ -1,0 +1,37 @@
+{
+  "id": "plannotator",
+  "name": "Plannotator",
+  "slug": "plannotator",
+  "description": "Reviews coding agents' plans, diffs and artifacts in a local browser surface where you annotate them and send feedback back to the agent.",
+  "providerName": "backnotprop",
+  "providerUrl": "https://github.com/backnotprop",
+  "agentUrl": "https://plannotator.ai",
+  "categories": [
+    "code-devtools"
+  ],
+  "tags": [
+    "plan-review",
+    "code-review",
+    "diff-annotation",
+    "coding-agents",
+    "human-in-the-loop"
+  ],
+  "skills": [],
+  "authType": "none",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "install": {
+    "type": "binary",
+    "command": "curl -fsSL https://plannotator.ai/install.sh | bash"
+  },
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "cli"
+  ],
+  "createdAt": "2026-11-20T17:42:21.653Z",
+  "updatedAt": "2026-11-20T17:42:21.653Z"
+}

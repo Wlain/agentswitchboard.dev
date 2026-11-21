@@ -1,0 +1,35 @@
+{
+  "id": "xiaomi-mimo-api",
+  "name": "Xiaomi MiMo API Open Platform",
+  "slug": "xiaomi-mimo-api",
+  "description": "Calls Xiaomi's MiMo models through the MiMo API Open Platform's OpenAI-compatible endpoints.",
+  "providerName": "Xiaomi",
+  "providerUrl": "https://www.mi.com",
+  "agentUrl": "https://platform.xiaomimimo.com",
+  "categories": [
+    "language",
+    "infrastructure"
+  ],
+  "tags": [
+    "llm-api",
+    "mimo",
+    "openai-compatible",
+    "reasoning-models",
+    "xiaomi"
+  ],
+  "skills": [],
+  "authType": "apiKey",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "official": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "api"
+  ],
+  "createdAt": "2026-11-20T17:42:21.648Z",
+  "updatedAt": "2026-11-20T17:42:21.648Z"
+}

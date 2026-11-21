@@ -1,0 +1,45 @@
+{
+  "id": "paperorchestra",
+  "name": "PaperOrchestra",
+  "slug": "paperorchestra",
+  "description": "Turns research notes and experiment results into submission-ready LaTeX papers with a Google Research multi-agent pipeline.",
+  "providerName": "Google Research",
+  "providerUrl": "https://research.google",
+  "agentUrl": "https://github.com/google-research/paper-orchestra",
+  "categories": [
+    "research"
+  ],
+  "tags": [
+    "paper-writing",
+    "latex",
+    "literature-review",
+    "research-pipeline",
+    "academic-writing"
+  ],
+  "skills": [
+    {
+      "id": "literature-synthesis",
+      "name": "Literature synthesis",
+      "description": "Searches, prioritizes and integrates relevant literature into the paper's related work."
+    },
+    {
+      "id": "latex-manuscripts",
+      "name": "LaTeX manuscripts",
+      "description": "Produces LaTeX manuscripts that follow a target conference template, with generated plots."
+    }
+  ],
+  "authType": "apiKey",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "official": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "cli"
+  ],
+  "createdAt": "2026-11-20T17:42:21.587Z",
+  "updatedAt": "2026-11-20T17:42:21.587Z"
+}

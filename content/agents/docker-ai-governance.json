@@ -1,0 +1,35 @@
+{
+  "id": "docker-ai-governance",
+  "name": "Docker AI Governance",
+  "slug": "docker-ai-governance",
+  "description": "Sets org-wide sandbox, MCP tool and network policies for coding agents, with audit logs, through Docker's admin console and HTTP API.",
+  "providerName": "Docker",
+  "providerUrl": "https://www.docker.com",
+  "agentUrl": "https://www.docker.com/products/ai-governance/",
+  "categories": [
+    "security",
+    "infrastructure"
+  ],
+  "tags": [
+    "agent-governance",
+    "policy-management",
+    "audit-logs",
+    "docker-sandboxes",
+    "mcp-policy"
+  ],
+  "skills": [],
+  "authType": "bearer",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "official": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "api"
+  ],
+  "createdAt": "2026-11-20T17:42:21.598Z",
+  "updatedAt": "2026-11-20T17:42:21.598Z"
+}

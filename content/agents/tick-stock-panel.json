@@ -1,0 +1,35 @@
+{
+  "id": "tick-stock-panel",
+  "name": "Tick Stock Panel (TSP)",
+  "slug": "tick-stock-panel",
+  "description": "Runs a self-hosted China A-share quant workbench with a scoped-token Open API and an MCP server for backtests and stock data.",
+  "providerName": "wshy",
+  "providerUrl": "https://github.com/shy3130",
+  "agentUrl": "https://tsp.shy313.com",
+  "categories": [
+    "finance",
+    "data-analytics"
+  ],
+  "tags": [
+    "a-shares",
+    "quant-trading",
+    "backtesting",
+    "stock-data",
+    "mcp-server"
+  ],
+  "skills": [],
+  "authType": "bearer",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "mcp",
+    "api"
+  ],
+  "createdAt": "2026-11-20T17:42:21.691Z",
+  "updatedAt": "2026-11-20T17:42:21.691Z"
+}

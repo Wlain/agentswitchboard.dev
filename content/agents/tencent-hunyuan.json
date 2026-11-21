@@ -1,0 +1,36 @@
+{
+  "id": "tencent-hunyuan",
+  "name": "Tencent Hunyuan",
+  "slug": "tencent-hunyuan",
+  "description": "Calls Tencent's Hunyuan models on Tencent Cloud through OpenAI-compatible endpoints and Tencent Cloud SDKs.",
+  "providerName": "Tencent",
+  "providerUrl": "https://www.tencent.com",
+  "agentUrl": "https://hunyuan.tencent.com",
+  "categories": [
+    "language",
+    "infrastructure"
+  ],
+  "tags": [
+    "llm-api",
+    "hunyuan",
+    "openai-compatible",
+    "tencent-cloud",
+    "chat-completions"
+  ],
+  "skills": [],
+  "authType": "apiKey",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "apiBaseUrl": "https://api.hunyuan.tencent.com",
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "official": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "api"
+  ],
+  "createdAt": "2026-11-20T17:42:21.602Z",
+  "updatedAt": "2026-11-20T17:42:21.602Z"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "sandcastle",
+  "name": "Sandcastle",
+  "slug": "sandcastle",
+  "description": "Runs coding agents in isolated sandboxes from a TypeScript library and CLI.",
+  "providerName": "Matt Pocock",
+  "providerUrl": "https://github.com/mattpocock",
+  "agentUrl": "https://www.aihero.dev/sandcastle",
+  "categories": [
+    "orchestration",
+    "code-devtools"
+  ],
+  "tags": [
+    "sandboxes",
+    "coding-agents",
+    "typescript",
+    "isolation",
+    "agent-runner"
+  ],
+  "skills": [],
+  "authType": "none",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "cli"
+  ],
+  "createdAt": "2026-11-20T17:42:21.673Z",
+  "updatedAt": "2026-11-20T17:42:21.673Z"
+}

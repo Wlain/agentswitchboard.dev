@@ -1,0 +1,43 @@
+{
+  "id": "kairos",
+  "name": "Kairos",
+  "slug": "kairos",
+  "description": "Decides fraud and risk cases with open-source rules coding agents tune over MCP, through a REST API, CLI, SDKs or self-hosting.",
+  "providerName": "Finic",
+  "providerUrl": "https://github.com/finic-ai",
+  "agentUrl": "https://kairos.finic.ai",
+  "categories": [
+    "finance",
+    "security"
+  ],
+  "tags": [
+    "fraud-detection",
+    "risk-decisioning",
+    "chargebacks",
+    "remote-mcp",
+    "self-hosted"
+  ],
+  "skills": [
+    {
+      "id": "explained-decisions",
+      "name": "Explained decisions",
+      "description": "Returns fraud and risk decisions where each answer is a question you wrote, so it says why."
+    }
+  ],
+  "authType": "apiKey",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "mcpEndpoint": "https://kairos.finic.ai/mcp",
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "mcp",
+    "api",
+    "cli"
+  ],
+  "createdAt": "2026-11-20T17:42:21.626Z",
+  "updatedAt": "2026-11-20T17:42:21.626Z"
+}

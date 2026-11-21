@@ -1,5 +1,33 @@
 [
   {
+    "slug": "identity-and-payments-for-agents",
+    "title": "Verify, pay and bill: identity and payments for your agent",
+    "promise": "Give the agent scoped credentials and a verified owner, let it pay per call without API keys, then meter and charge for what your own agent does.",
+    "week": "2026-11-20",
+    "items": [
+      {
+        "slug": "keycard",
+        "why": "Issues the agent short-lived, scoped credentials and enforces policy on each tool call."
+      },
+      {
+        "slug": "baselayer-kya",
+        "why": "Ties the agent to a verified person or business, with short-lived KYA credentials that sites can check."
+      },
+      {
+        "slug": "agentcash",
+        "why": "A wallet, CLI and MCP that pay per call for x402 and MPP APIs, with no API keys to manage."
+      },
+      {
+        "slug": "paid",
+        "why": "Meters usage, sets prices and bills customers for the agent you build."
+      },
+      {
+        "slug": "stripe-agent-toolkit",
+        "why": "Creates charges, manages subscriptions and issues refunds on Stripe from the agent."
+      }
+    ]
+  },
+  {
     "slug": "ship-a-web-app-with-your-agent",
     "title": "Build, test and ship a web app with your coding agent",
     "promise": "Give the agent current web guidance, keep it test-first, test against local AWS and real browsers, then publish and roll back from the same session.",

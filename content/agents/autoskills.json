@@ -1,0 +1,37 @@
+{
+  "id": "autoskills",
+  "name": "autoskills",
+  "slug": "autoskills",
+  "description": "Detects a project's stack and installs audited agent skills for it, from one npx command.",
+  "providerName": "Miguel Ángel Durán",
+  "providerUrl": "https://github.com/midudev",
+  "agentUrl": "https://autoskills.sh",
+  "categories": [
+    "code-devtools"
+  ],
+  "tags": [
+    "agent-skills",
+    "stack-detection",
+    "coding-agents",
+    "skill-installer",
+    "frameworks"
+  ],
+  "skills": [],
+  "authType": "none",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "install": {
+    "type": "npm",
+    "command": "npx autoskills"
+  },
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "cli"
+  ],
+  "createdAt": "2026-11-20T17:42:21.711Z",
+  "updatedAt": "2026-11-20T17:42:21.711Z"
+}

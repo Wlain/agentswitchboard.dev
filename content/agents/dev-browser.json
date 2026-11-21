@@ -1,0 +1,49 @@
+{
+  "id": "dev-browser",
+  "name": "dev-browser",
+  "slug": "dev-browser",
+  "description": "Lets coding agents control persistent Chrome pages with short Puppeteer scripts from a CLI, with accessibility snapshots.",
+  "providerName": "Sawyer Hood",
+  "providerUrl": "https://github.com/SawyerHood",
+  "agentUrl": "https://github.com/SawyerHood/dev-browser",
+  "categories": [
+    "browser-computer",
+    "code-devtools"
+  ],
+  "tags": [
+    "browser-control",
+    "chrome",
+    "puppeteer",
+    "coding-agents",
+    "accessibility-tree"
+  ],
+  "skills": [
+    {
+      "id": "persistent-pages",
+      "name": "Persistent pages",
+      "description": "Keeps named Chrome tabs open so their state carries across the separate scripts the agent runs."
+    },
+    {
+      "id": "compact-snapshots",
+      "name": "Compact snapshots",
+      "description": "Returns accessibility-tree snapshots with stable element refs the agent can act on."
+    }
+  ],
+  "authType": "none",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "install": {
+    "type": "npm",
+    "command": "npm install -g dev-browser"
+  },
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "cli"
+  ],
+  "createdAt": "2026-11-20T17:42:21.717Z",
+  "updatedAt": "2026-11-20T17:42:21.717Z"
+}

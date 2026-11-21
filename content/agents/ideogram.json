@@ -1,0 +1,35 @@
+{
+  "id": "ideogram",
+  "name": "Ideogram API",
+  "slug": "ideogram",
+  "description": "Generates images, SVGs and video with Ideogram models through its official hosted MCP server and developer API.",
+  "providerName": "Ideogram",
+  "providerUrl": "https://ideogram.ai",
+  "agentUrl": "https://ideogram.ai/features/mcp/",
+  "categories": [
+    "content-media"
+  ],
+  "tags": [
+    "image-generation",
+    "svg-generation",
+    "text-to-image",
+    "remote-mcp",
+    "ideogram"
+  ],
+  "skills": [],
+  "authType": "oauth2",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "mcpEndpoint": "https://mcp.ideogram.ai/mcp",
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "mcp",
+    "api"
+  ],
+  "createdAt": "2026-11-20T17:42:21.640Z",
+  "updatedAt": "2026-11-20T17:42:21.640Z"
+}

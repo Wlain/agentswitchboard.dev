@@ -1,0 +1,37 @@
+{
+  "id": "black-forest-labs",
+  "name": "Black Forest Labs API (FLUX)",
+  "slug": "black-forest-labs",
+  "description": "Generates and edits images and video with FLUX models through Black Forest Labs' REST API and hosted MCP server.",
+  "providerName": "Black Forest Labs",
+  "providerUrl": "https://bfl.ai",
+  "agentUrl": "https://docs.bfl.ai",
+  "categories": [
+    "content-media"
+  ],
+  "tags": [
+    "image-generation",
+    "flux",
+    "image-editing",
+    "text-to-image",
+    "remote-mcp"
+  ],
+  "skills": [],
+  "authType": "oauth2",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "mcpEndpoint": "https://mcp.bfl.ai",
+  "apiBaseUrl": "https://api.bfl.ai",
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "official": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "mcp",
+    "api"
+  ],
+  "createdAt": "2026-11-20T17:42:21.604Z",
+  "updatedAt": "2026-11-20T17:42:21.604Z"
+}

@@ -1,0 +1,49 @@
+{
+  "id": "opensre",
+  "name": "OpenSRE",
+  "slug": "opensre",
+  "description": "Diagnoses failed CI runs from the terminal, separates CI-caused from code-caused failures and pushes fixes, as an open-source CLI agent.",
+  "providerName": "Tracer",
+  "providerUrl": "https://github.com/Tracer-Cloud",
+  "agentUrl": "https://opensre.com",
+  "categories": [
+    "infrastructure",
+    "code-devtools"
+  ],
+  "tags": [
+    "ci-failures",
+    "build-debugging",
+    "sre",
+    "root-cause-analysis",
+    "github-actions"
+  ],
+  "skills": [
+    {
+      "id": "investigate-failures",
+      "name": "Investigate failed runs",
+      "description": "Investigates a CI run the moment it fails, reading logs and testing hypotheses to find the cause."
+    },
+    {
+      "id": "ci-cost",
+      "name": "CI cost reporting",
+      "description": "Reports failure rate, developer hours lost to unreliable CI and how long main stays red."
+    }
+  ],
+  "authType": "apiKey",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "install": {
+    "type": "binary",
+    "command": "curl -fsSL https://install.opensre.com | bash"
+  },
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "cli"
+  ],
+  "createdAt": "2026-11-20T17:42:21.655Z",
+  "updatedAt": "2026-11-20T17:42:21.655Z"
+}

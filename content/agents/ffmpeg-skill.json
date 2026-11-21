@@ -1,0 +1,49 @@
+{
+  "id": "ffmpeg-skill",
+  "name": "ffmpeg-skill",
+  "slug": "ffmpeg-skill",
+  "description": "Runs local video editing with FFmpeg through typed tools for coding agents, with a CLI and MCP server that verify each output file.",
+  "providerName": "Shogo Kajiyama",
+  "providerUrl": "https://github.com/kajisho5",
+  "agentUrl": "https://github.com/kajisho5/ffmpeg-skill",
+  "categories": [
+    "content-media"
+  ],
+  "tags": [
+    "video-editing",
+    "ffmpeg",
+    "media-processing",
+    "mcp-server",
+    "video-conversion"
+  ],
+  "skills": [
+    {
+      "id": "typed-edits",
+      "name": "Typed edit tools",
+      "description": "Edits video with typed tools that take named options such as aspect ratio and fit, never shell strings."
+    },
+    {
+      "id": "verify-output",
+      "name": "Verify output",
+      "description": "Probes the source and the written file so the agent can check duration, fps and resolution."
+    }
+  ],
+  "authType": "none",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "install": {
+    "type": "npm",
+    "command": "npx ffmpeg-skill"
+  },
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "cli",
+    "mcp"
+  ],
+  "createdAt": "2026-11-20T17:42:21.679Z",
+  "updatedAt": "2026-11-20T17:42:21.679Z"
+}

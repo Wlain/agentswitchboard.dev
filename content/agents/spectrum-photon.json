@@ -45,8 +45,10 @@
   "tier": "free",
   "discoveredBy": "manual",
   "accessMethods": [
-    "api"
+    "api",
+    "mcp"
   ],
   "createdAt": "2026-04-25T18:50:01.427Z",
-  "updatedAt": "2026-04-25T18:50:01.427Z"
+  "updatedAt": "2026-11-20T17:42:52.894Z",
+  "mcpEndpoint": "https://mcp.photon.codes/mcp"
 }

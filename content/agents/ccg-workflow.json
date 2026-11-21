@@ -1,0 +1,38 @@
+{
+  "id": "ccg-workflow",
+  "name": "CCG Workflow",
+  "slug": "ccg-workflow",
+  "description": "Dispatches work from Claude Code to Codex, Gemini and other agent CLIs through a workflow engine with commands and hooks.",
+  "providerName": "fengshao1227",
+  "providerUrl": "https://github.com/fengshao1227",
+  "agentUrl": "https://ccg.fengshao1227.com",
+  "categories": [
+    "orchestration",
+    "code-devtools"
+  ],
+  "tags": [
+    "claude-code",
+    "codex",
+    "gemini-cli",
+    "multi-agent",
+    "workflow"
+  ],
+  "skills": [],
+  "authType": "none",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "install": {
+    "type": "npm",
+    "command": "npx ccg-workflow"
+  },
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "cli"
+  ],
+  "createdAt": "2026-11-20T17:42:21.741Z",
+  "updatedAt": "2026-11-20T17:42:21.741Z"
+}

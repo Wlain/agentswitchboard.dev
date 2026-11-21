@@ -1,0 +1,48 @@
+{
+  "id": "hapi",
+  "name": "HAPI",
+  "slug": "hapi",
+  "description": "Runs Claude Code, Codex and other coding agents locally and lets you control them and approve requests from your phone or the web.",
+  "providerName": "weishu",
+  "providerUrl": "https://github.com/tiann",
+  "agentUrl": "https://hapi.run",
+  "categories": [
+    "code-devtools"
+  ],
+  "tags": [
+    "remote-control",
+    "coding-agents",
+    "mobile-approval",
+    "claude-code",
+    "codex"
+  ],
+  "skills": [
+    {
+      "id": "remote-approval",
+      "name": "Approve from phone",
+      "description": "Approves the coding agent's permission requests from your phone with one tap while you're away."
+    },
+    {
+      "id": "remote-terminal",
+      "name": "Remote terminal",
+      "description": "Runs commands from a phone browser or desktop web app, connected to the working machine."
+    }
+  ],
+  "authType": "none",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "install": {
+    "type": "npm",
+    "command": "npx @twsxtd/hapi"
+  },
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "cli"
+  ],
+  "createdAt": "2026-11-20T17:42:21.757Z",
+  "updatedAt": "2026-11-20T17:42:21.757Z"
+}

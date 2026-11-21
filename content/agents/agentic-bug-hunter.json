@@ -1,0 +1,37 @@
+{
+  "id": "agentic-bug-hunter",
+  "name": "Agentic Bug Hunter",
+  "slug": "agentic-bug-hunter",
+  "description": "Hunts bugs for bug bounty programs with an agent that runs recon, tests vulnerabilities, validates them and writes reports.",
+  "providerName": "AwareXone",
+  "providerUrl": "https://github.com/awarexone",
+  "agentUrl": "https://awarexone.com",
+  "categories": [
+    "security"
+  ],
+  "tags": [
+    "bug-bounty",
+    "penetration-testing",
+    "vulnerability-testing",
+    "recon",
+    "security-reports"
+  ],
+  "skills": [],
+  "authType": "apiKey",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "install": {
+    "type": "pip",
+    "command": "uv tool install agentic-bug-hunter"
+  },
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "cli"
+  ],
+  "createdAt": "2026-11-20T17:42:21.737Z",
+  "updatedAt": "2026-11-20T17:42:21.737Z"
+}

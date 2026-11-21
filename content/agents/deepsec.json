@@ -1,0 +1,39 @@
+{
+  "id": "deepsec",
+  "name": "deepsec",
+  "slug": "deepsec",
+  "description": "Scans large codebases for vulnerabilities by running coding agents in sandboxes, with their API keys kept outside the sandbox.",
+  "providerName": "Vercel",
+  "providerUrl": "https://vercel.com",
+  "agentUrl": "https://vercel.com/oss/deepsec",
+  "categories": [
+    "security",
+    "code-devtools"
+  ],
+  "tags": [
+    "vulnerability-scanning",
+    "code-security",
+    "security-audit",
+    "sandboxed-agents",
+    "codebase-scanning"
+  ],
+  "skills": [],
+  "authType": "apiKey",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "install": {
+    "type": "npm",
+    "command": "npx deepsec init"
+  },
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "official": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "cli"
+  ],
+  "createdAt": "2026-11-20T17:42:21.572Z",
+  "updatedAt": "2026-11-20T17:42:21.572Z"
+}

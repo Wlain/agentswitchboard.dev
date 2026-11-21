@@ -1,0 +1,54 @@
+{
+  "id": "openrig",
+  "name": "OpenRig",
+  "slug": "openrig",
+  "description": "Builds persistent multi-agent teams from Claude Code, Codex and Pi sessions in tmux, defined in YAML and booted with one command.",
+  "providerName": "Mike Schwarz",
+  "providerUrl": "https://github.com/mvschwarz",
+  "agentUrl": "https://openrig.dev",
+  "categories": [
+    "orchestration",
+    "code-devtools"
+  ],
+  "tags": [
+    "multi-agent",
+    "claude-code",
+    "codex",
+    "tmux",
+    "agent-teams"
+  ],
+  "skills": [
+    {
+      "id": "define-topologies",
+      "name": "Define topologies",
+      "description": "Defines agent teams as topologies in YAML, with pods, edges and continuity policies between seats."
+    },
+    {
+      "id": "boot-rigs",
+      "name": "Boot rigs",
+      "description": "Boots tmux sessions, harnesses, startup files and readiness checks for a whole team with rig up."
+    },
+    {
+      "id": "adopt-sessions",
+      "name": "Adopt sessions",
+      "description": "Discovers existing Claude Code and Codex sessions in tmux and adopts them into a managed rig."
+    }
+  ],
+  "authType": "none",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "install": {
+    "type": "npm",
+    "command": "npm install -g @openrig/cli"
+  },
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "cli"
+  ],
+  "createdAt": "2026-11-20T17:42:21.676Z",
+  "updatedAt": "2026-11-20T17:42:21.676Z"
+}

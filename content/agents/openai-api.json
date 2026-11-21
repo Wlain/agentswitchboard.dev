@@ -58,8 +58,9 @@
   "tier": "free",
   "discoveredBy": "manual",
   "accessMethods": [
-    "api"
+    "api",
+    "cli"
   ],
   "createdAt": "2026-10-10T21:22:01.457Z",
-  "updatedAt": "2026-11-02T07:34:56.527Z"
+  "updatedAt": "2026-11-20T17:42:53.265Z"
 }

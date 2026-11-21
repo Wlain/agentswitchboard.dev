@@ -1,0 +1,45 @@
+{
+  "id": "obsidian-second-brain",
+  "name": "obsidian-second-brain",
+  "slug": "obsidian-second-brain",
+  "description": "Gives agents persistent memory in an Obsidian vault, saving chats as linked notes and answering from them, via plugin and vault MCP.",
+  "providerName": "Eugeniu Ghelbur",
+  "providerUrl": "https://github.com/eugeniughelbur",
+  "agentUrl": "https://github.com/eugeniughelbur/obsidian-second-brain",
+  "categories": [
+    "memory-state",
+    "productivity"
+  ],
+  "tags": [
+    "obsidian",
+    "agent-memory",
+    "second-brain",
+    "note-taking",
+    "mcp-server"
+  ],
+  "skills": [
+    {
+      "id": "save-chats",
+      "name": "Save chats as notes",
+      "description": "Turns a chat into linked vault notes for the people, projects, decisions and tasks it mentions."
+    },
+    {
+      "id": "find-in-notes",
+      "name": "Find in notes",
+      "description": "Answers questions from your own Obsidian notes, showing the context around each matching hit."
+    }
+  ],
+  "authType": "none",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "mcp"
+  ],
+  "createdAt": "2026-11-20T17:42:21.759Z",
+  "updatedAt": "2026-11-20T17:42:21.759Z"
+}

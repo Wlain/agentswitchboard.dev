@@ -1,0 +1,46 @@
+{
+  "id": "rakazo",
+  "name": "Rakazo",
+  "slug": "rakazo",
+  "description": "Runs self-hosted AI teammates with memory, routines, apps and computer use, connected to your tools through MCP and OpenAPI.",
+  "providerName": "Elie Steinbock",
+  "providerUrl": "https://github.com/elie222",
+  "agentUrl": "https://rakazo.com",
+  "categories": [
+    "autonomous-agents",
+    "productivity"
+  ],
+  "tags": [
+    "ai-teammates",
+    "self-hosted",
+    "computer-use",
+    "routines",
+    "open-source"
+  ],
+  "skills": [
+    {
+      "id": "team-computers",
+      "name": "Team computers",
+      "description": "Runs teammates on private or shared team computers, in Docker or cloud sandboxes, or on your own machine."
+    },
+    {
+      "id": "share-dashboards",
+      "name": "Dashboards and docs",
+      "description": "Builds dashboards and documents from the teammates' work that people can share with others by link."
+    }
+  ],
+  "authType": "apiKey",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "api",
+    "mcp"
+  ],
+  "createdAt": "2026-11-20T17:42:21.669Z",
+  "updatedAt": "2026-11-20T17:42:21.669Z"
+}

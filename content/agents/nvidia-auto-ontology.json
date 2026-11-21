@@ -1,0 +1,53 @@
+{
+  "id": "nvidia-auto-ontology",
+  "name": "NVIDIA Auto Ontology",
+  "slug": "nvidia-auto-ontology",
+  "description": "Builds governed business ontologies from enterprise metadata and serves that business context to agents over MCP, a CLI and an API.",
+  "providerName": "NVIDIA",
+  "providerUrl": "https://www.nvidia.com",
+  "agentUrl": "https://github.com/NVIDIA/auto-ontology",
+  "categories": [
+    "data-analytics"
+  ],
+  "tags": [
+    "ontology",
+    "semantic-layer",
+    "enterprise-metadata",
+    "business-context",
+    "data-governance",
+    "mcp-server"
+  ],
+  "skills": [
+    {
+      "id": "generate-ontologies",
+      "name": "Generate ontologies",
+      "description": "Generates enterprise ontologies from metadata and connects existing ontologies and semantic models."
+    },
+    {
+      "id": "ground-agents",
+      "name": "Ground agents in business meaning",
+      "description": "Grounds agents in trusted definitions of business metrics, entities and relationships, reconciling inconsistent sources."
+    },
+    {
+      "id": "learn-from-corrections",
+      "name": "Learn from corrections",
+      "description": "Folds certified corrections and usage back into the ontology so the shared context improves with use."
+    }
+  ],
+  "authType": "none",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "official": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "mcp",
+    "cli",
+    "api"
+  ],
+  "createdAt": "2026-11-20T17:42:21.565Z",
+  "updatedAt": "2026-11-20T17:42:21.565Z"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "plivo-mcp",
+  "name": "Plivo MCP Server",
+  "slug": "plivo-mcp",
+  "description": "Sends SMS and WhatsApp messages, places calls and manages numbers and SIP trunks on a Plivo account through Plivo's hosted MCP.",
+  "providerName": "Plivo",
+  "providerUrl": "https://www.plivo.com",
+  "agentUrl": "https://www.plivo.com/docs/mcp/overview/",
+  "categories": [
+    "voice-messaging",
+    "communication"
+  ],
+  "tags": [
+    "sms",
+    "whatsapp",
+    "voice-calls",
+    "phone-numbers",
+    "sip-trunking",
+    "remote-mcp"
+  ],
+  "skills": [],
+  "authType": "oauth2",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "mcpEndpoint": "https://mcp.plivo.com/mcp",
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "mcp",
+    "api",
+    "cli"
+  ],
+  "createdAt": "2026-11-20T17:42:21.630Z",
+  "updatedAt": "2026-11-20T17:42:21.630Z"
+}

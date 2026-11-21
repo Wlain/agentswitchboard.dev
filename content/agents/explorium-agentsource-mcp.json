@@ -1,0 +1,36 @@
+{
+  "id": "explorium-agentsource-mcp",
+  "name": "Explorium AgentSource MCP",
+  "slug": "explorium-agentsource-mcp",
+  "description": "Matches and enriches businesses and prospects and returns business events for agents, through Explorium's hosted MCP and API.",
+  "providerName": "Explorium",
+  "providerUrl": "https://www.explorium.ai",
+  "agentUrl": "https://developers.explorium.ai/mcp-docs/v2/agentsource-mcp",
+  "categories": [
+    "sales-marketing",
+    "data-analytics"
+  ],
+  "tags": [
+    "b2b-data",
+    "prospect-enrichment",
+    "company-data",
+    "lead-generation",
+    "remote-mcp"
+  ],
+  "skills": [],
+  "authType": "oauth2",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "mcpEndpoint": "https://mcp-v2.explorium.ai/mcp",
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "mcp",
+    "api"
+  ],
+  "createdAt": "2026-11-20T17:42:21.638Z",
+  "updatedAt": "2026-11-20T17:42:21.638Z"
+}

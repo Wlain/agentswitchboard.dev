@@ -1,0 +1,48 @@
+{
+  "id": "godaddy-mcp",
+  "name": "GoDaddy MCP",
+  "slug": "godaddy-mcp",
+  "description": "Checks domain availability and pricing and suggests domain names from AI clients through GoDaddy's hosted MCP server, with no sign-in.",
+  "providerName": "GoDaddy",
+  "providerUrl": "https://www.godaddy.com",
+  "agentUrl": "https://developer.godaddy.com/en/docs/api-users/mcp",
+  "categories": [
+    "infrastructure"
+  ],
+  "tags": [
+    "domain-names",
+    "domain-availability",
+    "domain-search",
+    "remote-mcp",
+    "godaddy"
+  ],
+  "skills": [
+    {
+      "id": "check-availability",
+      "name": "Check domain availability",
+      "description": "Checks whether a domain name is available to register at GoDaddy, and returns its price."
+    },
+    {
+      "id": "suggest-domains",
+      "name": "Suggest domains",
+      "description": "Suggests available domain names for a business or project idea, ready to check and register."
+    }
+  ],
+  "authType": "none",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "mcpEndpoint": "https://mcp.godaddy.com",
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "official": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "mcp",
+    "api",
+    "cli"
+  ],
+  "createdAt": "2026-11-20T17:42:21.785Z",
+  "updatedAt": "2026-11-20T17:42:21.785Z"
+}

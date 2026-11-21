@@ -1,0 +1,48 @@
+{
+  "id": "docuseal",
+  "name": "DocuSeal",
+  "slug": "docuseal",
+  "description": "Creates signing templates, sends signature requests and tracks submissions with open-source DocuSeal, over a hosted MCP or its API.",
+  "providerName": "DocuSeal",
+  "providerUrl": "https://www.docuseal.com",
+  "agentUrl": "https://www.docuseal.com/docs/api",
+  "categories": [
+    "productivity",
+    "legal"
+  ],
+  "tags": [
+    "e-signature",
+    "document-signing",
+    "pdf-forms",
+    "open-source",
+    "self-hosted"
+  ],
+  "skills": [
+    {
+      "id": "form-builder",
+      "name": "PDF form builder",
+      "description": "Builds PDF signing forms in a WYSIWYG editor with 12 field types, including signature, date and file."
+    },
+    {
+      "id": "multiple-submitters",
+      "name": "Multiple submitters",
+      "description": "Sends one document to several submitters and verifies PDF signatures on the result."
+    }
+  ],
+  "authType": "oauth2",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "apiBaseUrl": "https://api.docuseal.com",
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "mcp",
+    "api",
+    "cli"
+  ],
+  "createdAt": "2026-11-20T17:42:21.649Z",
+  "updatedAt": "2026-11-20T17:42:21.649Z"
+}

@@ -1,0 +1,48 @@
+{
+  "id": "no-mistakes",
+  "name": "no-mistakes",
+  "slug": "no-mistakes",
+  "description": "Runs an AI-agent validation pipeline in a local git proxy before your push, then opens the PR, watches CI and fixes failures.",
+  "providerName": "Kun Chen",
+  "providerUrl": "https://github.com/kunchenguid",
+  "agentUrl": "https://kunchenguid.github.io/no-mistakes/",
+  "categories": [
+    "code-devtools"
+  ],
+  "tags": [
+    "pre-push-checks",
+    "git-proxy",
+    "pull-requests",
+    "ci-fixes",
+    "code-validation"
+  ],
+  "skills": [
+    {
+      "id": "gate-pushes",
+      "name": "Gate pushes",
+      "description": "Validates a committed branch in an isolated worktree when you push it to the no-mistakes remote."
+    },
+    {
+      "id": "open-clean-prs",
+      "name": "Open clean PRs",
+      "description": "Pushes the branch, opens the pull request, watches CI and auto-fixes failures, all in one pass."
+    }
+  ],
+  "authType": "none",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "install": {
+    "type": "binary",
+    "command": "curl -fsSL https://raw.githubusercontent.com/kunchenguid/no-mistakes/main/docs/install.sh | sh"
+  },
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "cli"
+  ],
+  "createdAt": "2026-11-20T17:42:21.671Z",
+  "updatedAt": "2026-11-20T17:42:21.671Z"
+}

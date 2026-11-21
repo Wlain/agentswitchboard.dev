@@ -1,0 +1,44 @@
+{
+  "id": "agentation",
+  "name": "Agentation",
+  "slug": "agentation",
+  "description": "Sends structured visual feedback to coding agents: click page elements, select text or areas, and copy notes with selectors.",
+  "providerName": "Benji Taylor",
+  "providerUrl": "https://github.com/benjitaylor",
+  "agentUrl": "https://agentation.com",
+  "categories": [
+    "code-devtools"
+  ],
+  "tags": [
+    "visual-feedback",
+    "ui-annotation",
+    "coding-agents",
+    "react",
+    "css-selectors"
+  ],
+  "skills": [
+    {
+      "id": "annotate-elements",
+      "name": "Annotate elements",
+      "description": "Annotates any page element you click, identifying its CSS selector automatically for the coding agent."
+    },
+    {
+      "id": "structured-output",
+      "name": "Structured output",
+      "description": "Copies markdown notes with selectors, positions and context for the coding agent."
+    }
+  ],
+  "authType": "none",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "mcp"
+  ],
+  "createdAt": "2026-11-20T17:42:21.756Z",
+  "updatedAt": "2026-11-20T17:42:21.756Z"
+}

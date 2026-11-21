@@ -1,0 +1,35 @@
+{
+  "id": "vultr-mcp",
+  "name": "Vultr MCP Server",
+  "slug": "vultr-mcp",
+  "description": "Lets agents query your Vultr cloud account through Vultr's hosted, read-only MCP server, checked against each user's own permissions.",
+  "providerName": "Vultr",
+  "providerUrl": "https://www.vultr.com",
+  "agentUrl": "https://github.com/vultr/vultr-mcp",
+  "categories": [
+    "infrastructure"
+  ],
+  "tags": [
+    "cloud-infrastructure",
+    "vultr",
+    "read-only",
+    "remote-mcp",
+    "cloud-inventory"
+  ],
+  "skills": [],
+  "authType": "oauth2",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "mcpEndpoint": "https://mcp.vultr.com/mcp",
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "official": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "mcp"
+  ],
+  "createdAt": "2026-11-20T17:42:21.592Z",
+  "updatedAt": "2026-11-20T17:42:21.592Z"
+}

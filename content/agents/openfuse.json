@@ -1,0 +1,34 @@
+{
+  "id": "openfuse",
+  "name": "OpenFuse",
+  "slug": "openfuse",
+  "description": "Self-hosts a personal agent with a browser, terminal, files and durable tasks, reachable from web and mobile apps and an API (alpha).",
+  "providerName": "CopilotKit",
+  "providerUrl": "https://github.com/CopilotKit",
+  "agentUrl": "https://github.com/CopilotKit/openfuse",
+  "categories": [
+    "autonomous-agents",
+    "productivity"
+  ],
+  "tags": [
+    "personal-agent",
+    "self-hosted",
+    "durable-tasks",
+    "browser-use",
+    "copilotkit"
+  ],
+  "skills": [],
+  "authType": "apiKey",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "api"
+  ],
+  "createdAt": "2026-11-20T17:42:21.722Z",
+  "updatedAt": "2026-11-20T17:42:21.722Z"
+}

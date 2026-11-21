@@ -1,0 +1,46 @@
+{
+  "id": "cuawright",
+  "name": "CUAWright",
+  "slug": "cuawright",
+  "description": "Runs browser and desktop computer-use agents from the terminal, with OpenAI, Anthropic or OpenRouter models, from Microsoft Research.",
+  "providerName": "Microsoft",
+  "providerUrl": "https://www.microsoft.com",
+  "agentUrl": "https://github.com/microsoft/CUAWright",
+  "categories": [
+    "browser-computer",
+    "autonomous-agents"
+  ],
+  "tags": [
+    "computer-use",
+    "browser-agent",
+    "desktop-automation",
+    "playwright",
+    "research-framework"
+  ],
+  "skills": [
+    {
+      "id": "web-tasks",
+      "name": "Web tasks",
+      "description": "Completes web tasks in a Playwright browser with a prompt, observe and execute script loop."
+    },
+    {
+      "id": "task-to-ui",
+      "name": "Task results as UI",
+      "description": "Completes a web task and renders its results into an HTML-based page for review, in Task2UI mode."
+    }
+  ],
+  "authType": "apiKey",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "official": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "cli"
+  ],
+  "createdAt": "2026-11-20T17:42:21.576Z",
+  "updatedAt": "2026-11-20T17:42:21.576Z"
+}

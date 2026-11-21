@@ -1,0 +1,38 @@
+{
+  "id": "codeburn",
+  "name": "CodeBurn",
+  "slug": "codeburn",
+  "description": "Tracks AI coding token usage and cost across coding agents locally, from a CLI, a menubar app and a web dashboard.",
+  "providerName": "Agentseal",
+  "providerUrl": "https://github.com/getagentseal",
+  "agentUrl": "https://codeburn.app",
+  "categories": [
+    "code-devtools",
+    "infrastructure"
+  ],
+  "tags": [
+    "token-usage",
+    "cost-tracking",
+    "coding-agents",
+    "usage-dashboard",
+    "local-first"
+  ],
+  "skills": [],
+  "authType": "none",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "install": {
+    "type": "npm",
+    "command": "npx codeburn"
+  },
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "cli"
+  ],
+  "createdAt": "2026-11-20T17:42:21.618Z",
+  "updatedAt": "2026-11-20T17:42:21.618Z"
+}

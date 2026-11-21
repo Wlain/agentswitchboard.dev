@@ -1,0 +1,34 @@
+{
+  "id": "loopx",
+  "name": "LoopX",
+  "slug": "loopx",
+  "description": "Keeps long-running Codex and Claude Code goals verifiable across sessions with a control plane CLI and workflow skills.",
+  "providerName": "loopx-project",
+  "providerUrl": "https://github.com/loopx-project",
+  "agentUrl": "https://loopx-project.github.io/loopx/",
+  "categories": [
+    "orchestration",
+    "autonomous-agents"
+  ],
+  "tags": [
+    "long-running-agents",
+    "goal-tracking",
+    "codex",
+    "claude-code",
+    "session-continuity"
+  ],
+  "skills": [],
+  "authType": "none",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "cli"
+  ],
+  "createdAt": "2026-11-20T17:42:21.719Z",
+  "updatedAt": "2026-11-20T17:42:21.719Z"
+}

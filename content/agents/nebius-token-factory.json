@@ -1,0 +1,36 @@
+{
+  "id": "nebius-token-factory",
+  "name": "Nebius Token Factory",
+  "slug": "nebius-token-factory",
+  "description": "Runs inference and fine-tuning on open models through Nebius's OpenAI-compatible API, with sandboxes for agents.",
+  "providerName": "Nebius",
+  "providerUrl": "https://nebius.com",
+  "agentUrl": "https://docs.tokenfactory.nebius.com",
+  "categories": [
+    "infrastructure",
+    "language"
+  ],
+  "tags": [
+    "llm-inference",
+    "open-models",
+    "openai-compatible",
+    "fine-tuning",
+    "gpu-cloud"
+  ],
+  "skills": [],
+  "authType": "apiKey",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "apiBaseUrl": "https://api.tokenfactory.nebius.com/v1/",
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "official": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "api"
+  ],
+  "createdAt": "2026-11-20T17:42:21.608Z",
+  "updatedAt": "2026-11-20T17:42:21.608Z"
+}

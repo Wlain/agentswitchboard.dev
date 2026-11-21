@@ -1,0 +1,36 @@
+{
+  "id": "keycard",
+  "name": "Keycard",
+  "slug": "keycard",
+  "description": "Issues AI agents and MCP servers short-lived, scoped credentials and enforces runtime identity policy, with SDKs, a CLI and Terraform.",
+  "providerName": "Keycard",
+  "providerUrl": "https://www.keycard.ai",
+  "agentUrl": "https://docs.keycard.ai/",
+  "categories": [
+    "agent-identity",
+    "security"
+  ],
+  "tags": [
+    "agent-identity",
+    "scoped-credentials",
+    "oauth",
+    "token-exchange",
+    "mcp-auth",
+    "terraform"
+  ],
+  "skills": [],
+  "authType": "oauth2",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "api",
+    "cli"
+  ],
+  "createdAt": "2026-11-20T17:42:21.642Z",
+  "updatedAt": "2026-11-20T17:42:21.642Z"
+}

@@ -1,0 +1,41 @@
+{
+  "id": "nasiko",
+  "name": "Nasiko",
+  "slug": "nasiko",
+  "description": "Tracks coding-agent spend, routes model calls and deploys agents from a self-hosted runtime with an MCP gateway and LLM router.",
+  "providerName": "Nasiko Labs",
+  "providerUrl": "https://github.com/Nasiko-Labs",
+  "agentUrl": "https://www.nasiko.com",
+  "categories": [
+    "infrastructure",
+    "orchestration"
+  ],
+  "tags": [
+    "agent-spend",
+    "llm-router",
+    "mcp-gateway",
+    "agent-deployment",
+    "self-hosted"
+  ],
+  "skills": [],
+  "authType": "apiKey",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "install": {
+    "type": "binary",
+    "command": "curl -fsSL https://registry.nasiko.com/r/nasiko/install | bash"
+  },
+  "quickstartUrl": "https://docs.nasiko.com/build/mcp/agent-integration",
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "cli",
+    "mcp",
+    "api"
+  ],
+  "createdAt": "2026-11-20T17:42:21.657Z",
+  "updatedAt": "2026-11-20T17:42:21.657Z"
+}

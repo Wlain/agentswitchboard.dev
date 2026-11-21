@@ -1,0 +1,36 @@
+{
+  "id": "lusha-mcp",
+  "name": "Lusha MCP",
+  "slug": "lusha-mcp",
+  "description": "Searches and enriches B2B contacts and companies, reads buying signals and exports to a CRM from agents, through Lusha's hosted MCP.",
+  "providerName": "Lusha",
+  "providerUrl": "https://www.lusha.com",
+  "agentUrl": "https://docs.lusha.com/user-guide/mcp/lusha-model-context-protocol-mcp-server",
+  "categories": [
+    "sales-marketing",
+    "data-analytics"
+  ],
+  "tags": [
+    "b2b-contacts",
+    "contact-enrichment",
+    "sales-prospecting",
+    "crm-export",
+    "remote-mcp"
+  ],
+  "skills": [],
+  "authType": "oauth2",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "mcpEndpoint": "https://mcp.lusha.com",
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "mcp",
+    "api"
+  ],
+  "createdAt": "2026-11-20T17:42:21.644Z",
+  "updatedAt": "2026-11-20T17:42:21.644Z"
+}

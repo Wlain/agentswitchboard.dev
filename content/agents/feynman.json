@@ -1,0 +1,37 @@
+{
+  "id": "feynman",
+  "name": "Feynman",
+  "slug": "feynman",
+  "description": "Runs literature reviews and deep research from an open-source research agent CLI.",
+  "providerName": "Companion",
+  "providerUrl": "https://github.com/Companion-Inc",
+  "agentUrl": "https://feynman.is",
+  "categories": [
+    "research"
+  ],
+  "tags": [
+    "research-agent",
+    "literature-review",
+    "deep-research",
+    "academic-papers",
+    "cli"
+  ],
+  "skills": [],
+  "authType": "apiKey",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "install": {
+    "type": "binary",
+    "command": "curl -fsSL https://feynman.is/install | bash"
+  },
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "cli"
+  ],
+  "createdAt": "2026-11-20T17:42:21.666Z",
+  "updatedAt": "2026-11-20T17:42:21.666Z"
+}

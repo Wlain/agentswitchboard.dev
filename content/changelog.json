@@ -1,5 +1,800 @@
 [
   {
+    "action": "removed",
+    "slug": "northstar-trustrail-acceptance-checker",
+    "name": "northstar-trustrail Acceptance Checker",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "removed",
+    "slug": "prismer-cloud",
+    "name": "Prismer Cloud",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "removed",
+    "slug": "deepseek-reasonix",
+    "name": "Reasonix",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "updated",
+    "slug": "reason-network",
+    "name": "Reason Machines",
+    "note": "name updated",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "updated",
+    "slug": "superagnt",
+    "name": "superagnt",
+    "note": "description updated",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "updated",
+    "slug": "superagnt",
+    "name": "superagnt",
+    "note": "name updated",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "updated",
+    "slug": "bright-data-mcp",
+    "name": "Bright Data MCP",
+    "note": "accessMethods updated",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "updated",
+    "slug": "nvidia-openshell",
+    "name": "NVIDIA OpenShell",
+    "note": "official updated",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "updated",
+    "slug": "nvidia-openshell",
+    "name": "NVIDIA OpenShell",
+    "note": "agentUrl updated",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "updated",
+    "slug": "openai-api",
+    "name": "OpenAI API",
+    "note": "accessMethods updated",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "updated",
+    "slug": "spectrum-photon",
+    "name": "Spectrum",
+    "note": "mcpEndpoint updated",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "updated",
+    "slug": "spectrum-photon",
+    "name": "Spectrum",
+    "note": "accessMethods updated",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "added",
+    "slug": "webrouter",
+    "name": "WebRouter",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "added",
+    "slug": "godaddy-mcp",
+    "name": "GoDaddy MCP",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "added",
+    "slug": "tabstack",
+    "name": "Tabstack",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "added",
+    "slug": "everyapp",
+    "name": "EveryApp",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "added",
+    "slug": "rerun-build",
+    "name": "Rerun",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "added",
+    "slug": "kanzo",
+    "name": "Kanzo",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "added",
+    "slug": "gsd-pi",
+    "name": "GSD Pi",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "added",
+    "slug": "traceroot",
+    "name": "TraceRoot",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "added",
+    "slug": "pilotdeck",
+    "name": "PilotDeck",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "added",
+    "slug": "openkb",
+    "name": "OpenKB",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "added",
+    "slug": "cli-printing-press",
+    "name": "CLI Printing Press",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "added",
+    "slug": "coral",
+    "name": "Coral",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "added",
+    "slug": "evoscientist",
+    "name": "EvoScientist",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "added",
+    "slug": "nono",
+    "name": "nono",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "added",
+    "slug": "designlang",
+    "name": "designlang",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "added",
+    "slug": "testsprite",
+    "name": "TestSprite",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "added",
+    "slug": "fallow",
+    "name": "Fallow",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "added",
+    "slug": "obsidian-second-brain",
+    "name": "obsidian-second-brain",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "added",
+    "slug": "hapi",
+    "name": "HAPI",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "added",
+    "slug": "agentation",
+    "name": "Agentation",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "added",
+    "slug": "tabularis",
+    "name": "Tabularis",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "added",
+    "slug": "devspace-mcp",
+    "name": "DevSpace",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "added",
+    "slug": "clawteam",
+    "name": "ClawTeam",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "added",
+    "slug": "wigolo",
+    "name": "wigolo",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "added",
+    "slug": "oh-my-hermes",
+    "name": "oh-my-hermes",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "added",
+    "slug": "bb",
+    "name": "bb",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "added",
+    "slug": "tokscale",
+    "name": "Tokscale",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "added",
+    "slug": "ccg-workflow",
+    "name": "CCG Workflow",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "added",
+    "slug": "apache-maka",
+    "name": "Apache Maka",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "added",
+    "slug": "agentic-bug-hunter",
+    "name": "Agentic Bug Hunter",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "added",
+    "slug": "cowart",
+    "name": "Cowart",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "added",
+    "slug": "open-connector",
+    "name": "OpenConnector",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "added",
+    "slug": "xyops",
+    "name": "xyOps",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "added",
+    "slug": "ouroboros",
+    "name": "Ouroboros",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "added",
+    "slug": "agentsview",
+    "name": "agentsview",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "added",
+    "slug": "mission-control",
+    "name": "Mission Control",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "added",
+    "slug": "trueforge",
+    "name": "TrueForge",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "added",
+    "slug": "openfuse",
+    "name": "OpenFuse",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "added",
+    "slug": "clawrouter",
+    "name": "ClawRouter",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "added",
+    "slug": "loopx",
+    "name": "LoopX",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "added",
+    "slug": "dev-browser",
+    "name": "dev-browser",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "added",
+    "slug": "sellbird",
+    "name": "Sellbird",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "added",
+    "slug": "summarize",
+    "name": "Summarize",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "added",
+    "slug": "autoskills",
+    "name": "autoskills",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "added",
+    "slug": "open-multi-agent",
+    "name": "Open Multi-Agent (OMA)",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "added",
+    "slug": "t3mp3st",
+    "name": "T3MP3ST",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "added",
+    "slug": "smolvm",
+    "name": "smolvm",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "added",
+    "slug": "opensquilla",
+    "name": "OpenSquilla",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "added",
+    "slug": "tech-leads-club-agent-skills",
+    "name": "Agent Skills (Tech Leads Club)",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "added",
+    "slug": "openpencil-zseven",
+    "name": "OpenPencil",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "added",
+    "slug": "mailflare",
+    "name": "Mailflare",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "added",
+    "slug": "skills-manager",
+    "name": "Skills Manager",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "added",
+    "slug": "billion-context",
+    "name": "billion-context",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "added",
+    "slug": "tick-stock-panel",
+    "name": "Tick Stock Panel (TSP)",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "added",
+    "slug": "nullclaw",
+    "name": "NullClaw",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "added",
+    "slug": "engram",
+    "name": "Engram",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "added",
+    "slug": "openresearch",
+    "name": "OpenResearch",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "added",
+    "slug": "gogcli",
+    "name": "gogcli",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "added",
+    "slug": "flue",
+    "name": "Flue",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "added",
+    "slug": "ffmpeg-skill",
+    "name": "ffmpeg-skill",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "added",
+    "slug": "evomap-evolver",
+    "name": "Evolver",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "added",
+    "slug": "openrig",
+    "name": "OpenRig",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "added",
+    "slug": "tryatlas",
+    "name": "Atlas",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "added",
+    "slug": "sandcastle",
+    "name": "Sandcastle",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "added",
+    "slug": "no-mistakes",
+    "name": "no-mistakes",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "added",
+    "slug": "rakazo",
+    "name": "Rakazo",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "added",
+    "slug": "open-pencil",
+    "name": "OpenPencil",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "added",
+    "slug": "feynman",
+    "name": "Feynman",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "added",
+    "slug": "pinchtab",
+    "name": "PinchTab",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "added",
+    "slug": "pixelrag",
+    "name": "PixelRAG",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "added",
+    "slug": "inkos",
+    "name": "InkOS",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "added",
+    "slug": "omnigent",
+    "name": "Omnigent",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "added",
+    "slug": "nasiko",
+    "name": "Nasiko",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "added",
+    "slug": "opensre",
+    "name": "OpenSRE",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "added",
+    "slug": "plannotator",
+    "name": "Plannotator",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "added",
+    "slug": "documenso",
+    "name": "Documenso",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "added",
+    "slug": "docuseal",
+    "name": "DocuSeal",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "added",
+    "slug": "xiaomi-mimo-api",
+    "name": "Xiaomi MiMo API Open Platform",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "added",
+    "slug": "paid",
+    "name": "Paid",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "added",
+    "slug": "lusha-mcp",
+    "name": "Lusha MCP",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "added",
+    "slug": "keycard",
+    "name": "Keycard",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "added",
+    "slug": "ideogram",
+    "name": "Ideogram API",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "added",
+    "slug": "explorium-agentsource-mcp",
+    "name": "Explorium AgentSource MCP",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "added",
+    "slug": "baselayer-kya",
+    "name": "Baselayer Know Your Agent",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "added",
+    "slug": "band",
+    "name": "BAND",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "added",
+    "slug": "agentcash",
+    "name": "AgentCash",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "added",
+    "slug": "plivo-mcp",
+    "name": "Plivo MCP Server",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "added",
+    "slug": "signnow-mcp",
+    "name": "SignNow MCP Server",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "added",
+    "slug": "kairos",
+    "name": "Kairos",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "added",
+    "slug": "apfel",
+    "name": "apfel",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "added",
+    "slug": "pxpipe",
+    "name": "pxpipe",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "added",
+    "slug": "thinkrail",
+    "name": "ThinkRail",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "added",
+    "slug": "codeburn",
+    "name": "CodeBurn",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "added",
+    "slug": "suno-mcp",
+    "name": "Suno MCP",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "added",
+    "slug": "synthesia",
+    "name": "Synthesia MCP and API",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "added",
+    "slug": "sambanova-cloud",
+    "name": "SambaNova Cloud (SambaCloud)",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "added",
+    "slug": "nebius-token-factory",
+    "name": "Nebius Token Factory",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "added",
+    "slug": "gladia",
+    "name": "Gladia",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "added",
+    "slug": "black-forest-labs",
+    "name": "Black Forest Labs API (FLUX)",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "added",
+    "slug": "tencent-hunyuan",
+    "name": "Tencent Hunyuan",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "added",
+    "slug": "perplexity-computer-mcp",
+    "name": "Perplexity Computer MCP Server",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "added",
+    "slug": "docker-ai-governance",
+    "name": "Docker AI Governance",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "added",
+    "slug": "kling-ai",
+    "name": "Kling AI",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "added",
+    "slug": "informatica-mcp",
+    "name": "Informatica MCP Servers (Catalog Discovery)",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "added",
+    "slug": "vultr-mcp",
+    "name": "Vultr MCP Server",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "added",
+    "slug": "playwright-cloud-browsers",
+    "name": "Playwright Cloud Browsers MCP",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "added",
+    "slug": "vercel-board",
+    "name": "Vercel Board",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "added",
+    "slug": "paperorchestra",
+    "name": "PaperOrchestra",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "added",
+    "slug": "skillhub",
+    "name": "SkillHub",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "added",
+    "slug": "teamai",
+    "name": "TeamAI",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "added",
+    "slug": "vercel-eve",
+    "name": "eve",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "added",
+    "slug": "agentteams",
+    "name": "AgentTeams",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "added",
+    "slug": "cuawright",
+    "name": "CUAWright",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "added",
+    "slug": "microsoft-agent-governance-toolkit",
+    "name": "Agent Governance Toolkit",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "added",
+    "slug": "deepsec",
+    "name": "deepsec",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "added",
+    "slug": "tencent-browserskill",
+    "name": "BrowserSkill",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "added",
+    "slug": "octop",
+    "name": "Octop",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "added",
+    "slug": "nvidia-auto-ontology",
+    "name": "NVIDIA Auto Ontology",
+    "date": "2026-11-20"
+  },
+  {
+    "action": "added",
+    "slug": "codex-security",
+    "name": "Codex Security",
+    "date": "2026-11-20"
+  },
+  {
     "action": "updated",
     "slug": "arcade-dev",
     "name": "Arcade.dev",

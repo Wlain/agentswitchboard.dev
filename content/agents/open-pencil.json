@@ -1,0 +1,56 @@
+{
+  "id": "open-pencil",
+  "name": "OpenPencil",
+  "slug": "open-pencil",
+  "description": "Opens and edits Figma .fig files in an open-source design editor that agents drive through an MCP server and a headless CLI.",
+  "providerName": "OpenPencil",
+  "providerUrl": "https://github.com/open-pencil",
+  "agentUrl": "https://openpencil.dev",
+  "categories": [
+    "content-media",
+    "code-devtools"
+  ],
+  "tags": [
+    "design-editor",
+    "figma-files",
+    "design-to-code",
+    "vector-design",
+    "mcp-server"
+  ],
+  "skills": [
+    {
+      "id": "open-fig-files",
+      "name": "Open .fig files",
+      "description": "Reads and writes native Figma .fig files and opens supported Pencil documents in the open-source editor."
+    },
+    {
+      "id": "ai-design",
+      "name": "Build designs from chat",
+      "description": "Creates and modifies design nodes from a chat description, with over 100 design tools."
+    },
+    {
+      "id": "export-code",
+      "name": "Export to code",
+      "description": "Exports selected layers as JSX and Tailwind code, and generates design tokens from the document."
+    }
+  ],
+  "authType": "none",
+  "supportsStreaming": false,
+  "supportsPushNotifications": false,
+  "install": {
+    "type": "npm",
+    "command": "npm install -g @open-pencil/cli"
+  },
+  "quickstartUrl": "https://openpencil.dev/programmable/mcp-server",
+  "status": "published",
+  "featured": false,
+  "verified": true,
+  "tier": "free",
+  "discoveredBy": "manual",
+  "accessMethods": [
+    "cli",
+    "mcp"
+  ],
+  "createdAt": "2026-11-20T17:42:21.667Z",
+  "updatedAt": "2026-11-20T17:42:21.667Z"
+}
