@@ -4,6 +4,16 @@ Every release of [Agent Switchboard](https://agentswitchboard.dev), newest first
 
 Versions follow MAJOR.MINOR.PATCH: a minor version adds features, a patch fixes or adjusts. Versions before 2.2.0 were assigned afterwards, reconstructed from the git history. "Directory" lines summarize catalog changes since the previous release; the full log of every listing added, updated or removed is on [/changelog](https://agentswitchboard.dev/changelog), and batch by batch on [/drops](https://agentswitchboard.dev/drops). From 2.2.0 on, each minor release opens with its highlights, what you can do now with a link to try it, which [/whats-new](https://agentswitchboard.dev/whats-new) also shows.
 
+## [2.14.0] - 2026-11-21 - Model APIs, agent skills and token costs
+
+### Highlights
+- Find an API to call a model from, hosted or on your own machine: SambaNova, Tencent Hunyuan, Xiaomi MiMo, Fireworks, Groq and Together AI, or apfel, Ollama and vLLM locally, 54 in all. [Try it](https://agentswitchboard.dev/tasks/call-llm-apis)
+- Find, install, share and update the skills your coding agents use, with SkillHub, Skills Manager, autoskills, Tech Leads Club's Agent Skills and Vercel Skills. [Try it](https://agentswitchboard.dev/tasks/manage-agent-skills)
+- See what your coding agents spend on tokens and cut it, with CodeBurn, agentsview and Tokscale to track it, and billion-context, pxpipe and RTK to send less. [Try it](https://agentswitchboard.dev/tasks/track-coding-agent-costs)
+
+### Added
+- Three tasks on [/tasks](https://agentswitchboard.dev/tasks), 56 in all: use LLM inference APIs, manage agent skills, and track and cut coding-agent token costs. Each has its own page, share card and `GET /api/tasks/<slug>`, appears on /browse as `?task=`, and is what the homepage box answers when you name the job. Together they fit 54, 12 and 12 listings, among them SambaNova Cloud, Tencent Hunyuan, Xiaomi MiMo, apfel, SkillHub, Skills Manager, autoskills, Tech Leads Club's Agent Skills, CodeBurn, agentsview, billion-context and pxpipe from the [2026-11-20 drop](https://agentswitchboard.dev/drops/2026-11-20) ([#439](https://github.com/assafbar2/agentswitchboard.dev/pull/439)).
+
 ## [2.13.0] - 2026-11-17 - Agents that pay, shop, text and use phones
 
 ### Highlights
