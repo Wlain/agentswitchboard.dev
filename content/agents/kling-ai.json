@@ -2,7 +2,7 @@
   "id": "kling-ai",
   "name": "Kling AI",
   "slug": "kling-ai",
-  "description": "Generates images and videos with Kling through Kuaishou's official remote MCP server, CLI and REST API.",
+  "description": "Generate images and videos through Kling's official hosted MCP, npm plugin and CLI. Global and China endpoints use separate accounts and credits.",
   "providerName": "Kuaishou",
   "providerUrl": "https://kling.ai",
   "agentUrl": "https://kling.ai/app/mcp/guide",
@@ -32,5 +32,11 @@
     "api"
   ],
   "createdAt": "2026-11-20T17:42:21.595Z",
-  "updatedAt": "2026-11-20T17:42:21.595Z"
+  "updatedAt": "2026-11-25T16:36:51.000Z",
+  "mcpEndpoint": "https://kling.ai/mcp/plugin",
+  "install": {
+    "type": "npm",
+    "command": "npm i -g @klingai/plugin-global@latest --registry=https://registry.npmjs.org --allow-scripts=@klingai/plugin-global"
+  },
+  "quickstartUrl": "https://kling.ai/app/mcp/guide"
 }

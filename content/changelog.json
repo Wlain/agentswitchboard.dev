@@ -1,5 +1,10 @@
 [
   {
+    "action": "updated",
+    "slug": "kling-ai",
+    "name": "Kling AI"
+  },
+  {
     "action": "removed",
     "slug": "northstar-trustrail-acceptance-checker",
     "name": "northstar-trustrail Acceptance Checker",
